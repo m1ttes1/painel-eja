@@ -5,7 +5,7 @@ import { escapar, numero, percentual } from './formato';
 function card(titulo: string, valor: string, apoio: string): string {
   return `<article class="card">
   <h3>${escapar(titulo)}</h3>
-  <p class="card__valor">${valor}</p>
+  <p class="card__valor">${escapar(valor)}</p>
   <p class="card__apoio">${escapar(apoio)}</p>
 </article>`;
 }
@@ -43,7 +43,7 @@ ${
     critico
       ? card(
           'Componente mais crítico',
-          `${escapar(critico.componente)}`,
+          critico.componente,
           `Turma ${critico.turma}, média ${numero(critico.media)}.`,
         )
       : card('Componente mais crítico', '—', 'Sem dados suficientes.')

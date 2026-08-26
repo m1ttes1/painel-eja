@@ -60,4 +60,22 @@ describe('renderPainel', () => {
     const vazio = calcularIndicadores([], LIMIARES_PADRAO);
     expect(() => renderPainel(vazio, [], 0)).not.toThrow();
   });
+
+  it('escapa valor no card quando contem caractere de markup', () => {
+    // Construir um Indicadores com componente crítico contendo HTML
+    const ind = calcularIndicadores(alunos, LIMIARES_PADRAO);
+    // Injetar um nome de componente malicioso na estrutura computada
+    const malicioso = {
+      ...ind,
+      componenteMaisCritico: ind.componenteMaisCritico
+        ? {
+            ...ind.componenteMaisCritico,
+            componente: '<img onerror=alert(1)>',
+          }
+        : null,
+    };
+    const perigoso = renderPainel(malicioso, [], alunos.length);
+    expect(perigoso).not.toContain('<img onerror=alert(1)>');
+    expect(perigoso).toContain('&lt;img');
+  });
 });
