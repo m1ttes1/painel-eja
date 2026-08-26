@@ -1,0 +1,309 @@
+{
+  "limiares": {
+    "frequencia_minima": 75.0,
+    "faltas_consecutivas": 3,
+    "nota_minima": 5.0
+  },
+  "total_alunos": 100,
+  "frequencia_por_turma": [
+    {
+      "turma": "EJA - Equivalente 6º ano",
+      "valor": 85.18799999999999,
+      "alunos": 25
+    },
+    {
+      "turma": "EJA - Equivalente 7º ano",
+      "valor": 82.74,
+      "alunos": 25
+    },
+    {
+      "turma": "EJA - Equivalente 8º ano",
+      "valor": 80.46,
+      "alunos": 25
+    },
+    {
+      "turma": "EJA - Equivalente 9º ano",
+      "valor": 79.44,
+      "alunos": 25
+    }
+  ],
+  "desempenho_por_turma": [
+    {
+      "turma": "EJA - Equivalente 6º ano",
+      "valor": 6.42,
+      "alunos": 25
+    },
+    {
+      "turma": "EJA - Equivalente 7º ano",
+      "valor": 6.3373333333333335,
+      "alunos": 25
+    },
+    {
+      "turma": "EJA - Equivalente 8º ano",
+      "valor": 6.502666666666666,
+      "alunos": 25
+    },
+    {
+      "turma": "EJA - Equivalente 9º ano",
+      "valor": 6.692,
+      "alunos": 25
+    }
+  ],
+  "total_em_alerta": 33,
+  "taxa_risco_evasao": 33.0,
+  "alunos_em_alerta": [
+    {
+      "nome": "Alexandre Freitas",
+      "turma": "EJA - Equivalente 9º ano",
+      "motivos": [
+        "freq. baixa",
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Antonia Almeida",
+      "turma": "EJA - Equivalente 9º ano",
+      "motivos": [
+        "freq. baixa",
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Antonia Carvalho",
+      "turma": "EJA - Equivalente 8º ano",
+      "motivos": [
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Camila Soares",
+      "turma": "EJA - Equivalente 7º ano",
+      "motivos": [
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Cristina Ferreira",
+      "turma": "EJA - Equivalente 9º ano",
+      "motivos": [
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Daniela Nascimento",
+      "turma": "EJA - Equivalente 8º ano",
+      "motivos": [
+        "freq. baixa",
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Diego Rocha",
+      "turma": "EJA - Equivalente 8º ano",
+      "motivos": [
+        "freq. baixa",
+        "faltas seguidas",
+        "notas baixas"
+      ]
+    },
+    {
+      "nome": "Diego Souza",
+      "turma": "EJA - Equivalente 9º ano",
+      "motivos": [
+        "freq. baixa",
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Eduardo Lima",
+      "turma": "EJA - Equivalente 9º ano",
+      "motivos": [
+        "freq. baixa"
+      ]
+    },
+    {
+      "nome": "Fabio Alves",
+      "turma": "EJA - Equivalente 8º ano",
+      "motivos": [
+        "freq. baixa"
+      ]
+    },
+    {
+      "nome": "Felipe Martins",
+      "turma": "EJA - Equivalente 7º ano",
+      "motivos": [
+        "freq. baixa",
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Fernanda Marques",
+      "turma": "EJA - Equivalente 9º ano",
+      "motivos": [
+        "freq. baixa",
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Francisco Pereira",
+      "turma": "EJA - Equivalente 8º ano",
+      "motivos": [
+        "freq. baixa",
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Gabriel Oliveira",
+      "turma": "EJA - Equivalente 7º ano",
+      "motivos": [
+        "freq. baixa"
+      ]
+    },
+    {
+      "nome": "Gustavo Martins",
+      "turma": "EJA - Equivalente 7º ano",
+      "motivos": [
+        "freq. baixa",
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Gustavo Pereira",
+      "turma": "EJA - Equivalente 8º ano",
+      "motivos": [
+        "freq. baixa"
+      ]
+    },
+    {
+      "nome": "Juliana Souza",
+      "turma": "EJA - Equivalente 9º ano",
+      "motivos": [
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Lucas Pereira",
+      "turma": "EJA - Equivalente 8º ano",
+      "motivos": [
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Marcia Lopes",
+      "turma": "EJA - Equivalente 9º ano",
+      "motivos": [
+        "freq. baixa",
+        "faltas seguidas",
+        "notas baixas"
+      ]
+    },
+    {
+      "nome": "Marcos Costa",
+      "turma": "EJA - Equivalente 9º ano",
+      "motivos": [
+        "freq. baixa",
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Marcos Souza",
+      "turma": "EJA - Equivalente 7º ano",
+      "motivos": [
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Michele Martins",
+      "turma": "EJA - Equivalente 6º ano",
+      "motivos": [
+        "freq. baixa",
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Pedro Andrade",
+      "turma": "EJA - Equivalente 9º ano",
+      "motivos": [
+        "notas baixas"
+      ]
+    },
+    {
+      "nome": "Pedro Soares",
+      "turma": "EJA - Equivalente 7º ano",
+      "motivos": [
+        "freq. baixa"
+      ]
+    },
+    {
+      "nome": "Priscila Moreira",
+      "turma": "EJA - Equivalente 7º ano",
+      "motivos": [
+        "freq. baixa",
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Rodrigo Costa",
+      "turma": "EJA - Equivalente 7º ano",
+      "motivos": [
+        "notas baixas"
+      ]
+    },
+    {
+      "nome": "Rodrigo Rodrigues",
+      "turma": "EJA - Equivalente 6º ano",
+      "motivos": [
+        "freq. baixa",
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Sandra Costa",
+      "turma": "EJA - Equivalente 8º ano",
+      "motivos": [
+        "freq. baixa",
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Sandra Pereira",
+      "turma": "EJA - Equivalente 7º ano",
+      "motivos": [
+        "freq. baixa",
+        "faltas seguidas"
+      ]
+    },
+    {
+      "nome": "Tatiane Carvalho",
+      "turma": "EJA - Equivalente 9º ano",
+      "motivos": [
+        "freq. baixa"
+      ]
+    },
+    {
+      "nome": "Vinicius Moreira",
+      "turma": "EJA - Equivalente 8º ano",
+      "motivos": [
+        "notas baixas"
+      ]
+    },
+    {
+      "nome": "Vinicius Silva",
+      "turma": "EJA - Equivalente 6º ano",
+      "motivos": [
+        "freq. baixa"
+      ]
+    },
+    {
+      "nome": "Viviane Santos",
+      "turma": "EJA - Equivalente 9º ano",
+      "motivos": [
+        "faltas seguidas"
+      ]
+    }
+  ],
+  "cobertura_aee": {
+    "total_com_deficiencia": 7,
+    "com_deficiencia_em_alerta": 5
+  }
+}
