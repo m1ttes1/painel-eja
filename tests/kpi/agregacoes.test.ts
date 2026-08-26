@@ -48,6 +48,11 @@ describe('frequenciaPorTurma', () => {
       expect(item.valor).toBeCloseTo(esperado.frequencia_por_turma[i].valor, 9);
     });
   });
+
+  it('turma com um unico aluno nao distorce a media — o valor e o proprio aluno', () => {
+    const r = frequenciaPorTurma([aluno({ turma: 'Solo', frequenciaPct: 73 })]);
+    expect(r).toEqual([{ turma: 'Solo', valor: 73, alunos: 1 }]);
+  });
 });
 
 describe('desempenhoPorTurma', () => {

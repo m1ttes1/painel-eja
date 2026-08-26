@@ -100,4 +100,14 @@ describe('taxaRiscoEvasao', () => {
   it('bate com o oraculo', () => {
     expect(taxaRiscoEvasao(alunos, LIMIARES_PADRAO)).toBeCloseTo(esperado.taxa_risco_evasao, 9);
   });
+
+  it('todos os alunos em alerta produz taxa de risco de 100%', () => {
+    const todos = [aluno({ nome: 'A', frequenciaPct: 50 }), aluno({ nome: 'B', frequenciaPct: 50 })];
+    expect(taxaRiscoEvasao(todos, LIMIARES_PADRAO)).toBe(100);
+  });
+
+  it('nenhum aluno em alerta produz taxa de risco de 0%, mesmo com alunos presentes', () => {
+    const nenhum = [aluno({ nome: 'A' }), aluno({ nome: 'B' })];
+    expect(taxaRiscoEvasao(nenhum, LIMIARES_PADRAO)).toBe(0);
+  });
 });

@@ -70,6 +70,20 @@ describe('parseAlunos', () => {
     expect(r.erros[0]!.motivo).toContain('0 e 120');
   });
 
+  it('aluno sem nenhuma nota descarta a linha com um erro por coluna de nota', () => {
+    const r = parseAlunos(comLinhas('Ana;6A;Noturno;40;90;;;;1;nao;;'));
+    expect(r.alunos).toEqual([]);
+    expect(r.erros.map((e) => e.coluna)).toEqual(['nota_portugues', 'nota_matematica', 'nota_ciencias']);
+    expect(r.erros.every((e) => e.linha === 2)).toBe(true);
+  });
+
+  it('arquivo com um unico aluno processa normalmente, sem tratamento especial', () => {
+    const r = parseAlunos(comLinhas('Ana;6A;Noturno;40;90;6;7;8;1;nao;;'));
+    expect(r.alunos).toHaveLength(1);
+    expect(r.erros).toEqual([]);
+    expect(r.totalLinhas).toBe(1);
+  });
+
   it('reporta nome vazio', () => {
     const r = parseAlunos(comLinhas(';6A;Noturno;40;90;6;7;8;1;nao;;'));
     expect(r.erros[0]!.coluna).toBe('nome');
@@ -85,6 +99,19 @@ describe('parseAlunos', () => {
     expect(r.alunos).toEqual([]);
     expect(r.totalLinhas).toBe(0);
     expect(r.erros[0]!.motivo).toContain('vazio');
+  });
+
+  it('arquivo so com cabecalho (zero linhas de dado) nao lanca excecao', () => {
+    const r = parseAlunos(CABECALHO);
+    expect(r).toEqual({ alunos: [], erros: [], totalLinhas: 0 });
+  });
+
+  it('reconhece cabecalho com maiusculas e minusculas misturadas', () => {
+    const cabecalhoVariado = CABECALHO.replace('nome', 'Nome').replace('turma', 'Turma');
+    const r = parseAlunos([cabecalhoVariado, 'Ana;6A;Noturno;40;90;6;7;8;1;nao;;'].join('\n'));
+    expect(r.erros).toEqual([]);
+    expect(r.alunos).toHaveLength(1);
+    expect(r.alunos[0]!.nome).toBe('Ana');
   });
 
   it('le o dataset simulado da AE I inteiro sem erro', () => {
