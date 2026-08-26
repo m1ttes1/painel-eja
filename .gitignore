@@ -1,0 +1,26 @@
+# Dependências
+node_modules/
+__pycache__/
+*.pyc
+
+# Build
+.vite/
+*.tsbuildinfo
+
+# Editor / SO
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---------------------------------------------------------------------------
+# TRAVA DE DADO REAL DE ALUNO
+# Nenhum registro real da EMEF/EJA Maria de Fátima Faria Área entra no repo.
+# O painel roda 100% no navegador da escola; o dado nunca sai da máquina deles.
+# Estes padrões são a trava mecânica que garante isso mesmo em caso de descuido.
+# ---------------------------------------------------------------------------
+dados/reais/
+**/*.real.csv
+**/*.real.txt
+**/*.real.xlsx
+evidencias/brutas/
