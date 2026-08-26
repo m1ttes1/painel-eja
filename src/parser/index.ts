@@ -20,6 +20,15 @@ export function parseAlunos(texto: string): ResultadoParse {
     return { alunos: [], erros: [{ linha: 1, motivo: 'Arquivo vazio.' }], totalLinhas: 0 };
   }
 
+  // Track physical line numbers to account for blank lines that lerCelulas filters out
+  const todasAsLinhas = texto.split(/\r?\n/);
+  const indicesLinhasNaoVazias: number[] = [];
+  for (let i = 0; i < todasAsLinhas.length; i++) {
+    if (todasAsLinhas[i]!.trim() !== '') {
+      indicesLinhasNaoVazias.push(i);
+    }
+  }
+
   const erros: ErroLinha[] = [];
   const cabecalho = matriz[0]!;
 
@@ -45,7 +54,11 @@ export function parseAlunos(texto: string): ResultadoParse {
   const linhasDeDado = matriz.slice(1);
 
   linhasDeDado.forEach((linha, i) => {
-    const numeroDaLinha = i + 2;
+    // Get the physical line number from the unfiltered split
+    // indicesLinhasNaoVazias[0] is the header (line 1)
+    // indicesLinhasNaoVazias[i+1] is the i-th data row
+    const fisicalIndex = indicesLinhasNaoVazias[i + 1];
+    const numeroDaLinha = fisicalIndex !== undefined ? fisicalIndex + 1 : i + 2;
     const problemas: ErroLinha[] = [];
 
     const nome = celula(linha, mapa, 'nome');

@@ -77,4 +77,18 @@ describe('parseAlunos', () => {
     expect(r.erros).toEqual([]);
     expect(r.alunos).toHaveLength(100);
   });
+
+  it('reporta numero de linha correto mesmo com linhas em branco no meio', () => {
+    const conteudo =
+      'nome;turma;turno;idade;frequencia_pct;nota_portugues;nota_matematica;nota_ciencias;faltas_consecutivas;possui_deficiencia;apoio_recomendado;observacao\n' +
+      'Ana;6A;Noturno;40;90;6;7;8;1;nao;;\n' +
+      '\n' +
+      'Bruno;6A;Noturno;40;150;6;7;8;1;nao;;';
+    const r = parseAlunos(conteudo);
+    // Ana is on physical line 2 (valid)
+    // Blank line on physical line 3
+    // Bruno is on physical line 4 (error: frequencia_pct 150 > max 100)
+    expect(r.erros[0]!.linha).toBe(4);
+    expect(r.erros[0]!.coluna).toBe('frequencia_pct');
+  });
 });
