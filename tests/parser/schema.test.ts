@@ -22,7 +22,7 @@ describe('lerNumero', () => {
 });
 
 describe('COLUNAS_OBRIGATORIAS', () => {
-  it('lista as oito colunas exigidas pela spec', () => {
+  it('lista as sete colunas exigidas pela spec', () => {
     expect(COLUNAS_OBRIGATORIAS).toEqual([
       'nome',
       'turma',

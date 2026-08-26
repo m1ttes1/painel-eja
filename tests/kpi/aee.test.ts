@@ -20,5 +20,8 @@ describe('coberturaAee', () => {
     const r = coberturaAee(alunos, LIMIARES_PADRAO);
     expect(r.totalComDeficiencia).toBe(esperado.cobertura_aee.total_com_deficiencia);
     expect(r.comDeficienciaEmAlerta).toBe(esperado.cobertura_aee.com_deficiencia_em_alerta);
+
+    const percentualEsperado = (esperado.cobertura_aee.total_com_deficiencia / esperado.total_alunos) * 100;
+    expect(r.percentualDoTotal).toBeCloseTo(percentualEsperado, 9);
   });
 });

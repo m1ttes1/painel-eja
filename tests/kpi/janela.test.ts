@@ -77,6 +77,16 @@ describe('quedaFrequenciaJanelaMovel', () => {
     }
   });
 
+  it('ordena periodos numericamente, nao lexicograficamente — "10" vem depois de "2"', () => {
+    const r = quedaFrequenciaJanelaMovel([aluno('Ana', '2', 90), aluno('Ana', '10', 60)]);
+    expect(r.disponivel).toBe(true);
+    if (r.disponivel) {
+      expect(r.quedas[0]!.periodoAnterior).toBe('2');
+      expect(r.quedas[0]!.periodoAtual).toBe('10');
+      expect(r.quedas[0]!.variacaoPp).toBe(-30);
+    }
+  });
+
   it('ignora aluno presente em so um dos dois periodos', () => {
     const r = quedaFrequenciaJanelaMovel([
       aluno('Ana', '1', 90),

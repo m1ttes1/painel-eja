@@ -20,7 +20,7 @@ export function parseAlunos(texto: string): ResultadoParse {
     return { alunos: [], erros: [{ linha: 1, motivo: 'Arquivo vazio.' }], totalLinhas: 0 };
   }
 
-  // Track physical line numbers to account for blank lines that lerCelulas filters out
+  // Mapeia o número da linha física para compensar linhas em branco que lerCelulas descarta
   const todasAsLinhas = texto.split(/\r?\n/);
   const indicesLinhasNaoVazias: number[] = [];
   for (let i = 0; i < todasAsLinhas.length; i++) {
@@ -63,11 +63,11 @@ export function parseAlunos(texto: string): ResultadoParse {
   const linhasDeDado = matriz.slice(1);
 
   linhasDeDado.forEach((linha, i) => {
-    // Get the physical line number from the unfiltered split
-    // indicesLinhasNaoVazias[0] is the header (line 1)
-    // indicesLinhasNaoVazias[i+1] is the i-th data row
-    const fisicalIndex = indicesLinhasNaoVazias[i + 1];
-    const numeroDaLinha = fisicalIndex !== undefined ? fisicalIndex + 1 : i + 2;
+    // Recupera o número da linha física a partir do split sem filtro
+    // indicesLinhasNaoVazias[0] é o cabeçalho (linha 1)
+    // indicesLinhasNaoVazias[i+1] é a i-ésima linha de dado
+    const indiceFisico = indicesLinhasNaoVazias[i + 1];
+    const numeroDaLinha = indiceFisico !== undefined ? indiceFisico + 1 : i + 2;
     const problemas: ErroLinha[] = [];
 
     const nome = celula(linha, mapa, 'nome');

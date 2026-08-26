@@ -2,8 +2,9 @@ import type { Indicadores } from '../kpi';
 import { ROTULO_QUADRANTE, type Quadrante } from '../kpi/defasagem';
 import { escapar, numero, percentual } from './formato';
 
-function card(titulo: string, valor: string, apoio: string): string {
-  return `<article class="card">
+function card(titulo: string, valor: string, apoio: string, classeExtra?: string): string {
+  const classe = classeExtra ? `card ${classeExtra}` : 'card';
+  return `<article class="${classe}">
   <h3>${escapar(titulo)}</h3>
   <p class="card__valor">${escapar(valor)}</p>
   <p class="card__apoio">${escapar(apoio)}</p>
@@ -21,11 +22,7 @@ export function renderCards(ind: Indicadores): string {
           ? 'Nenhuma queda entre os dois períodos mais recentes.'
           : `Maior queda: ${numero(Math.abs(ind.quedaFrequencia.quedas[0]!.variacaoPp))} pontos percentuais.`,
       )
-    : `<article class="card card--indisponivel">
-  <h3>Queda de frequência</h3>
-  <p class="card__valor">—</p>
-  <p class="card__apoio">${escapar(ind.quedaFrequencia.motivo)}</p>
-</article>`;
+    : card('Queda de frequência', '—', ind.quedaFrequencia.motivo, 'card--indisponivel');
 
   const quadrantes = (Object.keys(ind.distribuicaoDefasagem) as Quadrante[])
     .map((q) => `<li><strong>${ind.distribuicaoDefasagem[q]}</strong> — ${escapar(ROTULO_QUADRANTE[q])}</li>`)
