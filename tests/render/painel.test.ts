@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'node:fs';
 import { renderPainel } from '../../src/render';
 import { calcularIndicadores } from '../../src/kpi';
+import type { Componente } from '../../src/kpi/componente';
 import { LIMIARES_PADRAO } from '../../src/config/limiares';
 import { parseAlunos } from '../../src/parser';
 
@@ -70,7 +71,7 @@ describe('renderPainel', () => {
       componenteMaisCritico: ind.componenteMaisCritico
         ? {
             ...ind.componenteMaisCritico,
-            componente: '<img onerror=alert(1)>',
+            componente: '<img onerror=alert(1)>' as Componente,
           }
         : null,
     };
