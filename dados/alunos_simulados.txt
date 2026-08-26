@@ -1,0 +1,101 @@
+nome;turma;turno;idade;frequencia_pct;nota_portugues;nota_matematica;nota_ciencias;faltas_consecutivas;possui_deficiencia;apoio_recomendado;observacao
+Thiago Silva;EJA - Equivalente 6º ano;Noturno;49;90.3;5.2;5.9;7.5;2;nao;;Relatou dificuldade de deslocamento ate a escola
+Pedro Soares;EJA - Equivalente 7º ano;Noturno;40;66.0;8.3;3.6;3.7;1;nao;;Acompanhamento familiar limitado
+Rodrigo Martins;EJA - Equivalente 8º ano;Noturno;45;85.9;7.5;6.0;4.8;0;nao;;
+Paulo Moreira;EJA - Equivalente 9º ano;Noturno;57;82.7;7.4;5.8;6.5;0;nao;;
+Fernanda Andrade;EJA - Equivalente 6º ano;Noturno;43;84.5;6.3;5.6;6.1;1;nao;;Acompanhamento familiar limitado
+Fernanda Almeida;EJA - Equivalente 7º ano;Noturno;50;87.5;6.9;4.9;7.8;1;nao;;Retornou aos estudos apos longa pausa
+Fernanda Lima;EJA - Equivalente 8º ano;Noturno;59;91.8;5.6;4.6;5.4;2;nao;;
+Fernanda Marques;EJA - Equivalente 9º ano;Noturno;59;66.2;9.0;6.9;6.6;4;nao;;Retornou aos estudos apos longa pausa
+Camila Lima;EJA - Equivalente 6º ano;Noturno;54;87.7;9.5;5.6;9.2;1;nao;;
+Simone Oliveira;EJA - Equivalente 7º ano;Noturno;48;82.1;5.9;5.4;4.3;2;nao;;
+Francisco Pereira;EJA - Equivalente 8º ano;Noturno;46;62.9;6.2;5.4;7.3;4;nao;;Relatou dificuldade de deslocamento ate a escola
+Tatiane Gomes;EJA - Equivalente 9º ano;Noturno;42;82.8;6.9;7.7;8.5;1;nao;;Acompanhamento familiar limitado
+Camila Oliveira;EJA - Equivalente 6º ano;Noturno;30;78.1;6.6;4.6;4.3;1;nao;;Acompanhamento familiar limitado
+Priscila Nascimento;EJA - Equivalente 7º ano;Noturno;39;97.5;4.5;7.0;4.0;2;nao;;Trabalha em horario que conflita com aulas
+Natalia Dias;EJA - Equivalente 8º ano;Noturno;51;84.5;5.1;5.8;5.8;1;nao;;Acompanhamento familiar limitado
+Antonia Almeida;EJA - Equivalente 9º ano;Noturno;56;64.3;7.2;5.7;6.0;9;nao;;Relatou dificuldade de deslocamento ate a escola
+Marcia Pereira;EJA - Equivalente 6º ano;Noturno;60;96.4;7.1;4.6;4.5;2;nao;;
+Ana Lima;EJA - Equivalente 7º ano;Noturno;37;96.6;7.5;5.9;7.1;0;nao;;
+Bianca Ribeiro;EJA - Equivalente 8º ano;Noturno;59;91.3;8.0;7.1;8.1;2;nao;;Retornou aos estudos apos longa pausa
+Patricia Moreira;EJA - Equivalente 9º ano;Noturno;23;87.8;6.4;5.8;6.2;0;nao;;
+Vinicius Silva;EJA - Equivalente 6º ano;Noturno;49;72.9;10.0;4.7;5.9;1;nao;;Relatou dificuldade de deslocamento ate a escola
+Gustavo Martins;EJA - Equivalente 7º ano;Noturno;51;62.9;6.1;7.5;4.9;9;nao;;Trabalha em horario que conflita com aulas
+Roberta Machado;EJA - Equivalente 8º ano;Noturno;62;90.8;8.0;4.7;6.5;1;nao;;
+Michele Freitas;EJA - Equivalente 9º ano;Noturno;33;96.7;7.1;7.5;7.9;0;nao;;Relatou dificuldade de deslocamento ate a escola
+Elaine Fernandes;EJA - Equivalente 6º ano;Noturno;48;94.1;5.3;7.1;7.0;1;nao;;Trabalha em horario que conflita com aulas
+Leandro Ribeiro;EJA - Equivalente 7º ano;Noturno;42;83.9;6.4;4.7;5.4;2;nao;;
+Antonia Martins;EJA - Equivalente 8º ano;Noturno;21;87.7;8.4;6.6;4.7;2;nao;;Acompanhamento familiar limitado
+Bruno Lopes;EJA - Equivalente 9º ano;Noturno;23;90.6;5.8;8.4;5.0;1;nao;;
+Eduardo Pereira;EJA - Equivalente 6º ano;Noturno;32;91.9;8.4;8.6;6.4;1;nao;;Relatou dificuldade de deslocamento ate a escola
+Pedro Fernandes;EJA - Equivalente 7º ano;Noturno;42;98.6;6.2;3.4;8.8;2;nao;;Retornou aos estudos apos longa pausa
+Gustavo Pereira;EJA - Equivalente 8º ano;Noturno;27;70.1;5.8;7.9;7.5;2;nao;;Acompanhamento familiar limitado
+Adriana Oliveira;EJA - Equivalente 9º ano;Noturno;46;87.0;8.6;3.3;5.5;0;nao;;Relatou dificuldade de deslocamento ate a escola
+Tatiane Silva;EJA - Equivalente 6º ano;Noturno;56;84.6;4.8;5.4;5.9;0;nao;;
+Fernanda Carvalho;EJA - Equivalente 7º ano;Noturno;57;82.6;4.8;8.4;7.1;0;nao;;Retornou aos estudos apos longa pausa
+Vinicius Moreira;EJA - Equivalente 8º ano;Noturno;33;89.6;5.9;2.7;6.1;2;nao;;Trabalha em horario que conflita com aulas
+Eduardo Lima;EJA - Equivalente 9º ano;Noturno;60;66.9;9.3;3.9;6.8;1;nao;;Trabalha em horario que conflita com aulas
+Thiago Fernandes;EJA - Equivalente 6º ano;Noturno;20;87.5;9.4;5.3;3.7;0;nao;;
+Natalia Freitas;EJA - Equivalente 7º ano;Noturno;60;87.3;7.8;7.4;6.1;0;nao;;
+Fabio Alves;EJA - Equivalente 8º ano;Noturno;59;72.1;7.8;6.2;7.5;2;nao;;Acompanhamento familiar limitado
+Diego Souza;EJA - Equivalente 9º ano;Noturno;47;62.8;5.4;7.7;8.5;8;nao;;Relatou dificuldade de deslocamento ate a escola
+Lucas Costa;EJA - Equivalente 6º ano;Noturno;52;83.1;4.0;7.0;5.8;0;nao;;Acompanhamento familiar limitado
+Sandra Pereira;EJA - Equivalente 7º ano;Noturno;35;69.4;6.2;8.3;7.7;4;nao;;
+Priscila Santos;EJA - Equivalente 8º ano;Noturno;49;88.9;6.2;7.7;5.7;0;nao;;Retornou aos estudos apos longa pausa
+Daniela Oliveira;EJA - Equivalente 9º ano;Noturno;45;86.7;8.1;6.5;6.0;0;nao;;
+Vanessa Lopes;EJA - Equivalente 6º ano;Noturno;37;82.2;7.6;4.7;6.5;1;nao;;
+Ricardo Lopes;EJA - Equivalente 7º ano;Noturno;40;87.0;6.5;6.9;7.9;0;nao;;
+Lucas Santos;EJA - Equivalente 8º ano;Noturno;43;79.6;8.0;7.1;9.0;2;nao;;Acompanhamento familiar limitado
+Marcos Costa;EJA - Equivalente 9º ano;Noturno;46;62.6;4.4;7.6;6.2;9;sim;Material didatico adaptado;Relatou dificuldade de deslocamento ate a escola
+Vanessa Nascimento;EJA - Equivalente 6º ano;Noturno;61;82.4;6.2;6.1;4.5;0;nao;;Relatou dificuldade de deslocamento ate a escola
+Carlos Souza;EJA - Equivalente 7º ano;Noturno;38;87.9;5.6;4.3;7.6;1;nao;;Relatou dificuldade de deslocamento ate a escola
+Sandra Costa;EJA - Equivalente 8º ano;Noturno;53;69.0;7.8;7.2;5.5;3;nao;;Retornou aos estudos apos longa pausa
+Marcia Lopes;EJA - Equivalente 9º ano;Noturno;49;73.3;4.9;4.0;5.2;4;nao;;
+Luciana Freitas;EJA - Equivalente 6º ano;Noturno;38;88.3;7.5;6.6;5.9;1;nao;;Acompanhamento familiar limitado
+Sandra Vieira;EJA - Equivalente 7º ano;Noturno;62;87.6;7.9;6.4;4.8;0;nao;;Acompanhamento familiar limitado
+Daniela Nascimento;EJA - Equivalente 8º ano;Noturno;49;61.6;6.9;5.8;8.0;5;nao;;Relatou dificuldade de deslocamento ate a escola
+Viviane Santos;EJA - Equivalente 9º ano;Noturno;22;77.7;9.9;7.3;6.8;4;nao;;Acompanhamento familiar limitado
+Aline Ribeiro;EJA - Equivalente 6º ano;Noturno;26;96.8;7.3;6.2;7.4;1;nao;;
+Gustavo Souza;EJA - Equivalente 7º ano;Noturno;53;87.6;5.3;9.1;6.5;0;nao;;Acompanhamento familiar limitado
+Lucas Pereira;EJA - Equivalente 8º ano;Noturno;27;77.5;5.1;8.7;5.5;3;sim;Material didatico adaptado;Acompanhamento familiar limitado
+Lucas Lopes;EJA - Equivalente 9º ano;Noturno;58;96.0;5.8;6.9;7.2;0;nao;;Relatou dificuldade de deslocamento ate a escola
+Sergio Silva;EJA - Equivalente 6º ano;Noturno;55;95.4;5.1;7.0;7.6;2;nao;;
+Priscila Moreira;EJA - Equivalente 7º ano;Noturno;54;63.3;8.3;4.1;9.0;7;nao;;Retornou aos estudos apos longa pausa
+Rafael Machado;EJA - Equivalente 8º ano;Noturno;54;81.3;7.2;6.4;7.2;1;nao;;Retornou aos estudos apos longa pausa
+Fabio Gomes;EJA - Equivalente 9º ano;Noturno;48;75.2;8.0;6.0;6.6;1;nao;;
+Tatiane Ferreira;EJA - Equivalente 6º ano;Noturno;48;82.8;6.1;4.6;8.3;1;nao;;Retornou aos estudos apos longa pausa
+Patricia Dias;EJA - Equivalente 7º ano;Noturno;40;97.0;4.9;5.8;7.0;1;nao;;
+Alexandre Carvalho;EJA - Equivalente 8º ano;Noturno;35;82.4;5.0;3.7;8.9;2;nao;;Trabalha em horario que conflita com aulas
+Elaine Santos;EJA - Equivalente 9º ano;Noturno;28;91.8;8.8;7.3;5.3;0;nao;;Trabalha em horario que conflita com aulas
+Patricia Almeida;EJA - Equivalente 6º ano;Noturno;47;83.8;5.9;3.3;8.9;2;nao;;Trabalha em horario que conflita com aulas
+Thiago Souza;EJA - Equivalente 7º ano;Noturno;31;86.2;4.2;5.4;7.1;2;nao;;Retornou aos estudos apos longa pausa
+Diego Rocha;EJA - Equivalente 8º ano;Noturno;52;58.7;4.7;4.5;5.7;8;nao;;Acompanhamento familiar limitado
+Bianca Freitas;EJA - Equivalente 9º ano;Noturno;20;80.8;7.0;4.9;6.9;0;nao;;Trabalha em horario que conflita com aulas
+Felipe Vieira;EJA - Equivalente 6º ano;Noturno;53;76.6;9.5;7.1;4.8;1;nao;;Trabalha em horario que conflita com aulas
+Marcos Soares;EJA - Equivalente 7º ano;Noturno;39;85.5;6.2;4.6;7.1;1;sim;Atendimento Educacional Especializado (AEE) - sala de recursos;Relatou dificuldade de deslocamento ate a escola
+Sandra Gomes;EJA - Equivalente 8º ano;Noturno;26;89.5;8.0;6.4;5.0;2;nao;;
+Juliana Souza;EJA - Equivalente 9º ano;Noturno;57;78.0;6.3;6.8;8.2;3;nao;;Relatou dificuldade de deslocamento ate a escola
+Viviane Machado;EJA - Equivalente 6º ano;Noturno;52;83.6;7.0;6.3;3.7;1;sim;Apoio de mobilidade;Retornou aos estudos apos longa pausa
+Marcos Souza;EJA - Equivalente 7º ano;Noturno;55;77.6;8.5;8.2;7.2;4;nao;;
+Alexandre Rodrigues;EJA - Equivalente 8º ano;Noturno;55;86.0;7.6;6.7;5.2;2;nao;;Retornou aos estudos apos longa pausa
+Tatiane Carvalho;EJA - Equivalente 9º ano;Noturno;42;70.7;7.4;3.5;9.0;1;sim;Interprete de Libras;
+Michele Martins;EJA - Equivalente 6º ano;Noturno;44;70.9;7.5;6.0;7.8;4;nao;;Acompanhamento familiar limitado
+Marcos Silva;EJA - Equivalente 7º ano;Noturno;21;89.3;6.8;6.6;9.8;1;nao;;Relatou dificuldade de deslocamento ate a escola
+Paulo Machado;EJA - Equivalente 8º ano;Noturno;29;82.7;6.9;6.5;7.4;2;nao;;Retornou aos estudos apos longa pausa
+Cristina Ferreira;EJA - Equivalente 9º ano;Noturno;62;76.0;6.7;8.9;5.8;3;nao;;
+Thiago Vieira;EJA - Equivalente 6º ano;Noturno;37;90.8;7.5;7.1;6.7;1;nao;;
+Camila Soares;EJA - Equivalente 7º ano;Noturno;35;76.9;7.0;6.5;8.5;4;nao;;Acompanhamento familiar limitado
+Antonia Carvalho;EJA - Equivalente 8º ano;Noturno;27;77.0;5.8;7.3;6.1;4;nao;;Retornou aos estudos apos longa pausa
+Alexandre Freitas;EJA - Equivalente 9º ano;Noturno;48;73.9;8.1;5.4;7.0;3;sim;Material didatico adaptado;
+Rodrigo Rodrigues;EJA - Equivalente 6º ano;Noturno;33;64.2;8.6;5.1;5.6;4;nao;;Trabalha em horario que conflita com aulas
+Gabriel Oliveira;EJA - Equivalente 7º ano;Noturno;48;67.9;7.8;2.9;6.9;2;nao;;Trabalha em horario que conflita com aulas
+Gabriel Costa;EJA - Equivalente 8º ano;Noturno;48;83.2;5.4;9.0;6.0;2;nao;;
+Joao Lima;EJA - Equivalente 9º ano;Noturno;23;88.0;5.5;7.4;8.2;0;nao;;
+Pedro Freitas;EJA - Equivalente 6º ano;Noturno;29;95.1;4.0;7.9;7.9;0;nao;;Retornou aos estudos apos longa pausa
+Rodrigo Costa;EJA - Equivalente 7º ano;Noturno;36;93.3;3.5;6.6;4.7;1;nao;;
+Priscila Mendes;EJA - Equivalente 8º ano;Noturno;59;85.1;6.7;8.7;8.2;1;nao;;
+Bruno Ribeiro;EJA - Equivalente 9º ano;Noturno;25;78.5;7.6;7.0;7.6;1;nao;;Retornou aos estudos apos longa pausa
+Pedro Moreira;EJA - Equivalente 6º ano;Noturno;36;85.7;7.7;4.8;8.3;1;nao;;Acompanhamento familiar limitado
+Felipe Martins;EJA - Equivalente 7º ano;Noturno;38;67.0;7.4;4.9;5.0;3;sim;Apoio de mobilidade;
+Eduardo Lopes;EJA - Equivalente 8º ano;Noturno;33;82.3;5.7;5.6;7.0;2;nao;;
+Pedro Andrade;EJA - Equivalente 9º ano;Noturno;41;89.0;4.3;4.4;5.9;1;nao;;Retornou aos estudos apos longa pausa
