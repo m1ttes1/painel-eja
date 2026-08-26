@@ -1,0 +1,80 @@
+import { describe, it, expect } from 'vitest';
+import { readFileSync } from 'node:fs';
+import { parseAlunos } from '../../src/parser';
+
+const CABECALHO =
+  'nome;turma;turno;idade;frequencia_pct;nota_portugues;nota_matematica;nota_ciencias;faltas_consecutivas;possui_deficiencia;apoio_recomendado;observacao';
+
+function comLinhas(...linhas: string[]): string {
+  return [CABECALHO, ...linhas].join('\n');
+}
+
+describe('parseAlunos', () => {
+  it('le uma linha valida e deriva mediaNotas', () => {
+    const r = parseAlunos(comLinhas('Ana;6A;Noturno;40;90.0;6;7;8;1;nao;;'));
+    expect(r.erros).toEqual([]);
+    expect(r.totalLinhas).toBe(1);
+    expect(r.alunos).toHaveLength(1);
+    expect(r.alunos[0]!.nome).toBe('Ana');
+    expect(r.alunos[0]!.mediaNotas).toBeCloseTo(7, 10);
+    expect(r.alunos[0]!.possuiDeficiencia).toBe(false);
+  });
+
+  it('reconhece possui_deficiencia sim, com maiuscula e espaco', () => {
+    const r = parseAlunos(comLinhas('Ana;6A;Noturno;40;90;6;7;8;1; SIM ;;'));
+    expect(r.alunos[0]!.possuiDeficiencia).toBe(true);
+  });
+
+  it('reporta coluna obrigatoria ausente na linha 1 e nao produz aluno', () => {
+    const r = parseAlunos('nome;turma\nAna;6A');
+    expect(r.alunos).toEqual([]);
+    expect(r.erros[0]!.linha).toBe(1);
+    expect(r.erros[0]!.motivo).toContain('frequencia_pct');
+  });
+
+  it('descarta so a linha invalida e mantem as validas', () => {
+    const r = parseAlunos(
+      comLinhas(
+        'Ana;6A;Noturno;40;90;6;7;8;1;nao;;',
+        'Bruno;6A;Noturno;40;;6;7;8;1;nao;;',
+        'Carla;6A;Noturno;40;80;6;7;8;1;nao;;',
+      ),
+    );
+    expect(r.alunos.map((a) => a.nome)).toEqual(['Ana', 'Carla']);
+    expect(r.totalLinhas).toBe(3);
+    expect(r.erros).toHaveLength(1);
+    expect(r.erros[0]!.linha).toBe(3);
+    expect(r.erros[0]!.coluna).toBe('frequencia_pct');
+  });
+
+  it('reporta valor fora de faixa com o numero da linha', () => {
+    const r = parseAlunos(comLinhas('Ana;6A;Noturno;40;120;6;7;8;1;nao;;'));
+    expect(r.alunos).toEqual([]);
+    expect(r.erros[0]!.linha).toBe(2);
+    expect(r.erros[0]!.motivo).toContain('0 e 100');
+  });
+
+  it('reporta nome vazio', () => {
+    const r = parseAlunos(comLinhas(';6A;Noturno;40;90;6;7;8;1;nao;;'));
+    expect(r.erros[0]!.coluna).toBe('nome');
+  });
+
+  it('avisa quando o arquivo aparenta encoding diferente de UTF-8', () => {
+    const r = parseAlunos('nome;turma;frequencia_pct;nota_portugues;nota_matematica;nota_ciencias;faltas_consecutivas\nAn�a;6A;90;6;7;8;1');
+    expect(r.erros.some((e) => e.motivo.includes('acentua'))).toBe(true);
+  });
+
+  it('trata arquivo vazio sem lancar excecao', () => {
+    const r = parseAlunos('');
+    expect(r.alunos).toEqual([]);
+    expect(r.totalLinhas).toBe(0);
+    expect(r.erros[0]!.motivo).toContain('vazio');
+  });
+
+  it('le o dataset simulado da AE I inteiro sem erro', () => {
+    const texto = readFileSync('dados/alunos_simulados.txt', 'utf-8');
+    const r = parseAlunos(texto);
+    expect(r.erros).toEqual([]);
+    expect(r.alunos).toHaveLength(100);
+  });
+});
