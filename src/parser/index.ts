@@ -43,9 +43,18 @@ export function parseAlunos(texto: string): ResultadoParse {
   const mapa = indicePorColuna(cabecalho);
   const faltando = COLUNAS_OBRIGATORIAS.filter((c) => !mapa.has(c));
   if (faltando.length > 0) {
+    const semPontoEVirgula = cabecalho.length === 1;
+    const primeiraCelula = cabecalho[0] ?? '';
+    const pareceSeparadoPorVirgula =
+      faltando.length === COLUNAS_OBRIGATORIAS.length &&
+      semPontoEVirgula &&
+      (primeiraCelula.includes(',') || primeiraCelula.includes('\t'));
+
     erros.push({
       linha: 1,
-      motivo: `Coluna obrigatória ausente no cabeçalho: ${faltando.join(', ')}.`,
+      motivo: pareceSeparadoPorVirgula
+        ? "O arquivo parece estar separado por vírgula, não por ponto e vírgula. Reexporte usando ';' como separador."
+        : `Coluna obrigatória ausente no cabeçalho: ${faltando.join(', ')}.`,
     });
     return { alunos: [], erros, totalLinhas: matriz.length - 1 };
   }
@@ -85,6 +94,18 @@ export function parseAlunos(texto: string): ResultadoParse {
       numericos[coluna] = valor;
     }
 
+    const idadeBruta = lerNumero(celula(linha, mapa, 'idade'));
+    if (idadeBruta !== null) {
+      const faixaIdade = FAIXAS['idade']!;
+      if (idadeBruta < faixaIdade.min || idadeBruta > faixaIdade.max) {
+        problemas.push({
+          linha: numeroDaLinha,
+          coluna: 'idade',
+          motivo: `Valor de idade fora da faixa: esperado entre ${faixaIdade.min} e ${faixaIdade.max}, veio ${idadeBruta}.`,
+        });
+      }
+    }
+
     if (problemas.length > 0) {
       erros.push(...problemas);
       return;
@@ -93,7 +114,6 @@ export function parseAlunos(texto: string): ResultadoParse {
     const notaPortugues = numericos['nota_portugues']!;
     const notaMatematica = numericos['nota_matematica']!;
     const notaCiencias = numericos['nota_ciencias']!;
-    const idadeBruta = lerNumero(celula(linha, mapa, 'idade'));
     const periodo = celula(linha, mapa, 'periodo');
 
     alunos.push({

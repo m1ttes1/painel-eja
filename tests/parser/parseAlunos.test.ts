@@ -32,6 +32,15 @@ describe('parseAlunos', () => {
     expect(r.erros[0]!.motivo).toContain('frequencia_pct');
   });
 
+  it('avisa quando o cabecalho parece separado por virgula em vez de ponto e virgula', () => {
+    const cabecalhoVirgula =
+      'nome,turma,turno,idade,frequencia_pct,nota_portugues,nota_matematica,nota_ciencias,faltas_consecutivas,possui_deficiencia,apoio_recomendado,observacao';
+    const r = parseAlunos([cabecalhoVirgula, 'Ana,6A,Noturno,40,90,6,7,8,1,nao,,'].join('\n'));
+    expect(r.alunos).toEqual([]);
+    expect(r.erros[0]!.motivo).toContain('separado por vírgula');
+    expect(r.erros[0]!.motivo).not.toContain('nome, turma');
+  });
+
   it('descarta so a linha invalida e mantem as validas', () => {
     const r = parseAlunos(
       comLinhas(
@@ -52,6 +61,13 @@ describe('parseAlunos', () => {
     expect(r.alunos).toEqual([]);
     expect(r.erros[0]!.linha).toBe(2);
     expect(r.erros[0]!.motivo).toContain('0 e 100');
+  });
+
+  it('reporta idade fora da faixa com o numero da linha', () => {
+    const r = parseAlunos(comLinhas('Ana;6A;Noturno;9999;90;6;7;8;1;nao;;'));
+    expect(r.alunos).toEqual([]);
+    expect(r.erros[0]!.coluna).toBe('idade');
+    expect(r.erros[0]!.motivo).toContain('0 e 120');
   });
 
   it('reporta nome vazio', () => {
