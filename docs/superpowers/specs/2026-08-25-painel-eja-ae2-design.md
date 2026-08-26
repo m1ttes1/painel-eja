@@ -173,16 +173,15 @@ regras que falam em desempenho.
 O conjunto de componentes curriculares é fixo nestes três, herdado da AE I. Generalizar
 para um número variável de componentes está fora de escopo nesta etapa.
 
-### 6.1 Portados da AE I (cinco)
+### 6.1 Portados da AE I (quatro)
 
 Já implementados e validados em Python; serão reimplementados em TypeScript com os mesmos
 critérios de cálculo, verificados contra o oráculo.
 
 1. Frequência média por turma e por aluno
 2. Taxa de risco de evasão — regra combinada
-3. Defasagem entre frequência e desempenho
-4. Lista nominal de alunos em alerta, ordenada por criticidade
-5. Cobertura de apoio específico (AEE)
+3. Lista nominal de alunos em alerta, ordenada por criticidade
+4. Cobertura de apoio específico (AEE)
 
 **Regra de risco, conforme implementada na AE I** — um aluno entra em alerta se qualquer
 condição for verdadeira:
@@ -197,7 +196,7 @@ As comparações de fronteira são parte do contrato e não são acidentais: fre
 exatamente 75,0% **não** é risco; exatamente 3 faltas consecutivas **é** risco. Cada uma
 recebe um teste nomeado.
 
-### 6.2 Novos (dois)
+### 6.2 Novos (três)
 
 **Quebra de desempenho por componente curricular.** O dado já existe no schema
 (`nota_portugues`, `nota_matematica`, `nota_ciencias`). Implementação direta: distribuição
@@ -214,6 +213,13 @@ possui. Decisão: o schema ganha a coluna **opcional** `periodo` (bimestre ou m�
 A escolha por degradar visivelmente em vez de esconder é deliberada: o card visível
 comunica à escola qual registro ela precisaria passar a manter, o que é parte do resultado
 do projeto.
+
+**Defasagem entre frequência e desempenho.** Indicador novo desta etapa — não estava no
+protótipo da AE I. Cruza os dois eixos que a regra de risco acima já calcula separadamente,
+presença e desempenho, numa classificação 2×2 por aluno, com as mesmas fronteiras da seção
+6.1: regular (frequente e com desempenho adequado), intervenção didática (frequente, mas com
+desempenho baixo), ação de permanência (desempenho adequado, mas ausente) e crítico (ausente
+e com desempenho baixo — atenção prioritária).
 
 ### 6.3 Configuração de limiares
 
