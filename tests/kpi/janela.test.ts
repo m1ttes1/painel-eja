@@ -2,10 +2,10 @@ import { describe, it, expect } from 'vitest';
 import { quedaFrequenciaJanelaMovel } from '../../src/kpi/janela';
 import type { Aluno } from '../../src/types';
 
-function aluno(nome: string, periodo: string | undefined, frequenciaPct: number): Aluno {
+function aluno(nome: string, periodo: string | undefined, frequenciaPct: number, turma: string = 'A'): Aluno {
   return {
     nome,
-    turma: 'A',
+    turma,
     periodo,
     frequenciaPct,
     notaPortugues: 7,
@@ -85,5 +85,22 @@ describe('quedaFrequenciaJanelaMovel', () => {
     ]);
     expect(r.disponivel).toBe(true);
     if (r.disponivel) expect(r.quedas.map((q) => q.nome)).toEqual(['Ana']);
+  });
+
+  it('diferencia alunos com mesmo nome mas turmas diferentes', () => {
+    const r = quedaFrequenciaJanelaMovel([
+      aluno('Carlos', '1', 95, 'A'),
+      aluno('Carlos', '2', 80, 'A'),
+      aluno('Carlos', '1', 70, 'B'),
+      aluno('Carlos', '2', 60, 'B'),
+    ]);
+    expect(r.disponivel).toBe(true);
+    if (r.disponivel) {
+      expect(r.quedas).toHaveLength(2);
+      const carlosA = r.quedas.find((q) => q.turma === 'A');
+      const carlosB = r.quedas.find((q) => q.turma === 'B');
+      expect(carlosA?.variacaoPp).toBe(-15);
+      expect(carlosB?.variacaoPp).toBe(-10);
+    }
   });
 });

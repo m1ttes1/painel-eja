@@ -30,11 +30,13 @@ export function quedaFrequenciaJanelaMovel(alunos: Aluno[]): ResultadoJanela {
   const periodoAnterior = periodos[periodos.length - 2]!;
   const periodoAtual = periodos[periodos.length - 1]!;
 
-  const anterior = new Map(alunos.filter((a) => a.periodo === periodoAnterior).map((a) => [a.nome, a]));
+  const anterior = new Map(
+    alunos.filter((a) => a.periodo === periodoAnterior).map((a) => [`${a.nome}::${a.turma}`, a]),
+  );
   const quedas: QuedaFrequencia[] = [];
 
   for (const atual of alunos.filter((a) => a.periodo === periodoAtual)) {
-    const antes = anterior.get(atual.nome);
+    const antes = anterior.get(`${atual.nome}::${atual.turma}`);
     if (!antes) continue;
 
     const variacaoPp = atual.frequenciaPct - antes.frequenciaPct;
