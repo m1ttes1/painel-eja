@@ -1,6 +1,11 @@
 import type { Indicadores } from '../kpi';
 import { escapar, numero, percentual } from './formato';
 
+function corMotivo(motivo: string): string {
+  const cor = motivo.includes('freq') ? '#b02a2a' : motivo.includes('faltas') ? '#d97706' : motivo.includes('notas') ? '#b02a2a' : '#0369a1';
+  return `<span style="background:${cor};color:#fff;padding:2px 6px;border-radius:3px;font-size:0.8rem;margin-right:4px">${escapar(motivo)}</span>`;
+}
+
 export function renderTabelaAlerta(ind: Indicadores): string {
   if (ind.alunosEmAlerta.length === 0) {
     return `<section class="alerta">
@@ -17,7 +22,7 @@ export function renderTabelaAlerta(ind: Indicadores): string {
       <td>${percentual(aluno.frequenciaPct)}</td>
       <td>${numero(aluno.mediaNotas)}</td>
       <td>${aluno.faltasConsecutivas}</td>
-      <td>${escapar(motivos.join(', '))}</td>
+      <td>${motivos.map(corMotivo).join('')}</td>
     </tr>`,
     )
     .join('\n');
