@@ -212,6 +212,31 @@ MIT License — Veja LICENSE para detalhes
 
 ---
 
+## 🎓 Sobre Este Projeto
+
+Este painel foi desenvolvido **especificamente para a Atividade Extensionista II (UNINTER)** como solução de acompanhamento pedagógico para turmas EJA.
+
+### É pra outro relatório/contexto?
+
+Se você precisa adaptar o painel para:
+- Outro formato de arquivo (Excel, JSON, etc.)
+- Outros indicadores pedagógicos
+- Diferentes campos/disciplinas
+- Integração com sistema próprio
+
+**Entre em contato** — podemos customizar! 
+
+📧 **victor@mittestainer.dev** ou abra uma issue no GitHub
+
+Suportamos:
+- ✅ Novos formatos de entrada
+- ✅ KPIs adicionais
+- ✅ Temas/cores customizadas
+- ✅ Exportação de relatórios (PDF/Excel)
+- ✅ Integração com APIs
+
+---
+
 ## 🙏 Agradecimentos
 
 Desenvolvido com suporte acadêmico UNINTER e orientação em boas práticas de software.
