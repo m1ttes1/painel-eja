@@ -226,7 +226,7 @@ Se você precisa adaptar o painel para:
 
 **Entre em contato** — podemos customizar! 
 
-📧 **victor@mittestainer.dev** ou abra uma issue no GitHub
+📧 **vmittestainer.dev@gmail.com** ou abra uma issue no GitHub
 
 Suportamos:
 - ✅ Novos formatos de entrada
