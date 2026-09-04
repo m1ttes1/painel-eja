@@ -6,8 +6,19 @@ import { renderConfig, lerLimiaresDoFormulario } from './render/config-ui';
 const MENSAGEM_VAZIO = '<p class="vazio">Carregue um arquivo para ver os indicadores.</p>';
 
 const CASCA = `<header class="cabecalho">
-  <h1>Painel de Acompanhamento Pedagógico — EJA</h1>
-  <p>Os dados são lidos no seu computador. Nada é enviado pela internet.</p>
+  <div class="cabecalho__logo">
+    <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+      <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="2.5"/>
+      <circle cx="24" cy="24" r="18" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M16 24c0-4.4 3.6-8 8-8s8 3.6 8 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <text x="24" y="36" font-size="10" font-weight="700" text-anchor="middle" fill="currentColor">UNINTER</text>
+    </svg>
+    <span>Painel EJA</span>
+  </div>
+  <div class="cabecalho__conteudo">
+    <h1>Acompanhamento Pedagógico</h1>
+    <p>Educação de Jovens e Adultos</p>
+  </div>
 </header>
 <section class="entrada">
   <label for="arquivo">Arquivo de alunos (.txt ou .csv, separado por ponto e vírgula)</label>
