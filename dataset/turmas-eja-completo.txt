@@ -1,0 +1,39 @@
+nome;turma;frequencia_pct;nota_portugues;nota_matematica;nota_ciencias;nota_arte;nota_edfisica;nota_ingles;nota_historia;nota_geografia;nota_religioso;faltas_consecutivas;periodo;turno;idade;possui_deficiencia;observacao
+Maria Silva;EJA 1º A;85;7.5;6.5;7.0;7.0;8.0;6.5;7.5;7.0;7.5;1;2026.2;Noite;34;Não;Participativa
+João Santos;EJA 1º A;92;8.0;7.5;8.0;7.5;8.5;7.0;8.0;7.5;8.0;0;2026.2;Noite;28;Não;Bom desempenho
+Ana Costa;EJA 1º A;72;5.5;4.0;5.5;5.0;6.5;4.5;5.5;5.0;5.5;4;2026.2;Noite;45;Sim;Necessita apoio
+Pedro Oliveira;EJA 1º A;68;4.5;3.5;4.0;4.0;5.5;3.5;4.5;4.0;4.0;5;2026.2;Noite;52;Não;Frequência baixa
+Carla Souza;EJA 1º A;88;7.0;6.5;7.5;7.0;8.0;6.5;7.0;7.5;7.0;1;2026.2;Noite;31;Não;Recuperação bem-sucedida
+Roberto Gomes;EJA 1º A;95;8.5;8.0;8.5;8.0;9.0;8.0;8.5;8.0;8.5;0;2026.2;Noite;38;Não;Excelente aluno
+Lucia Martins;EJA 1º A;76;6.0;5.5;6.5;6.0;7.0;5.5;6.0;6.5;6.0;2;2026.2;Noite;48;Não;Dedicada
+Felipe Alves;EJA 1º A;64;3.5;3.0;3.5;3.5;5.0;3.0;4.0;3.5;3.5;6;2026.2;Noite;55;Sim;Risco de evasão
+Beatriz Lima;EJA 1º A;89;7.5;7.0;7.5;7.5;8.5;7.0;7.5;7.0;7.5;1;2026.2;Noite;26;Não;Desempenho consistente
+Thiago Rocha;EJA 1º A;81;6.5;6.0;6.5;6.5;7.5;6.0;6.5;6.5;6.5;2;2026.2;Noite;33;Não;Acompanhamento OK
+Fernanda Dias;EJA 1º A;84;7.0;6.5;7.5;7.0;8.0;6.5;7.0;7.5;7.0;1;2026.2;Noite;40;Não;Boa frequência
+Carlos Mendes;EJA 1º A;79;6.0;5.5;6.0;5.5;7.0;5.5;6.0;6.0;5.5;3;2026.2;Noite;46;Não;Precisa de reforço
+Juliana Reis;EJA 1º B;91;8.0;7.5;8.5;8.0;8.5;7.5;8.0;8.0;8.0;0;2026.2;Noite;29;Não;Destaque na turma
+Gustavo Franco;EJA 1º B;65;4.0;3.5;4.5;4.0;5.5;3.5;4.5;4.0;4.0;5;2026.2;Noite;51;Sim;Faltas frequentes
+Sandra Prado;EJA 1º B;85;7.5;7.0;7.5;7.5;8.0;7.0;7.5;7.5;7.5;1;2026.2;Noite;37;Não;Engajada
+Marcelo Barros;EJA 1º B;73;5.5;4.5;5.5;5.0;6.5;5.0;5.5;5.5;5.5;4;2026.2;Noite;49;Não;Dificuldade em Matemática
+Adriana Santos;EJA 1º B;94;8.5;8.0;8.5;8.5;9.0;8.0;8.5;8.5;8.5;0;2026.2;Noite;32;Não;Melhor desempenho
+Ricardo Costa;EJA 1º B;69;4.5;3.5;4.0;4.0;5.0;3.5;4.5;4.0;4.0;6;2026.2;Noite;54;Não;Absenteísmo crítico
+Camila Torres;EJA 1º B;87;7.5;6.5;7.5;7.5;8.0;6.5;7.5;7.5;7.5;1;2026.2;Noite;27;Não;Progresso contínuo
+Daniela Lopes;EJA 1º B;71;5.5;5.0;5.5;5.5;6.5;5.0;5.5;5.5;5.5;3;2026.2;Tarde;44;Sim;Recuperação em andamento
+Isabela Gomes;EJA 1º C;86;7.5;6.5;7.5;7.0;8.0;6.5;7.5;7.0;7.5;1;2026.2;Tarde;36;Não;Engajamento bom
+Lucas Martins;EJA 1º C;78;6.0;5.5;6.0;5.5;7.0;5.5;6.0;6.0;5.5;2;2026.2;Tarde;41;Não;Desempenho variável
+Mariana Silva;EJA 1º C;82;6.5;6.0;6.5;6.5;7.5;6.0;6.5;6.5;6.5;2;2026.2;Tarde;30;Não;Aluna aplicada
+Henrique Oliveira;EJA 1º C;66;4.0;3.5;4.0;4.0;5.5;3.5;4.5;4.0;4.0;5;2026.2;Tarde;50;Não;Alerta frequência
+Viviana Costa;EJA 1º C;90;7.5;7.5;8.0;7.5;8.5;7.5;8.0;7.5;8.0;0;2026.2;Tarde;28;Não;Ótimo desempenho
+Patricia Santos;EJA 1º C;74;5.5;5.0;5.5;5.5;6.5;5.0;5.5;5.5;5.5;3;2026.2;Tarde;43;Não;Acompanhamento regular
+Renato Dias;EJA 2º D;80;6.5;6.0;6.5;6.0;7.5;6.0;6.5;6.5;6.5;2;2026.2;Noite;35;Não;Progresso nota-se
+Vanessa Rocha;EJA 2º D;89;7.5;7.5;8.0;7.5;8.5;7.5;7.5;7.5;7.5;1;2026.2;Noite;27;Não;Desempenho excelente
+Sergio Gomes;EJA 2º D;72;5.5;5.0;5.5;5.0;6.5;5.0;5.5;5.5;5.5;3;2026.2;Noite;47;Não;Aluno dedicado
+Natalia Campos;EJA 2º D;70;5.0;4.5;5.0;4.5;6.0;4.5;5.0;5.0;5.0;4;2026.2;Noite;52;Sim;Necessita suporte
+Cristina Lima;EJA 2º D;83;6.5;6.5;7.0;6.5;7.5;6.5;7.0;6.5;6.5;1;2026.2;Noite;38;Não;Recuperação progride
+Fabricio Alves;EJA 2º D;91;8.0;7.5;8.0;7.5;8.5;7.5;8.0;8.0;8.0;0;2026.2;Noite;31;Não;Aluno destaque
+Leandra Martins;EJA 2º E;77;6.0;5.5;6.0;5.5;7.0;5.5;6.0;6.0;5.5;2;2026.2;Tarde;42;Não;Frequência boa
+Orlando Tavares;EJA 2º E;88;7.0;7.0;7.5;7.0;8.0;7.0;7.5;7.0;7.0;1;2026.2;Tarde;29;Não;Progresso consistente
+Alessandra Silva;EJA 2º E;76;6.0;5.5;6.0;5.5;7.0;5.5;6.0;6.0;5.5;2;2026.2;Tarde;46;Não;Esforçada
+Bruno Costa;EJA 2º E;65;4.5;4.0;4.5;4.0;5.5;4.0;4.5;4.5;4.0;5;2026.2;Tarde;55;Não;Risco presente
+Elenice Pinto;EJA 2º E;92;8.0;8.0;8.5;8.0;8.5;8.0;8.0;8.0;8.0;0;2026.2;Tarde;32;Não;Excelente desempenho
+Franco Dias;EJA 2º E;79;6.0;6.0;6.5;6.0;7.0;6.0;6.5;6.0;6.0;2;2026.2;Tarde;40;Não;Aluno regular
