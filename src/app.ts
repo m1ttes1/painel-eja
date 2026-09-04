@@ -1,4 +1,4 @@
-import './estilo.css';
+﻿import './estilo.css';
 import { montarPainel } from './aplicacao';
 import { carregarLimiares, salvarLimiares } from './config/persistencia';
 import { renderConfig, lerLimiaresDoFormulario } from './render/config-ui';
@@ -83,3 +83,4 @@ export function iniciar(raiz: HTMLElement): void {
 
 const raiz = document.querySelector<HTMLElement>('#app');
 if (raiz) iniciar(raiz);
+
