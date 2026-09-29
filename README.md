@@ -52,8 +52,8 @@ Tabelas com ordenação automática, gráficos em SVG, responsivo
 
 ### ⚡ Opção 1: Download Rápido (Recomendado)
 
-1. **Baixar** `painel-eja-v1.0.zip`  
-   👉 https://github.com/m1ttes1/atividade-extensionista-2/releases
+1. **Baixar** `painel-eja.html`  
+   👉 https://github.com/m1ttes1/painel-eja/releases
 
 2. **Extrair** → dois arquivos:
    - `painel-eja.html` (22 KB — app completo)
@@ -68,8 +68,8 @@ Tabelas com ordenação automática, gráficos em SVG, responsivo
 ### 🔧 Opção 2: Desenvolvimento (GitHub)
 
 ```bash
-git clone https://github.com/m1ttes1/atividade-extensionista-2.git
-cd atividade-extensionista-2
+git clone https://github.com/m1ttes1/painel-eja.git
+cd painel-eja
 npm install
 npm run build    # Gera dist/painel-eja.html
 npm test         # Roda 120 testes
