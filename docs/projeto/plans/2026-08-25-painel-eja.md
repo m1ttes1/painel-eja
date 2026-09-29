@@ -8,7 +8,7 @@
 
 **Tech Stack:** TypeScript, Vite, `vite-plugin-singlefile`, Vitest, jsdom. SVG escrito à mão — nenhuma biblioteca de gráfico. Python 3 apenas para gerar o oráculo de teste a partir do `dashboard.py` da AE I.
 
-**Spec:** `docs/superpowers/specs/2026-08-25-painel-eja-ae2-design.md`
+**Spec:** `docs/projeto/specs/2026-08-25-painel-eja-ae2-design.md`
 
 ## Global Constraints
 
@@ -3021,8 +3021,8 @@ HTML único que roda no navegador, sem instalação e sem rede.
 Atividade Extensionista II — CST em Análise e Desenvolvimento de Sistemas, UNINTER.
 Continuação do levantamento realizado na Atividade Extensionista I.
 
-- Design: `docs/superpowers/specs/2026-08-25-painel-eja-ae2-design.md`
-- Plano: `docs/superpowers/plans/2026-08-25-painel-eja.md`
+- Design: `docs/projeto/specs/2026-08-25-painel-eja-ae2-design.md`
+- Plano: `docs/projeto/plans/2026-08-25-painel-eja.md`
 - Guia entregue à escola: `entrega/GUIA-DE-USO.md`
 
 ## Desenvolvimento

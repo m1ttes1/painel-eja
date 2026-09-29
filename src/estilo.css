@@ -229,3 +229,4 @@ tbody tr:hover { background: #f3f1ee; }
   .grafico { break-inside: avoid; }
   table { font-size: 11px; }
 }
+.alerta { overflow-x: auto; }

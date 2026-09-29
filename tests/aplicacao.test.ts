@@ -9,7 +9,7 @@ describe('montarPainel', () => {
   it('vai do texto bruto ao markup do painel', () => {
     const html = montarPainel(texto, LIMIARES_PADRAO);
     expect(html).toContain('Frequência média por turma');
-    expect(html).toContain('Alunos em alerta');
+    expect(html).toContain('Alunos que precisam de atenção');
   });
 
   it('reflete mudanca de limiar no resultado', () => {

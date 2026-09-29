@@ -7,7 +7,7 @@
 
 **Sistema web de análise automática para turmas de Educação de Jovens e Adultos (EJA)**
 
-Desenvolvido como **Atividade Extensionista II** (UNINTER — Universidade Paulista)
+Desenvolvido como **Atividade Extensionista II** (Centro Universitário Internacional UNINTER)
 
 ---
 
@@ -72,7 +72,7 @@ git clone https://github.com/m1ttes1/atividade-extensionista-2.git
 cd atividade-extensionista-2
 npm install
 npm run build    # Gera dist/painel-eja.html
-npm test         # Roda 118 testes
+npm test         # Roda 120 testes
 npm run dev      # Dev server (http://localhost:5173)
 ```
 
@@ -186,7 +186,7 @@ dist/
 |--------|-----------|
 | **Linguagem** | TypeScript 5+ |
 | **Build** | Vite + vite-plugin-singlefile |
-| **Testes** | Vitest (118 testes) |
+| **Testes** | Vitest (120 testes) |
 | **Estilo** | CSS Grid + Flexbox + SVG |
 | **Runtime** | Zero deps (vanilla JS) |
 

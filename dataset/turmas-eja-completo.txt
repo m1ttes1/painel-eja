@@ -1,39 +1,557 @@
 nome;turma;frequencia_pct;nota_portugues;nota_matematica;nota_ciencias;nota_arte;nota_edfisica;nota_ingles;nota_historia;nota_geografia;nota_religioso;faltas_consecutivas;periodo;turno;idade;possui_deficiencia;observacao
-Maria Silva;EJA 1º A;85;7.5;6.5;7.0;7.0;8.0;6.5;7.5;7.0;7.5;1;2026.2;Noite;34;Não;Participativa
-João Santos;EJA 1º A;92;8.0;7.5;8.0;7.5;8.5;7.0;8.0;7.5;8.0;0;2026.2;Noite;28;Não;Bom desempenho
-Ana Costa;EJA 1º A;72;5.5;4.0;5.5;5.0;6.5;4.5;5.5;5.0;5.5;4;2026.2;Noite;45;Sim;Necessita apoio
-Pedro Oliveira;EJA 1º A;68;4.5;3.5;4.0;4.0;5.5;3.5;4.5;4.0;4.0;5;2026.2;Noite;52;Não;Frequência baixa
-Carla Souza;EJA 1º A;88;7.0;6.5;7.5;7.0;8.0;6.5;7.0;7.5;7.0;1;2026.2;Noite;31;Não;Recuperação bem-sucedida
-Roberto Gomes;EJA 1º A;95;8.5;8.0;8.5;8.0;9.0;8.0;8.5;8.0;8.5;0;2026.2;Noite;38;Não;Excelente aluno
-Lucia Martins;EJA 1º A;76;6.0;5.5;6.5;6.0;7.0;5.5;6.0;6.5;6.0;2;2026.2;Noite;48;Não;Dedicada
-Felipe Alves;EJA 1º A;64;3.5;3.0;3.5;3.5;5.0;3.0;4.0;3.5;3.5;6;2026.2;Noite;55;Sim;Risco de evasão
-Beatriz Lima;EJA 1º A;89;7.5;7.0;7.5;7.5;8.5;7.0;7.5;7.0;7.5;1;2026.2;Noite;26;Não;Desempenho consistente
-Thiago Rocha;EJA 1º A;81;6.5;6.0;6.5;6.5;7.5;6.0;6.5;6.5;6.5;2;2026.2;Noite;33;Não;Acompanhamento OK
-Fernanda Dias;EJA 1º A;84;7.0;6.5;7.5;7.0;8.0;6.5;7.0;7.5;7.0;1;2026.2;Noite;40;Não;Boa frequência
-Carlos Mendes;EJA 1º A;79;6.0;5.5;6.0;5.5;7.0;5.5;6.0;6.0;5.5;3;2026.2;Noite;46;Não;Precisa de reforço
-Juliana Reis;EJA 1º B;91;8.0;7.5;8.5;8.0;8.5;7.5;8.0;8.0;8.0;0;2026.2;Noite;29;Não;Destaque na turma
-Gustavo Franco;EJA 1º B;65;4.0;3.5;4.5;4.0;5.5;3.5;4.5;4.0;4.0;5;2026.2;Noite;51;Sim;Faltas frequentes
-Sandra Prado;EJA 1º B;85;7.5;7.0;7.5;7.5;8.0;7.0;7.5;7.5;7.5;1;2026.2;Noite;37;Não;Engajada
-Marcelo Barros;EJA 1º B;73;5.5;4.5;5.5;5.0;6.5;5.0;5.5;5.5;5.5;4;2026.2;Noite;49;Não;Dificuldade em Matemática
-Adriana Santos;EJA 1º B;94;8.5;8.0;8.5;8.5;9.0;8.0;8.5;8.5;8.5;0;2026.2;Noite;32;Não;Melhor desempenho
-Ricardo Costa;EJA 1º B;69;4.5;3.5;4.0;4.0;5.0;3.5;4.5;4.0;4.0;6;2026.2;Noite;54;Não;Absenteísmo crítico
-Camila Torres;EJA 1º B;87;7.5;6.5;7.5;7.5;8.0;6.5;7.5;7.5;7.5;1;2026.2;Noite;27;Não;Progresso contínuo
-Daniela Lopes;EJA 1º B;71;5.5;5.0;5.5;5.5;6.5;5.0;5.5;5.5;5.5;3;2026.2;Tarde;44;Sim;Recuperação em andamento
-Isabela Gomes;EJA 1º C;86;7.5;6.5;7.5;7.0;8.0;6.5;7.5;7.0;7.5;1;2026.2;Tarde;36;Não;Engajamento bom
-Lucas Martins;EJA 1º C;78;6.0;5.5;6.0;5.5;7.0;5.5;6.0;6.0;5.5;2;2026.2;Tarde;41;Não;Desempenho variável
-Mariana Silva;EJA 1º C;82;6.5;6.0;6.5;6.5;7.5;6.0;6.5;6.5;6.5;2;2026.2;Tarde;30;Não;Aluna aplicada
-Henrique Oliveira;EJA 1º C;66;4.0;3.5;4.0;4.0;5.5;3.5;4.5;4.0;4.0;5;2026.2;Tarde;50;Não;Alerta frequência
-Viviana Costa;EJA 1º C;90;7.5;7.5;8.0;7.5;8.5;7.5;8.0;7.5;8.0;0;2026.2;Tarde;28;Não;Ótimo desempenho
-Patricia Santos;EJA 1º C;74;5.5;5.0;5.5;5.5;6.5;5.0;5.5;5.5;5.5;3;2026.2;Tarde;43;Não;Acompanhamento regular
-Renato Dias;EJA 2º D;80;6.5;6.0;6.5;6.0;7.5;6.0;6.5;6.5;6.5;2;2026.2;Noite;35;Não;Progresso nota-se
-Vanessa Rocha;EJA 2º D;89;7.5;7.5;8.0;7.5;8.5;7.5;7.5;7.5;7.5;1;2026.2;Noite;27;Não;Desempenho excelente
-Sergio Gomes;EJA 2º D;72;5.5;5.0;5.5;5.0;6.5;5.0;5.5;5.5;5.5;3;2026.2;Noite;47;Não;Aluno dedicado
-Natalia Campos;EJA 2º D;70;5.0;4.5;5.0;4.5;6.0;4.5;5.0;5.0;5.0;4;2026.2;Noite;52;Sim;Necessita suporte
-Cristina Lima;EJA 2º D;83;6.5;6.5;7.0;6.5;7.5;6.5;7.0;6.5;6.5;1;2026.2;Noite;38;Não;Recuperação progride
-Fabricio Alves;EJA 2º D;91;8.0;7.5;8.0;7.5;8.5;7.5;8.0;8.0;8.0;0;2026.2;Noite;31;Não;Aluno destaque
-Leandra Martins;EJA 2º E;77;6.0;5.5;6.0;5.5;7.0;5.5;6.0;6.0;5.5;2;2026.2;Tarde;42;Não;Frequência boa
-Orlando Tavares;EJA 2º E;88;7.0;7.0;7.5;7.0;8.0;7.0;7.5;7.0;7.0;1;2026.2;Tarde;29;Não;Progresso consistente
-Alessandra Silva;EJA 2º E;76;6.0;5.5;6.0;5.5;7.0;5.5;6.0;6.0;5.5;2;2026.2;Tarde;46;Não;Esforçada
-Bruno Costa;EJA 2º E;65;4.5;4.0;4.5;4.0;5.5;4.0;4.5;4.5;4.0;5;2026.2;Tarde;55;Não;Risco presente
-Elenice Pinto;EJA 2º E;92;8.0;8.0;8.5;8.0;8.5;8.0;8.0;8.0;8.0;0;2026.2;Tarde;32;Não;Excelente desempenho
-Franco Dias;EJA 2º E;79;6.0;6.0;6.5;6.0;7.0;6.0;6.5;6.0;6.0;2;2026.2;Tarde;40;Não;Aluno regular
+Adriana Silva;EJA II 1º/2º Termo;93;8.0;8.5;9.0;8.5;9.0;8.5;8.0;9.5;8.5;2;2024.1;Noite;71;Não;Regular
+Ana Lima;EJA II 1º/2º Termo;87;8.5;8.0;9.0;7.5;9.0;9.0;8.0;8.0;6.0;0;2024.1;Noite;50;Não;Progresso contínuo
+Bruna Cavalcante;EJA II 1º/2º Termo;79;8.0;6.5;6.5;5.5;8.5;6.0;7.5;8.0;5.5;1;2024.1;Noite;44;Não;Dedicação nas atividades
+Claudinei Araújo;EJA II 1º/2º Termo;88;8.5;8.0;8.0;7.0;8.0;8.0;6.0;8.0;7.0;1;2024.1;Noite;19;Não;Progresso contínuo
+Claudinei Soares;EJA II 1º/2º Termo;64;4.5;4.5;4.5;7.0;7.5;7.0;7.0;7.5;5.0;4;2024.1;Noite;16;Não;Chega atrasado do trabalho
+Cleide Ribeiro;EJA II 1º/2º Termo;87;8.0;8.5;6.5;7.0;6.0;8.5;9.0;8.5;6.5;2;2024.1;Noite;62;Não;Participa das aulas
+Daniel Mendes;EJA II 1º/2º Termo;40;3.0;3.5;5.5;3.0;5.0;2.5;5.0;3.5;5.5;15;2024.1;Noite;18;Não;Contato com família sem retorno
+Eduardo Lopes;EJA II 1º/2º Termo;65;6.0;5.0;6.0;5.0;6.5;5.5;5.5;6.0;7.0;4;2024.1;Noite;19;Sim;Falta por cuidar dos filhos
+Elaine Andrade;EJA II 1º/2º Termo;88;7.0;7.0;8.5;8.5;7.0;8.5;9.0;7.5;6.0;0;2024.1;Noite;15;Não;Participa das aulas
+Everton Rodrigues;EJA II 1º/2º Termo;84;7.5;6.0;7.5;5.5;6.0;8.0;7.5;8.0;7.5;0;2024.1;Noite;18;Não;Dedicação nas atividades
+Everton Souza;EJA II 1º/2º Termo;87;8.0;6.0;6.0;8.5;7.0;8.5;6.0;9.0;7.0;1;2024.1;Noite;54;Não;Regular
+Francisco Araújo;EJA II 1º/2º Termo;71;5.5;7.0;7.5;7.5;5.5;5.5;6.0;6.5;5.5;6;2024.1;Noite;17;Não;Chega atrasado do trabalho
+Francisco Souza;EJA II 1º/2º Termo;65;5.0;4.5;6.0;7.0;6.0;5.5;6.0;5.5;6.5;4;2024.1;Noite;22;Sim;Faltas frequentes
+Gabriela Nunes;EJA II 1º/2º Termo;95;9.0;9.5;8.0;9.0;9.5;9.0;9.5;7.0;9.5;2;2024.1;Noite;66;Sim;Necessita apoio
+Geraldo Cardoso;EJA II 1º/2º Termo;64;7.5;6.5;4.0;5.5;4.5;4.5;7.0;5.5;4.5;6;2024.1;Noite;42;Não;Trabalha em turno
+Luciana Dias;EJA II 1º/2º Termo;67;5.5;5.0;5.0;6.0;7.0;5.5;4.5;6.5;6.0;4;2024.1;Noite;25;Não;Trabalha em turno
+Luciana Rodrigues;EJA II 1º/2º Termo;85;6.0;6.0;6.0;7.5;7.0;8.0;6.0;8.0;7.0;2;2024.1;Noite;40;Não;Progresso contínuo
+Luciana Soares;EJA II 1º/2º Termo;96;7.5;7.5;6.5;9.5;8.0;7.5;7.0;7.0;8.5;0;2024.1;Noite;35;Não;Dedicação nas atividades
+Luciana Teixeira;EJA II 1º/2º Termo;68;5.5;5.0;7.5;7.0;5.0;6.0;6.0;7.5;6.0;5;2024.1;Noite;19;Não;Falta por cuidar dos filhos
+Luiz Cardoso;EJA II 1º/2º Termo;91;7.5;7.0;7.5;8.0;8.5;7.0;9.5;9.0;6.5;2;2024.1;Noite;43;Não;Dedicação nas atividades
+Luiz Pereira;EJA II 1º/2º Termo;88;7.5;8.0;7.0;6.5;7.5;6.5;8.5;6.5;8.0;2;2024.1;Noite;22;Não;Progresso contínuo
+Marcos Nascimento;EJA II 1º/2º Termo;92;6.0;6.5;7.5;9.0;6.0;9.0;6.0;8.0;7.0;0;2024.1;Noite;17;Não;Regular
+Márcia Cavalcante;EJA II 1º/2º Termo;95;8.0;7.0;7.5;9.0;7.5;8.0;7.0;8.5;6.5;2;2024.1;Noite;64;Sim;Necessita apoio
+Paulo Nunes;EJA II 1º/2º Termo;86;9.0;6.0;8.0;8.0;7.0;8.5;6.5;6.5;6.0;0;2024.1;Noite;15;Não;Dedicação nas atividades
+Rafael Lopes;EJA II 1º/2º Termo;83;7.0;6.0;6.5;6.5;6.5;7.0;6.5;6.0;5.5;1;2024.1;Noite;44;Não;Progresso contínuo
+Rafael Pereira;EJA II 1º/2º Termo;77;7.5;7.0;5.5;7.0;5.5;6.0;8.0;7.5;6.5;1;2024.1;Noite;18;Não;Dedicação nas atividades
+Rayssa Costa;EJA II 1º/2º Termo;42;5.5;5.0;5.5;4.0;3.0;3.0;4.0;4.0;5.0;14;2024.1;Noite;17;Sim;Sem comparecer há semanas
+Reginaldo Fernandes;EJA II 1º/2º Termo;83;7.0;7.5;8.5;6.5;7.0;8.0;6.0;7.5;7.0;2;2024.1;Noite;15;Não;Regular
+Sandra Batista;EJA II 1º/2º Termo;98;9.5;9.5;9.0;8.5;6.5;7.5;9.0;7.0;7.5;0;2024.1;Noite;27;Não;Regular
+Sandra Teixeira;EJA II 1º/2º Termo;86;6.0;6.5;7.5;8.5;6.5;7.5;9.0;6.5;8.5;1;2024.1;Noite;37;Não;Bom desempenho
+Silvana Alves;EJA II 1º/2º Termo;93;6.5;6.5;8.0;7.0;9.0;9.5;8.5;7.0;9.0;1;2024.1;Noite;15;Não;Dedicação nas atividades
+Silvana Moreira;EJA II 1º/2º Termo;88;7.0;7.5;6.5;8.5;8.0;6.5;8.0;7.0;6.5;0;2024.1;Noite;16;Não;Progresso contínuo
+Tatiane Teixeira;EJA II 1º/2º Termo;91;9.5;7.0;7.5;7.0;9.0;7.5;7.0;8.0;7.5;0;2024.1;Noite;65;Não;Bom desempenho
+Valéria Rocha;EJA II 1º/2º Termo;91;9.0;7.5;6.5;8.0;7.0;9.0;9.0;9.0;7.5;0;2024.1;Noite;16;Não;Progresso contínuo
+Vanessa Pereira;EJA II 1º/2º Termo;83;7.0;6.5;6.0;8.5;7.0;7.0;6.5;6.5;7.5;1;2024.1;Noite;17;Não;Dedicação nas atividades
+Wesley Araújo;EJA II 1º/2º Termo;83;6.5;6.5;7.5;8.0;7.5;6.0;8.0;8.5;8.5;1;2024.1;Noite;60;Não;Dedicação nas atividades
+Ana Dias;EJA II 1º/4º Termo;31;4.0;3.5;5.0;4.5;4.0;3.0;3.5;4.5;5.0;16;2024.1;Noite;17;Não;Mudou de emprego, parou de vir
+Ana Martins;EJA II 1º/4º Termo;36;2.5;3.5;4.0;5.0;5.0;4.5;5.5;5.0;3.5;16;2024.1;Noite;16;Não;Contato com família sem retorno
+Ana Mendes;EJA II 1º/4º Termo;37;3.0;5.5;3.5;4.0;2.5;4.0;5.0;4.5;5.5;8;2024.1;Noite;33;Não;Mudou de emprego, parou de vir
+Antônio Campos;EJA II 1º/4º Termo;91;6.5;9.5;8.0;9.0;8.5;7.0;7.5;8.5;7.0;0;2024.1;Noite;20;Não;Progresso contínuo
+Antônio Teixeira;EJA II 1º/4º Termo;70;7.0;5.5;6.5;6.5;5.0;5.0;7.0;7.5;6.0;6;2024.1;Noite;18;Sim;Falta por cuidar dos filhos
+Bruno Lopes;EJA II 1º/4º Termo;92;8.5;9.5;8.5;8.0;8.5;9.0;8.0;7.5;7.0;0;2024.1;Noite;32;Não;Regular
+Cleide Lopes;EJA II 1º/4º Termo;64;6.0;7.0;4.5;6.0;6.0;6.0;6.0;5.0;5.0;4;2024.1;Noite;45;Sim;Faltas frequentes
+Douglas Campos;EJA II 1º/4º Termo;84;5.5;6.5;8.0;7.0;8.0;8.0;7.5;7.0;6.5;1;2024.1;Noite;66;Não;Participa das aulas
+Douglas Lopes;EJA II 1º/4º Termo;95;7.0;9.0;8.0;7.0;9.0;7.5;9.0;7.0;8.0;2;2024.1;Noite;17;Não;Participa das aulas
+Francisco Carvalho;EJA II 1º/4º Termo;84;8.5;6.0;6.0;7.0;8.5;7.0;8.5;6.5;6.0;1;2024.1;Noite;24;Sim;Necessita apoio
+Geraldo Costa;EJA II 1º/4º Termo;86;6.0;6.0;6.5;9.0;8.5;8.0;7.5;8.5;6.0;0;2024.1;Noite;19;Não;Progresso contínuo
+Ivone Martins;EJA II 1º/4º Termo;88;7.0;8.0;9.0;8.5;8.5;8.0;8.5;8.0;8.0;0;2024.1;Noite;67;Não;Progresso contínuo
+Josefa Rodrigues;EJA II 1º/4º Termo;85;6.0;7.0;8.5;6.0;5.5;6.0;7.0;8.5;7.0;1;2024.1;Noite;62;Não;Dedicação nas atividades
+João Araújo;EJA II 1º/4º Termo;89;8.0;9.0;6.0;7.5;6.5;8.0;7.0;8.0;6.5;2;2024.1;Noite;65;Não;Progresso contínuo
+Juliana Ramos;EJA II 1º/4º Termo;98;8.0;9.5;7.5;7.0;7.5;7.0;8.5;8.0;8.5;2;2024.1;Noite;16;Sim;Necessita apoio
+Ketlyn Santana;EJA II 1º/4º Termo;91;9.0;6.0;8.5;8.5;7.5;9.0;7.0;8.5;6.5;1;2024.1;Noite;68;Não;Bom desempenho
+Luiz Teixeira;EJA II 1º/4º Termo;63;4.5;7.0;5.5;6.0;5.0;7.0;6.5;5.0;4.5;6;2024.1;Noite;45;Não;Trabalha em turno
+Márcia Carvalho;EJA II 1º/4º Termo;89;8.0;6.5;6.5;7.0;7.5;9.0;7.0;8.5;9.0;2;2024.1;Noite;60;Não;Bom desempenho
+Patrícia Santos;EJA II 1º/4º Termo;27;1.5;2.5;2.5;2.5;4.0;4.5;4.0;3.5;2.0;17;2024.1;Noite;58;Não;Contato com família sem retorno
+Pedro Soares;EJA II 1º/4º Termo;80;8.0;6.5;6.5;8.0;8.0;6.0;5.5;7.5;8.0;1;2024.1;Noite;17;Não;Participa das aulas
+Pedro Souza;EJA II 1º/4º Termo;94;9.5;8.0;8.0;7.0;7.0;7.0;8.0;8.0;9.0;1;2024.1;Noite;15;Não;Bom desempenho
+Rayssa Rocha;EJA II 1º/4º Termo;86;8.5;6.0;6.0;7.0;6.0;6.5;8.0;7.0;9.0;0;2024.1;Noite;22;Não;Dedicação nas atividades
+Reginaldo Lima;EJA II 1º/4º Termo;98;7.0;9.0;8.5;9.0;8.0;9.0;8.5;9.5;7.0;1;2024.1;Noite;62;Não;Dedicação nas atividades
+Wesley Gomes;EJA II 1º/4º Termo;80;7.5;5.5;6.0;7.5;8.5;6.0;7.5;6.0;7.5;2;2024.1;Noite;65;Não;Regular
+Adriana Alves;EJA II 3º/4º Termo;90;8.0;7.5;8.5;7.0;7.5;9.0;8.0;9.0;6.5;2;2024.1;Noite;19;Não;Dedicação nas atividades
+Adriana Cardoso;EJA II 3º/4º Termo;84;9.0;8.0;8.0;6.0;9.0;8.5;7.0;8.0;7.5;2;2024.1;Noite;18;Não;Progresso contínuo
+Adriana Vieira;EJA II 3º/4º Termo;87;6.0;9.0;8.5;7.5;8.5;6.0;7.0;6.0;7.0;2;2024.1;Noite;19;Não;Participa das aulas
+Aline Batista;EJA II 3º/4º Termo;85;8.5;6.5;7.0;5.5;6.0;7.0;9.0;6.5;8.5;2;2024.1;Noite;17;Não;Bom desempenho
+Aline Fernandes;EJA II 3º/4º Termo;97;7.0;6.5;8.5;8.0;9.5;8.5;8.5;6.5;9.0;2;2024.1;Noite;19;Não;Progresso contínuo
+Amanda Alves;EJA II 3º/4º Termo;95;7.0;9.5;7.0;7.0;7.0;9.0;7.5;7.0;9.5;0;2024.1;Noite;17;Não;Bom desempenho
+Amanda Ribeiro;EJA II 3º/4º Termo;67;5.0;4.5;6.5;5.0;5.0;7.5;6.5;4.5;5.0;5;2024.1;Noite;39;Não;Chega atrasado do trabalho
+Antônio Oliveira;EJA II 3º/4º Termo;92;7.5;9.0;9.5;7.5;8.0;8.0;7.0;8.0;6.5;2;2024.1;Noite;15;Não;Participa das aulas
+Bruno Teixeira;EJA II 3º/4º Termo;98;7.5;8.5;8.5;9.0;8.5;7.5;9.5;9.0;7.0;0;2024.1;Noite;18;Sim;Necessita apoio
+Carlos Soares;EJA II 3º/4º Termo;97;8.0;8.5;9.5;9.0;7.5;7.5;8.5;8.5;9.5;0;2024.1;Noite;15;Não;Participa das aulas
+Claudinei Pinto;EJA II 3º/4º Termo;74;5.0;7.5;5.0;5.0;6.0;7.5;7.0;7.5;7.0;4;2024.1;Noite;52;Não;Trabalha em turno
+Cleide Almeida;EJA II 3º/4º Termo;90;8.0;6.0;8.5;9.0;8.5;7.0;6.5;7.5;6.0;0;2024.1;Noite;54;Não;Regular
+Everton Fernandes;EJA II 3º/4º Termo;89;8.0;6.5;8.5;8.5;7.0;7.0;9.0;8.0;8.5;1;2024.1;Noite;71;Não;Progresso contínuo
+Francisco Pinto;EJA II 3º/4º Termo;90;6.5;6.5;8.0;6.0;8.5;7.0;7.0;7.5;8.0;0;2024.1;Noite;15;Não;Regular
+Francisco Rodrigues;EJA II 3º/4º Termo;93;6.0;7.0;7.0;6.5;8.0;8.0;9.0;8.0;6.5;2;2024.1;Noite;46;Não;Bom desempenho
+Ivone Carvalho;EJA II 3º/4º Termo;34;2.0;3.5;3.0;2.5;3.5;4.5;3.0;3.0;2.5;12;2024.1;Noite;53;Não;Mudou de emprego, parou de vir
+Ivone Fernandes;EJA II 3º/4º Termo;97;9.5;9.5;7.0;8.5;7.5;8.5;9.5;8.0;7.0;0;2024.1;Noite;21;Não;Regular
+Ivone Rocha;EJA II 3º/4º Termo;98;8.5;7.5;9.0;8.5;6.5;9.0;9.0;8.0;7.0;0;2024.1;Noite;28;Sim;Necessita apoio
+José Ramos;EJA II 3º/4º Termo;89;9.0;8.5;9.0;6.0;7.5;8.0;8.5;6.5;8.0;0;2024.1;Noite;28;Não;Bom desempenho
+João Santos;EJA II 3º/4º Termo;85;6.0;7.0;7.0;7.0;7.0;9.0;7.0;9.0;7.0;2;2024.1;Noite;58;Não;Regular
+Maria Souza;EJA II 3º/4º Termo;63;4.5;7.0;6.0;6.0;7.0;6.5;6.5;5.5;7.0;5;2024.1;Noite;25;Não;Falta por cuidar dos filhos
+Márcia Alves;EJA II 3º/4º Termo;66;5.5;6.0;4.5;6.5;7.5;6.0;5.0;7.5;7.0;4;2024.1;Noite;64;Não;Falta por cuidar dos filhos
+Márcia Araújo;EJA II 3º/4º Termo;66;7.0;6.5;6.5;4.5;7.0;7.0;6.5;5.0;6.0;4;2024.1;Noite;18;Não;Faltas frequentes
+Paulo Almeida;EJA II 3º/4º Termo;96;9.0;9.5;9.0;7.0;9.5;7.5;7.0;7.5;7.5;0;2024.1;Noite;25;Não;Participa das aulas
+Paulo Batista;EJA II 3º/4º Termo;85;8.5;7.5;6.0;8.5;8.0;7.5;6.0;7.0;8.5;1;2024.1;Noite;70;Não;Progresso contínuo
+Reginaldo Rodrigues;EJA II 3º/4º Termo;63;6.5;6.5;6.5;6.0;6.0;6.0;5.0;5.0;7.5;3;2024.1;Noite;37;Não;Chega atrasado do trabalho
+Rosana Lopes;EJA II 3º/4º Termo;95;7.0;7.5;7.5;6.5;9.5;6.5;7.5;6.5;6.5;2;2024.1;Noite;16;Não;Bom desempenho
+Rosana Rodrigues;EJA II 3º/4º Termo;66;6.0;4.5;7.0;5.5;4.5;7.0;7.0;4.5;5.0;6;2024.1;Noite;16;Não;Faltas frequentes
+Valéria Teixeira;EJA II 3º/4º Termo;79;7.0;7.5;7.0;8.5;8.0;6.5;7.0;5.5;8.0;1;2024.1;Noite;16;Não;Bom desempenho
+Wesley Ramos;EJA II 3º/4º Termo;90;8.5;7.5;9.0;7.0;6.5;9.0;9.0;8.5;8.5;1;2024.1;Noite;60;Não;Progresso contínuo
+Ana Lima;EJA II 1º/2º Termo;87;7.5;6.0;7.5;8.5;6.0;6.5;8.0;6.0;7.5;2;2024.2;Noite;50;Não;Progresso contínuo
+Bruna Cavalcante;EJA II 1º/2º Termo;88;6.5;7.0;7.0;8.5;9.0;6.0;7.5;8.0;7.0;2;2024.2;Noite;44;Não;Dedicação nas atividades
+Claudinei Araújo;EJA II 1º/2º Termo;97;9.5;8.0;6.5;9.0;7.0;8.5;8.0;7.0;8.0;1;2024.2;Noite;19;Não;Participa das aulas
+Claudinei Soares;EJA II 1º/2º Termo;81;8.0;8.5;6.5;8.0;5.5;7.5;6.5;6.5;5.5;0;2024.2;Noite;16;Não;Dedicação nas atividades
+Cleide Ribeiro;EJA II 1º/2º Termo;72;6.5;6.0;6.5;7.0;7.5;7.5;5.0;8.0;7.5;6;2024.2;Noite;62;Não;Faltas frequentes
+Elaine Andrade;EJA II 1º/2º Termo;88;9.0;6.5;8.0;6.5;7.0;6.5;6.0;9.0;8.5;0;2024.2;Noite;15;Não;Participa das aulas
+Everton Rodrigues;EJA II 1º/2º Termo;94;8.5;7.5;7.5;7.0;8.5;8.5;6.5;8.5;6.5;0;2024.2;Noite;18;Não;Participa das aulas
+Everton Souza;EJA II 1º/2º Termo;50;4.0;5.0;4.5;5.5;5.5;6.0;5.5;6.0;4.5;10;2024.2;Noite;54;Não;Contato com família sem retorno
+Francisco Araújo;EJA II 1º/2º Termo;80;8.0;6.5;8.5;7.0;6.0;7.5;7.0;8.0;6.5;0;2024.2;Noite;17;Não;Progresso contínuo
+Francisco Souza;EJA II 1º/2º Termo;83;7.5;8.0;8.5;8.5;5.5;7.0;8.5;5.5;6.0;1;2024.2;Noite;22;Sim;Necessita apoio
+Gabriela Nunes;EJA II 1º/2º Termo;77;6.5;5.5;6.0;6.5;6.5;7.0;5.5;7.0;8.0;0;2024.2;Noite;66;Sim;Necessita apoio
+Geraldo Cardoso;EJA II 1º/2º Termo;91;6.5;8.0;9.0;7.5;8.5;6.0;7.0;9.0;6.5;0;2024.2;Noite;42;Não;Progresso contínuo
+José Mendes;EJA II 1º/2º Termo;93;7.5;7.0;7.5;7.5;8.5;8.5;8.0;9.0;6.5;0;2024.2;Noite;60;Não;Bom desempenho
+Jéssica Machado;EJA II 1º/2º Termo;62;5.0;4.5;6.5;4.5;7.0;4.0;4.5;6.5;5.0;4;2024.2;Noite;51;Não;Faltas frequentes
+Luciana Dias;EJA II 1º/2º Termo;67;5.0;6.5;6.5;6.5;5.5;5.0;7.0;5.5;7.0;6;2024.2;Noite;25;Não;Trabalha em turno
+Luciana Rodrigues;EJA II 1º/2º Termo;88;8.0;8.0;6.0;9.0;8.0;6.5;7.0;6.5;7.0;1;2024.2;Noite;40;Não;Progresso contínuo
+Luiz Cardoso;EJA II 1º/2º Termo;94;7.5;6.5;7.5;8.0;9.5;8.0;6.5;8.5;9.0;0;2024.2;Noite;43;Não;Regular
+Marcos Nascimento;EJA II 1º/2º Termo;82;5.5;8.0;8.0;7.5;8.5;7.5;8.5;7.0;8.5;1;2024.2;Noite;17;Não;Regular
+Márcia Cavalcante;EJA II 1º/2º Termo;91;8.0;9.5;8.5;7.5;8.0;8.0;9.0;6.0;8.0;1;2024.2;Noite;64;Sim;Necessita apoio
+Paulo Nunes;EJA II 1º/2º Termo;84;7.0;7.0;7.5;7.0;8.5;8.5;9.0;7.0;6.0;1;2024.2;Noite;15;Não;Dedicação nas atividades
+Paulo Vieira;EJA II 1º/2º Termo;66;7.0;6.5;6.5;5.0;6.0;5.0;6.5;5.0;6.5;6;2024.2;Noite;38;Não;Falta por cuidar dos filhos
+Rafael Lopes;EJA II 1º/2º Termo;81;7.0;6.5;5.5;8.0;8.0;7.5;5.5;6.0;5.5;1;2024.2;Noite;44;Não;Regular
+Rafael Oliveira;EJA II 1º/2º Termo;94;7.0;6.5;8.0;6.5;9.5;9.0;9.5;6.5;8.0;2;2024.2;Noite;15;Não;Dedicação nas atividades
+Reginaldo Fernandes;EJA II 1º/2º Termo;87;6.5;7.0;8.5;6.5;8.0;8.5;9.0;7.5;8.5;2;2024.2;Noite;15;Não;Participa das aulas
+Sandra Batista;EJA II 1º/2º Termo;71;7.5;8.0;6.0;7.5;5.0;5.0;6.5;6.5;6.0;3;2024.2;Noite;27;Não;Chega atrasado do trabalho
+Sandra Teixeira;EJA II 1º/2º Termo;61;5.0;7.0;4.5;7.0;7.0;4.5;4.5;5.0;7.0;4;2024.2;Noite;37;Não;Faltas frequentes
+Silvana Alves;EJA II 1º/2º Termo;79;6.5;7.5;5.5;8.5;7.0;6.5;8.0;8.0;7.0;1;2024.2;Noite;15;Não;Bom desempenho
+Silvana Moreira;EJA II 1º/2º Termo;89;7.0;8.5;8.5;9.0;7.0;7.5;9.0;8.5;7.5;0;2024.2;Noite;16;Não;Participa das aulas
+Tatiane Teixeira;EJA II 1º/2º Termo;81;7.5;6.0;8.5;8.5;8.5;6.0;7.0;6.0;7.0;1;2024.2;Noite;65;Não;Dedicação nas atividades
+Valéria Rocha;EJA II 1º/2º Termo;98;9.5;7.5;9.5;9.0;7.5;9.5;9.0;8.5;9.5;1;2024.2;Noite;16;Não;Participa das aulas
+Vanessa Campos;EJA II 1º/2º Termo;80;5.5;7.5;8.0;6.0;6.0;5.5;6.5;8.0;6.0;2;2024.2;Noite;62;Não;Progresso contínuo
+Vanessa Costa;EJA II 1º/2º Termo;49;5.5;4.5;4.5;4.5;5.5;4.5;4.0;4.5;5.5;12;2024.2;Noite;63;Sim;Mudou de emprego, parou de vir
+Vanessa Pereira;EJA II 1º/2º Termo;90;9.5;7.5;7.0;7.5;8.5;8.5;9.0;7.5;8.0;0;2024.2;Noite;17;Não;Progresso contínuo
+Aline Machado;EJA II 1º/4º Termo;72;7.0;7.0;6.5;7.0;5.5;6.0;5.0;5.5;7.0;4;2024.2;Noite;15;Não;Falta por cuidar dos filhos
+Ana Dias;EJA II 1º/4º Termo;93;8.5;6.5;8.5;9.5;6.5;9.0;8.0;9.0;7.5;1;2024.2;Noite;17;Não;Regular
+Ana Martins;EJA II 1º/4º Termo;86;9.0;8.5;6.0;6.5;7.0;8.0;7.5;9.0;7.0;0;2024.2;Noite;16;Não;Participa das aulas
+Ana Mendes;EJA II 1º/4º Termo;31;4.5;4.0;4.5;3.0;5.0;3.5;5.0;2.5;2.0;8;2024.2;Noite;33;Não;Mudou de emprego, parou de vir
+Antônio Campos;EJA II 1º/4º Termo;82;8.0;8.0;6.0;7.5;8.0;8.0;8.5;8.0;7.5;0;2024.2;Noite;20;Não;Dedicação nas atividades
+Antônio Teixeira;EJA II 1º/4º Termo;78;7.0;8.5;5.5;6.5;7.0;7.5;6.0;6.0;6.5;0;2024.2;Noite;18;Sim;Necessita apoio
+Bruno Lopes;EJA II 1º/4º Termo;88;7.0;8.5;7.0;7.5;7.0;8.5;6.0;6.0;7.5;1;2024.2;Noite;32;Não;Dedicação nas atividades
+Cícero Teixeira;EJA II 1º/4º Termo;98;9.5;6.5;10.0;9.5;9.5;7.5;7.0;7.5;6.5;0;2024.2;Noite;69;Não;Regular
+Daniel Campos;EJA II 1º/4º Termo;86;7.5;6.0;6.5;6.0;8.5;6.5;7.5;7.5;9.0;2;2024.2;Noite;17;Não;Dedicação nas atividades
+Douglas Campos;EJA II 1º/4º Termo;92;8.5;7.0;9.0;8.0;8.5;6.5;8.0;6.5;6.5;1;2024.2;Noite;66;Não;Participa das aulas
+Elaine Cardoso;EJA II 1º/4º Termo;98;9.0;7.0;6.5;8.0;7.5;8.0;7.0;7.5;9.5;0;2024.2;Noite;67;Não;Progresso contínuo
+Everton Lima;EJA II 1º/4º Termo;85;8.5;9.0;7.5;7.5;6.5;6.0;6.0;7.5;7.5;0;2024.2;Noite;64;Não;Bom desempenho
+Geraldo Costa;EJA II 1º/4º Termo;76;6.5;7.0;7.0;7.0;5.5;6.5;5.5;7.0;7.0;1;2024.2;Noite;19;Não;Bom desempenho
+Ivone Martins;EJA II 1º/4º Termo;86;8.5;6.5;6.0;8.0;7.0;8.5;7.5;8.5;7.5;2;2024.2;Noite;67;Não;Dedicação nas atividades
+Josefa Rodrigues;EJA II 1º/4º Termo;80;6.0;5.5;8.0;7.5;6.0;7.0;7.0;6.0;7.0;0;2024.2;Noite;62;Não;Dedicação nas atividades
+João Araújo;EJA II 1º/4º Termo;78;7.0;6.5;7.5;6.0;5.5;6.0;7.5;7.0;6.0;0;2024.2;Noite;65;Não;Progresso contínuo
+Juliana Ramos;EJA II 1º/4º Termo;78;6.0;6.0;6.5;6.0;6.0;8.0;6.5;6.5;8.0;2;2024.2;Noite;16;Sim;Necessita apoio
+Ketlyn Santana;EJA II 1º/4º Termo;65;7.0;6.5;4.5;5.5;7.0;7.0;5.0;6.5;6.5;5;2024.2;Noite;68;Não;Falta por cuidar dos filhos
+Luiz Teixeira;EJA II 1º/4º Termo;42;3.5;5.5;5.0;5.0;5.5;4.5;5.5;4.0;5.5;20;2024.2;Noite;45;Não;Sem comparecer há semanas
+Márcia Carvalho;EJA II 1º/4º Termo;84;8.5;8.0;8.5;8.0;8.0;8.5;6.5;9.0;6.5;2;2024.2;Noite;60;Não;Bom desempenho
+Patrícia Santos;EJA II 1º/4º Termo;98;7.5;7.5;9.5;7.0;6.5;9.0;7.5;7.0;7.0;1;2024.2;Noite;58;Não;Regular
+Pedro Soares;EJA II 1º/4º Termo;64;7.0;7.0;5.5;4.5;5.5;7.0;6.0;5.5;7.0;6;2024.2;Noite;17;Não;Faltas frequentes
+Pedro Souza;EJA II 1º/4º Termo;78;6.0;7.5;7.5;7.5;7.0;7.5;5.5;6.0;6.5;0;2024.2;Noite;15;Não;Participa das aulas
+Rafael Carvalho;EJA II 1º/4º Termo;69;7.0;5.0;6.5;7.0;4.5;7.0;6.5;4.5;7.5;5;2024.2;Noite;16;Não;Falta por cuidar dos filhos
+Rayssa Rocha;EJA II 1º/4º Termo;67;5.0;6.0;5.5;6.0;7.5;5.0;7.5;6.5;7.0;5;2024.2;Noite;22;Não;Trabalha em turno
+Reginaldo Lima;EJA II 1º/4º Termo;97;9.0;9.5;10.0;7.0;9.0;9.0;9.5;9.5;7.5;1;2024.2;Noite;62;Não;Dedicação nas atividades
+Sebastião Ramos;EJA II 1º/4º Termo;71;8.0;6.0;4.5;6.0;5.5;7.5;7.0;6.0;5.5;5;2024.2;Noite;15;Não;Trabalha em turno
+Sebastião Teixeira;EJA II 1º/4º Termo;77;6.5;8.0;7.5;5.5;7.5;5.5;6.0;7.5;6.0;0;2024.2;Noite;53;Não;Participa das aulas
+Wesley Gomes;EJA II 1º/4º Termo;85;7.0;8.5;6.0;8.5;7.5;6.5;8.0;7.0;6.5;2;2024.2;Noite;65;Não;Participa das aulas
+Adriana Alves;EJA II 3º/4º Termo;77;6.5;6.5;7.5;5.5;7.5;8.5;7.0;7.0;5.5;1;2024.2;Noite;19;Não;Bom desempenho
+Adriana Cardoso;EJA II 3º/4º Termo;91;7.0;9.0;8.0;8.5;8.0;6.5;6.5;8.5;9.0;1;2024.2;Noite;18;Não;Dedicação nas atividades
+Adriana Vieira;EJA II 3º/4º Termo;98;8.5;7.5;7.5;8.0;8.0;9.5;9.0;7.0;8.5;0;2024.2;Noite;19;Não;Progresso contínuo
+Aline Batista;EJA II 3º/4º Termo;90;8.5;7.5;8.5;9.0;7.0;7.5;7.0;8.5;6.5;1;2024.2;Noite;17;Não;Bom desempenho
+Aline Fernandes;EJA II 3º/4º Termo;79;7.5;8.5;7.0;5.5;8.0;7.5;6.5;6.0;7.0;1;2024.2;Noite;19;Não;Progresso contínuo
+Amanda Alves;EJA II 3º/4º Termo;27;3.5;2.0;2.5;5.0;4.5;2.0;2.0;4.0;4.5;12;2024.2;Noite;17;Não;Contato com família sem retorno
+Amanda Ribeiro;EJA II 3º/4º Termo;95;9.5;8.5;9.0;6.5;9.5;8.0;9.5;7.5;7.0;2;2024.2;Noite;39;Não;Dedicação nas atividades
+Amanda Santos;EJA II 3º/4º Termo;40;2.5;3.0;5.5;6.0;3.0;2.5;5.0;3.5;4.5;19;2024.2;Noite;46;Não;Mudou de emprego, parou de vir
+Antônio Oliveira;EJA II 3º/4º Termo;81;8.5;8.0;7.5;8.0;6.0;7.5;5.5;6.5;8.5;2;2024.2;Noite;15;Não;Progresso contínuo
+Cleide Almeida;EJA II 3º/4º Termo;66;7.5;5.0;4.5;6.0;5.5;7.5;6.0;5.5;7.0;6;2024.2;Noite;54;Não;Falta por cuidar dos filhos
+Everton Fernandes;EJA II 3º/4º Termo;36;5.0;5.0;3.0;5.0;5.0;3.0;5.5;3.5;2.0;9;2024.2;Noite;71;Não;Mudou de emprego, parou de vir
+Everton Martins;EJA II 3º/4º Termo;78;7.0;5.0;6.5;6.0;7.5;5.5;8.5;6.5;5.5;0;2024.2;Noite;32;Não;Progresso contínuo
+Francisco Pinto;EJA II 3º/4º Termo;88;7.0;6.5;6.0;6.5;6.0;8.0;7.5;6.0;8.5;0;2024.2;Noite;15;Não;Bom desempenho
+Francisco Rodrigues;EJA II 3º/4º Termo;61;7.0;5.0;6.5;7.0;5.5;7.0;7.0;6.5;5.5;3;2024.2;Noite;46;Não;Faltas frequentes
+Ivone Carvalho;EJA II 3º/4º Termo;72;6.0;7.5;5.5;5.0;8.0;7.5;7.5;6.0;8.0;6;2024.2;Noite;53;Não;Falta por cuidar dos filhos
+José Ramos;EJA II 3º/4º Termo;97;7.0;8.0;10.0;8.5;7.5;9.5;7.0;7.0;9.5;1;2024.2;Noite;28;Não;Bom desempenho
+João Santos;EJA II 3º/4º Termo;83;7.5;8.0;6.0;7.5;6.5;6.5;7.5;6.0;5.5;0;2024.2;Noite;58;Não;Bom desempenho
+Juliana Martins;EJA II 3º/4º Termo;56;5.5;6.5;5.5;6.0;6.5;4.0;6.5;4.5;4.0;6;2024.2;Noite;49;Não;Chega atrasado do trabalho
+Jéssica Rocha;EJA II 3º/4º Termo;84;7.5;6.0;6.5;8.0;8.0;7.0;6.0;7.0;6.5;0;2024.2;Noite;16;Não;Regular
+Márcia Alves;EJA II 3º/4º Termo;97;9.5;7.5;8.0;8.0;9.5;8.5;8.5;7.5;8.5;1;2024.2;Noite;64;Não;Regular
+Márcia Araújo;EJA II 3º/4º Termo;65;7.5;7.5;6.5;5.5;7.5;5.5;7.5;5.5;6.5;3;2024.2;Noite;18;Não;Faltas frequentes
+Paulo Batista;EJA II 3º/4º Termo;77;5.0;6.5;6.0;5.5;8.0;5.5;5.0;8.0;6.5;0;2024.2;Noite;70;Não;Regular
+Reginaldo Rodrigues;EJA II 3º/4º Termo;61;7.0;6.0;5.0;5.0;5.5;6.5;6.5;6.5;5.5;6;2024.2;Noite;37;Não;Falta por cuidar dos filhos
+Rodrigo Moura;EJA II 3º/4º Termo;80;7.0;8.0;8.5;7.5;7.0;6.0;7.5;8.5;7.5;0;2024.2;Noite;24;Sim;Necessita apoio
+Rosana Rodrigues;EJA II 3º/4º Termo;95;8.5;6.5;8.5;6.5;8.0;7.5;9.0;8.0;7.0;2;2024.2;Noite;16;Não;Progresso contínuo
+Sandra Moura;EJA II 3º/4º Termo;89;8.5;8.0;8.5;8.5;9.0;9.0;8.0;7.0;6.5;2;2024.2;Noite;17;Não;Participa das aulas
+Valéria Martins;EJA II 3º/4º Termo;85;6.5;7.0;7.0;8.0;6.0;7.5;8.0;8.5;6.5;1;2024.2;Noite;18;Não;Participa das aulas
+Valéria Teixeira;EJA II 3º/4º Termo;80;8.5;8.0;6.5;8.0;7.0;6.5;8.0;6.5;6.0;2;2024.2;Noite;16;Não;Dedicação nas atividades
+Wesley Fernandes;EJA II 3º/4º Termo;81;6.0;6.5;7.0;6.5;8.0;8.5;6.0;7.5;7.5;0;2024.2;Noite;53;Não;Regular
+Wesley Ramos;EJA II 3º/4º Termo;84;5.5;6.0;6.5;7.5;7.5;8.0;9.0;8.0;6.5;0;2024.2;Noite;60;Não;Participa das aulas
+Ana Lima;EJA II 1º/2º Termo;95;7.0;9.0;7.0;8.0;8.0;9.0;8.0;7.0;7.5;1;2025.1;Noite;51;Não;Dedicação nas atividades
+Ana Moreira;EJA II 1º/2º Termo;66;7.0;5.0;5.5;4.5;4.5;7.5;5.5;6.5;6.0;3;2025.1;Noite;20;Não;Faltas frequentes
+Bruna Cavalcante;EJA II 1º/2º Termo;96;8.5;7.0;8.5;7.0;9.5;8.0;8.0;7.0;6.5;2;2025.1;Noite;45;Não;Participa das aulas
+Bruno Soares;EJA II 1º/2º Termo;83;6.5;7.0;6.5;5.5;8.5;7.5;8.0;6.5;6.0;0;2025.1;Noite;27;Não;Participa das aulas
+Elaine Andrade;EJA II 1º/2º Termo;98;7.5;9.0;8.0;8.5;9.5;8.0;6.5;8.0;8.5;0;2025.1;Noite;16;Não;Dedicação nas atividades
+Francisco Araújo;EJA II 1º/2º Termo;90;7.5;6.5;8.5;7.0;7.0;8.5;9.0;8.5;6.5;0;2025.1;Noite;18;Não;Regular
+Francisco Souza;EJA II 1º/2º Termo;26;4.5;3.0;3.0;3.0;3.0;4.0;4.5;1.5;2.5;20;2025.1;Noite;23;Sim;Mudou de emprego, parou de vir
+Geraldo Cardoso;EJA II 1º/2º Termo;98;10.0;9.0;7.0;8.0;8.5;7.5;7.0;9.0;8.5;1;2025.1;Noite;43;Não;Progresso contínuo
+José Mendes;EJA II 1º/2º Termo;86;7.5;7.0;6.0;6.0;8.0;6.0;7.0;7.5;8.5;0;2025.1;Noite;60;Não;Bom desempenho
+Jéssica Machado;EJA II 1º/2º Termo;67;5.0;6.0;5.0;5.5;6.5;6.5;5.5;6.5;5.5;4;2025.1;Noite;51;Não;Falta por cuidar dos filhos
+Luciana Dias;EJA II 1º/2º Termo;86;8.5;9.0;7.0;8.0;7.0;8.5;7.0;8.0;7.5;1;2025.1;Noite;26;Não;Dedicação nas atividades
+Luciana Rodrigues;EJA II 1º/2º Termo;69;7.0;6.0;5.0;6.5;5.5;6.5;6.0;7.0;7.0;4;2025.1;Noite;41;Não;Trabalha em turno
+Luiz Cardoso;EJA II 1º/2º Termo;78;8.0;6.0;8.0;7.5;8.0;6.0;7.5;5.5;6.5;2;2025.1;Noite;44;Não;Progresso contínuo
+Márcia Cavalcante;EJA II 1º/2º Termo;62;5.0;7.5;6.5;6.5;4.5;6.5;5.5;7.0;7.0;4;2025.1;Noite;65;Sim;Trabalha em turno
+Paulo Lopes;EJA II 1º/2º Termo;82;8.0;6.5;7.0;6.5;6.5;7.0;7.5;8.0;8.0;1;2025.1;Noite;19;Não;Bom desempenho
+Paulo Moura;EJA II 1º/2º Termo;81;6.0;8.5;7.0;6.5;6.0;7.5;7.5;8.0;8.5;2;2025.1;Noite;19;Sim;Necessita apoio
+Paulo Nunes;EJA II 1º/2º Termo;63;5.5;7.5;5.0;6.0;6.0;6.5;7.0;6.0;6.5;6;2025.1;Noite;16;Não;Trabalha em turno
+Paulo Vieira;EJA II 1º/2º Termo;63;6.5;6.0;7.0;7.0;4.5;6.5;7.0;4.5;4.5;5;2025.1;Noite;38;Não;Chega atrasado do trabalho
+Rafael Lopes;EJA II 1º/2º Termo;71;6.5;7.5;5.5;5.0;5.5;6.5;6.5;5.5;6.0;4;2025.1;Noite;45;Não;Faltas frequentes
+Rafael Oliveira;EJA II 1º/2º Termo;86;8.0;6.5;9.0;6.5;8.5;8.0;8.5;6.0;6.5;2;2025.1;Noite;15;Não;Regular
+Rayssa Cavalcante;EJA II 1º/2º Termo;84;6.0;6.5;6.5;7.0;6.0;8.5;6.0;6.0;6.5;2;2025.1;Noite;57;Não;Progresso contínuo
+Renata Ramos;EJA II 1º/2º Termo;32;4.0;4.5;3.5;3.5;4.0;2.5;2.0;5.0;2.0;17;2025.1;Noite;15;Não;Mudou de emprego, parou de vir
+Sebastião Batista;EJA II 1º/2º Termo;68;5.5;6.0;6.0;6.5;6.0;7.5;6.5;5.0;6.0;4;2025.1;Noite;19;Não;Trabalha em turno
+Silvana Costa;EJA II 1º/2º Termo;88;7.5;6.0;6.5;6.0;6.0;7.5;7.0;9.0;7.5;1;2025.1;Noite;17;Sim;Necessita apoio
+Silvana Moreira;EJA II 1º/2º Termo;80;7.5;7.5;8.0;7.0;8.0;6.5;7.0;7.0;6.5;2;2025.1;Noite;17;Não;Regular
+Tatiane Teixeira;EJA II 1º/2º Termo;77;5.5;6.5;6.0;7.5;5.5;8.0;6.0;5.5;6.5;0;2025.1;Noite;66;Não;Participa das aulas
+Vanessa Campos;EJA II 1º/2º Termo;73;7.0;6.5;6.5;5.0;7.0;8.0;5.0;7.0;8.0;5;2025.1;Noite;62;Não;Chega atrasado do trabalho
+Vanessa Costa;EJA II 1º/2º Termo;83;8.5;7.5;8.0;7.5;7.0;5.5;8.0;6.5;6.0;0;2025.1;Noite;63;Sim;Necessita apoio
+Adriana Lima;EJA II 1º/4º Termo;64;4.5;6.5;5.0;6.5;4.5;6.0;7.0;6.0;6.0;6;2025.1;Noite;19;Não;Falta por cuidar dos filhos
+Amanda Dias;EJA II 1º/4º Termo;70;7.5;6.0;7.0;6.5;7.0;7.5;5.0;6.5;6.5;4;2025.1;Noite;48;Não;Falta por cuidar dos filhos
+Ana Mendes;EJA II 1º/4º Termo;93;8.0;7.0;9.5;6.5;6.5;8.5;6.5;6.5;8.5;0;2025.1;Noite;34;Não;Bom desempenho
+Antônio Campos;EJA II 1º/4º Termo;26;4.0;4.5;3.5;5.0;3.5;3.5;2.5;4.0;5.0;15;2025.1;Noite;21;Não;Sem comparecer há semanas
+Antônio Martins;EJA II 1º/4º Termo;92;6.5;6.5;7.0;8.5;9.0;7.5;9.0;8.5;8.0;0;2025.1;Noite;47;Não;Progresso contínuo
+Antônio Teixeira;EJA II 1º/4º Termo;28;4.5;5.0;4.0;2.0;4.0;2.5;2.0;4.5;2.0;18;2025.1;Noite;19;Sim;Contato com família sem retorno
+Cícero Teixeira;EJA II 1º/4º Termo;94;7.0;7.0;7.5;9.5;7.5;6.5;7.5;8.5;9.0;0;2025.1;Noite;69;Não;Progresso contínuo
+Daniel Campos;EJA II 1º/4º Termo;67;6.0;5.5;4.5;4.5;7.5;4.5;6.0;7.5;7.0;5;2025.1;Noite;17;Não;Chega atrasado do trabalho
+Edivaldo Carvalho;EJA II 1º/4º Termo;65;4.5;6.0;6.5;4.5;7.0;6.0;5.5;5.0;7.0;6;2025.1;Noite;44;Não;Chega atrasado do trabalho
+Elaine Cardoso;EJA II 1º/4º Termo;87;8.5;7.0;7.0;8.5;6.0;8.0;7.5;7.0;7.5;1;2025.1;Noite;67;Não;Dedicação nas atividades
+Francisco Martins;EJA II 1º/4º Termo;73;7.5;7.5;7.0;8.0;5.5;7.0;8.0;6.0;6.5;3;2025.1;Noite;17;Não;Falta por cuidar dos filhos
+Geraldo Costa;EJA II 1º/4º Termo;77;7.0;8.5;8.5;7.0;5.5;8.0;5.5;7.0;7.5;2;2025.1;Noite;20;Não;Bom desempenho
+Ivone Martins;EJA II 1º/4º Termo;93;7.0;8.5;6.5;6.5;6.5;8.0;8.0;7.5;7.5;1;2025.1;Noite;68;Não;Dedicação nas atividades
+José Dias;EJA II 1º/4º Termo;82;8.0;8.0;8.5;8.5;8.5;8.5;5.5;7.5;8.0;1;2025.1;Noite;19;Não;Participa das aulas
+João Araújo;EJA II 1º/4º Termo;89;8.0;8.5;6.0;7.0;9.0;9.0;7.5;6.5;6.5;1;2025.1;Noite;66;Não;Dedicação nas atividades
+Juliana Ramos;EJA II 1º/4º Termo;94;9.0;9.5;9.0;9.0;6.5;8.5;7.0;6.5;8.0;1;2025.1;Noite;17;Sim;Necessita apoio
+Jéssica Oliveira;EJA II 1º/4º Termo;98;9.5;7.5;9.5;7.0;9.0;6.5;7.5;6.5;7.0;0;2025.1;Noite;16;Não;Dedicação nas atividades
+Kaique Cardoso;EJA II 1º/4º Termo;79;6.0;5.5;8.0;7.5;5.5;6.5;6.0;6.5;5.5;0;2025.1;Noite;29;Não;Bom desempenho
+Kauã Vieira;EJA II 1º/4º Termo;93;8.5;9.0;7.0;7.0;8.5;8.0;9.5;9.5;9.0;0;2025.1;Noite;18;Sim;Necessita apoio
+Luiz Cavalcante;EJA II 1º/4º Termo;83;6.0;6.5;6.0;6.5;7.5;7.5;7.0;8.5;6.5;0;2025.1;Noite;15;Não;Regular
+Luiz Teixeira;EJA II 1º/4º Termo;86;6.0;7.5;8.0;8.5;8.0;7.0;6.0;6.5;6.0;2;2025.1;Noite;46;Não;Dedicação nas atividades
+Patrícia Santos;EJA II 1º/4º Termo;31;4.5;4.0;2.0;2.0;3.5;5.0;4.5;2.5;4.5;11;2025.1;Noite;59;Não;Sem comparecer há semanas
+Pedro Souza;EJA II 1º/4º Termo;87;6.0;8.0;6.5;6.5;8.5;8.0;8.5;7.0;6.0;1;2025.1;Noite;16;Não;Progresso contínuo
+Rafael Carvalho;EJA II 1º/4º Termo;64;5.5;7.0;7.0;7.0;6.0;4.5;7.0;6.5;6.5;6;2025.1;Noite;16;Não;Faltas frequentes
+Reginaldo Lima;EJA II 1º/4º Termo;76;7.0;6.5;5.5;7.0;8.0;6.5;5.5;6.0;5.0;1;2025.1;Noite;63;Não;Dedicação nas atividades
+Renata Fernandes;EJA II 1º/4º Termo;62;4.5;6.0;6.5;7.0;7.0;7.5;6.5;4.5;4.5;3;2025.1;Noite;38;Não;Chega atrasado do trabalho
+Sebastião Ramos;EJA II 1º/4º Termo;65;5.5;7.5;4.5;7.5;6.0;6.5;7.5;5.5;5.5;6;2025.1;Noite;15;Não;Faltas frequentes
+Sebastião Teixeira;EJA II 1º/4º Termo;71;8.0;5.5;6.0;5.0;7.0;7.0;7.5;7.0;7.5;6;2025.1;Noite;53;Não;Chega atrasado do trabalho
+Vanessa Almeida;EJA II 1º/4º Termo;98;9.0;8.5;7.0;9.0;9.5;9.0;7.0;8.0;8.5;0;2025.1;Noite;19;Não;Bom desempenho
+Wesley Gomes;EJA II 1º/4º Termo;80;6.0;5.5;6.5;5.5;7.5;8.0;6.0;8.0;7.0;2;2025.1;Noite;66;Não;Progresso contínuo
+Adriana Cardoso;EJA II 3º/4º Termo;85;8.5;8.0;8.0;5.5;7.0;6.0;8.0;7.5;7.0;0;2025.1;Noite;19;Não;Regular
+Adriana Vieira;EJA II 3º/4º Termo;94;9.0;9.5;8.5;9.0;9.0;6.5;9.0;9.0;9.0;0;2025.1;Noite;20;Não;Bom desempenho
+Aline Batista;EJA II 3º/4º Termo;44;3.5;5.5;4.5;3.5;4.0;6.0;3.0;6.0;3.5;19;2025.1;Noite;18;Não;Sem comparecer há semanas
+Aline Fernandes;EJA II 3º/4º Termo;66;5.5;7.0;7.0;5.5;6.0;6.5;7.0;4.5;4.5;3;2025.1;Noite;20;Não;Falta por cuidar dos filhos
+Amanda Santos;EJA II 3º/4º Termo;45;4.5;4.5;5.0;4.5;5.0;6.0;3.0;5.0;3.5;18;2025.1;Noite;46;Não;Sem comparecer há semanas
+Antônio Oliveira;EJA II 3º/4º Termo;97;6.5;7.5;7.0;6.5;9.5;7.0;9.5;9.5;7.5;1;2025.1;Noite;16;Não;Dedicação nas atividades
+Claudinei Santos;EJA II 3º/4º Termo;76;7.5;7.5;6.0;8.0;6.0;6.0;6.5;7.0;6.5;1;2025.1;Noite;45;Não;Dedicação nas atividades
+Cleide Almeida;EJA II 3º/4º Termo;88;7.0;8.5;8.0;7.5;7.5;6.5;7.0;8.0;8.0;0;2025.1;Noite;55;Não;Participa das aulas
+Douglas Cardoso;EJA II 3º/4º Termo;95;7.5;7.0;9.0;9.5;9.5;9.0;8.0;9.5;7.0;2;2025.1;Noite;50;Não;Bom desempenho
+Douglas Pereira;EJA II 3º/4º Termo;77;7.5;8.0;6.5;6.5;6.0;6.0;5.5;8.0;6.0;0;2025.1;Noite;17;Não;Regular
+Edivaldo Cavalcante;EJA II 3º/4º Termo;96;9.5;8.5;9.5;7.0;8.0;9.5;8.0;7.5;8.0;1;2025.1;Noite;24;Sim;Necessita apoio
+Eduardo Alves;EJA II 3º/4º Termo;95;6.5;8.5;7.0;8.0;8.5;6.5;7.5;7.0;9.0;2;2025.1;Noite;72;Não;Progresso contínuo
+Elaine Silva;EJA II 3º/4º Termo;86;8.0;8.0;8.0;8.0;8.0;7.0;6.5;6.5;6.5;2;2025.1;Noite;48;Sim;Necessita apoio
+Everton Fernandes;EJA II 3º/4º Termo;70;7.0;6.0;7.0;6.0;6.0;6.0;6.0;7.5;4.5;4;2025.1;Noite;72;Não;Faltas frequentes
+Everton Martins;EJA II 3º/4º Termo;91;9.0;8.5;7.5;7.5;8.0;8.0;7.0;8.5;8.0;2;2025.1;Noite;32;Não;Dedicação nas atividades
+Francisco Machado;EJA II 3º/4º Termo;76;5.0;7.0;7.5;6.5;5.0;7.5;6.5;5.0;7.5;0;2025.1;Noite;17;Não;Dedicação nas atividades
+Francisco Pinto;EJA II 3º/4º Termo;64;6.5;5.0;5.0;6.5;5.5;4.5;4.5;4.5;4.5;5;2025.1;Noite;16;Não;Chega atrasado do trabalho
+Francisco Rodrigues;EJA II 3º/4º Termo;77;8.0;5.0;7.0;7.5;8.0;5.5;7.5;7.0;8.0;1;2025.1;Noite;47;Não;Regular
+Gabriela Ferreira;EJA II 3º/4º Termo;32;5.0;3.0;3.5;4.0;2.5;5.0;2.5;3.0;5.0;9;2025.1;Noite;36;Não;Contato com família sem retorno
+Geraldo Silva;EJA II 3º/4º Termo;83;7.5;5.5;6.5;7.0;8.0;7.0;8.5;6.0;6.5;0;2025.1;Noite;35;Não;Dedicação nas atividades
+Ivone Carvalho;EJA II 3º/4º Termo;87;7.0;7.5;6.0;8.5;6.5;6.0;6.5;7.5;9.0;2;2025.1;Noite;54;Não;Progresso contínuo
+José Ramos;EJA II 3º/4º Termo;88;9.0;6.0;8.5;7.5;6.5;6.5;7.5;6.5;9.0;0;2025.1;Noite;29;Não;Regular
+José Rocha;EJA II 3º/4º Termo;94;6.5;8.0;7.5;8.5;8.0;9.0;7.5;7.5;9.5;2;2025.1;Noite;16;Não;Progresso contínuo
+Juliana Martins;EJA II 3º/4º Termo;56;6.5;6.5;4.5;6.5;4.0;6.5;5.5;4.5;6.5;3;2025.1;Noite;49;Não;Falta por cuidar dos filhos
+Jéssica Rocha;EJA II 3º/4º Termo;84;8.0;6.5;8.0;6.0;6.5;6.5;7.0;6.0;6.0;1;2025.1;Noite;16;Não;Progresso contínuo
+Márcia Alves;EJA II 3º/4º Termo;85;6.0;9.0;7.0;8.0;8.0;7.0;8.5;5.5;7.0;2;2025.1;Noite;65;Não;Participa das aulas
+Márcia Araújo;EJA II 3º/4º Termo;69;5.0;5.5;6.0;7.5;5.0;7.0;7.0;7.0;7.0;3;2025.1;Noite;19;Não;Faltas frequentes
+Reginaldo Nunes;EJA II 3º/4º Termo;80;7.0;5.5;5.5;6.0;6.5;5.5;8.0;8.0;5.5;2;2025.1;Noite;17;Não;Regular
+Reginaldo Rodrigues;EJA II 3º/4º Termo;93;9.5;6.5;7.5;8.0;7.0;9.0;8.5;8.0;7.0;0;2025.1;Noite;38;Não;Bom desempenho
+Rodrigo Moura;EJA II 3º/4º Termo;63;5.0;6.5;6.0;4.5;7.5;6.5;6.5;5.5;5.0;4;2025.1;Noite;24;Sim;Faltas frequentes
+Sandra Moura;EJA II 3º/4º Termo;72;6.5;8.0;5.5;5.0;7.0;5.5;5.0;6.0;7.0;3;2025.1;Noite;17;Não;Chega atrasado do trabalho
+Silvana Ribeiro;EJA II 3º/4º Termo;62;5.5;6.5;5.5;7.0;5.5;5.5;4.5;4.5;5.5;5;2025.1;Noite;71;Sim;Trabalha em turno
+Valéria Martins;EJA II 3º/4º Termo;88;9.0;6.0;8.0;7.5;8.5;7.0;8.5;8.0;7.5;2;2025.1;Noite;18;Não;Regular
+Valéria Teixeira;EJA II 3º/4º Termo;61;6.0;5.5;7.0;7.0;5.5;6.5;5.5;6.5;7.0;5;2025.1;Noite;17;Não;Falta por cuidar dos filhos
+Vanessa Moura;EJA II 3º/4º Termo;87;8.5;8.0;8.0;9.0;6.5;6.5;8.0;6.5;6.5;2;2025.1;Noite;35;Não;Participa das aulas
+Wesley Fernandes;EJA II 3º/4º Termo;84;9.0;7.0;8.5;6.0;7.0;9.0;7.5;7.5;8.0;0;2025.1;Noite;53;Não;Regular
+Wesley Ramos;EJA II 3º/4º Termo;60;4.0;6.0;6.0;7.0;5.5;6.0;5.5;4.5;6.5;5;2025.1;Noite;61;Não;Falta por cuidar dos filhos
+Amanda Costa;EJA II 1º/2º Termo;98;7.5;7.0;8.0;8.5;7.5;7.5;9.0;9.0;8.5;0;2025.2;Noite;18;Não;Progresso contínuo
+Ana Moreira;EJA II 1º/2º Termo;94;8.0;9.5;9.0;8.5;8.5;7.5;7.5;9.0;8.0;0;2025.2;Noite;20;Não;Dedicação nas atividades
+Bruna Cavalcante;EJA II 1º/2º Termo;78;5.5;8.0;7.5;8.0;7.0;7.5;7.5;7.5;6.0;1;2025.2;Noite;45;Não;Dedicação nas atividades
+Bruno Soares;EJA II 1º/2º Termo;82;7.5;8.5;7.0;8.5;6.0;7.5;8.5;8.0;8.5;1;2025.2;Noite;27;Não;Regular
+Claudinei Almeida;EJA II 1º/2º Termo;78;6.0;6.5;7.5;6.0;8.0;5.5;5.5;5.5;6.5;1;2025.2;Noite;16;Não;Progresso contínuo
+Felipe Ribeiro;EJA II 1º/2º Termo;77;6.0;5.5;5.5;8.0;7.5;7.5;7.0;7.0;6.5;0;2025.2;Noite;34;Não;Dedicação nas atividades
+Francisco Araújo;EJA II 1º/2º Termo;93;7.5;7.0;9.0;6.5;7.0;7.0;7.5;7.0;7.0;0;2025.2;Noite;18;Não;Regular
+Francisco Souza;EJA II 1º/2º Termo;96;8.5;9.0;8.0;7.5;9.0;7.0;9.0;8.0;7.5;2;2025.2;Noite;23;Sim;Necessita apoio
+Gabriela Almeida;EJA II 1º/2º Termo;82;5.5;6.0;8.0;7.0;6.5;7.5;6.5;6.5;6.0;2;2025.2;Noite;48;Não;Progresso contínuo
+Gabriela Moreira;EJA II 1º/2º Termo;82;7.5;5.5;6.5;7.5;6.5;7.0;7.5;6.5;7.0;1;2025.2;Noite;48;Sim;Necessita apoio
+Ivone Batista;EJA II 1º/2º Termo;58;6.5;4.5;5.5;6.5;4.5;5.5;5.0;6.0;4.0;3;2025.2;Noite;25;Não;Falta por cuidar dos filhos
+Josefa Freitas;EJA II 1º/2º Termo;90;7.0;8.0;9.0;8.5;7.5;8.0;7.5;7.5;8.0;0;2025.2;Noite;70;Sim;Necessita apoio
+Josefa Ribeiro;EJA II 1º/2º Termo;66;6.5;5.5;6.5;7.5;4.5;7.0;7.5;6.5;7.5;6;2025.2;Noite;60;Não;Trabalha em turno
+Josefa Santos;EJA II 1º/2º Termo;64;4.5;5.0;4.5;5.5;5.5;6.5;7.0;4.5;7.0;6;2025.2;Noite;65;Não;Falta por cuidar dos filhos
+José Mendes;EJA II 1º/2º Termo;68;6.0;6.0;4.5;7.5;7.0;6.0;5.5;7.0;7.0;5;2025.2;Noite;61;Não;Chega atrasado do trabalho
+Juliana Freitas;EJA II 1º/2º Termo;71;7.0;7.0;5.5;7.5;7.0;5.5;5.0;6.5;5.0;4;2025.2;Noite;42;Não;Falta por cuidar dos filhos
+Jéssica Machado;EJA II 1º/2º Termo;64;4.5;5.0;4.0;7.0;7.0;5.0;7.5;7.0;5.5;4;2025.2;Noite;52;Não;Faltas frequentes
+Kauã Pereira;EJA II 1º/2º Termo;85;6.0;7.0;6.0;7.0;8.0;8.5;7.5;8.0;7.0;0;2025.2;Noite;46;Não;Progresso contínuo
+Luciana Dias;EJA II 1º/2º Termo;60;6.5;4.5;4.0;4.0;5.0;6.0;6.5;6.5;4.5;4;2025.2;Noite;26;Não;Trabalha em turno
+Luiz Cardoso;EJA II 1º/2º Termo;81;6.5;8.5;5.5;7.5;8.5;8.0;8.5;6.0;7.5;0;2025.2;Noite;44;Não;Bom desempenho
+Paulo Lopes;EJA II 1º/2º Termo;92;7.5;8.0;8.0;7.0;7.5;7.5;7.0;7.0;7.5;2;2025.2;Noite;19;Não;Bom desempenho
+Paulo Moura;EJA II 1º/2º Termo;63;6.0;5.0;6.0;5.0;4.5;4.5;5.0;7.5;5.5;5;2025.2;Noite;19;Sim;Trabalha em turno
+Paulo Nunes;EJA II 1º/2º Termo;89;6.0;9.0;7.0;7.0;7.0;8.0;7.5;8.0;7.0;0;2025.2;Noite;16;Não;Dedicação nas atividades
+Paulo Vieira;EJA II 1º/2º Termo;62;6.5;6.5;7.0;4.5;6.0;4.5;6.5;7.0;6.5;6;2025.2;Noite;39;Não;Chega atrasado do trabalho
+Rafael Lopes;EJA II 1º/2º Termo;81;7.0;6.5;8.0;6.0;5.5;7.0;8.5;5.5;6.5;2;2025.2;Noite;45;Não;Dedicação nas atividades
+Rafael Oliveira;EJA II 1º/2º Termo;84;8.0;6.5;7.5;6.5;6.0;6.5;5.5;7.5;7.5;1;2025.2;Noite;16;Não;Progresso contínuo
+Rayssa Cavalcante;EJA II 1º/2º Termo;96;9.0;6.5;7.5;7.5;7.0;8.0;7.5;6.5;9.5;0;2025.2;Noite;57;Não;Dedicação nas atividades
+Sebastião Batista;EJA II 1º/2º Termo;66;5.5;5.5;5.5;7.5;7.5;6.5;5.5;7.0;4.5;5;2025.2;Noite;19;Não;Trabalha em turno
+Silvana Costa;EJA II 1º/2º Termo;84;7.5;6.0;5.5;9.0;8.5;8.5;6.5;9.0;8.5;1;2025.2;Noite;17;Sim;Necessita apoio
+Silvana Rodrigues;EJA II 1º/2º Termo;66;4.5;7.0;5.0;4.5;6.0;6.0;6.0;5.5;5.5;3;2025.2;Noite;50;Não;Falta por cuidar dos filhos
+Vanessa Campos;EJA II 1º/2º Termo;67;5.5;7.5;5.0;7.5;7.5;7.5;5.5;4.5;5.5;5;2025.2;Noite;63;Não;Chega atrasado do trabalho
+Vanessa Costa;EJA II 1º/2º Termo;82;6.0;8.0;6.5;8.0;6.0;6.0;7.5;5.5;8.0;1;2025.2;Noite;64;Sim;Necessita apoio
+Amanda Dias;EJA II 1º/4º Termo;74;5.5;7.0;7.5;7.5;7.0;5.0;8.0;6.5;5.5;6;2025.2;Noite;48;Não;Trabalha em turno
+Antônio Martins;EJA II 1º/4º Termo;93;8.5;7.5;8.0;6.5;8.5;8.5;6.5;6.0;9.5;1;2025.2;Noite;47;Não;Regular
+Bruno Freitas;EJA II 1º/4º Termo;87;6.5;9.0;8.0;6.0;8.0;7.0;6.0;6.0;7.0;0;2025.2;Noite;21;Não;Regular
+Cícero Teixeira;EJA II 1º/4º Termo;91;9.0;7.5;7.5;7.5;8.0;6.5;7.5;7.5;9.5;0;2025.2;Noite;70;Não;Progresso contínuo
+Daniel Campos;EJA II 1º/4º Termo;87;7.5;9.0;8.5;8.5;6.0;6.5;8.5;7.5;8.0;2;2025.2;Noite;18;Não;Bom desempenho
+Douglas Moura;EJA II 1º/4º Termo;67;5.5;6.5;6.0;5.0;5.0;6.5;6.5;6.0;6.0;4;2025.2;Noite;27;Não;Falta por cuidar dos filhos
+Edivaldo Carvalho;EJA II 1º/4º Termo;77;8.0;6.0;6.5;6.0;6.0;6.0;5.0;7.5;6.5;1;2025.2;Noite;44;Não;Bom desempenho
+Elaine Cardoso;EJA II 1º/4º Termo;28;3.5;3.5;3.5;4.0;4.0;3.5;3.0;3.0;2.0;20;2025.2;Noite;68;Não;Contato com família sem retorno
+Fernanda Pereira;EJA II 1º/4º Termo;60;6.0;5.0;6.5;7.0;6.0;5.5;7.0;4.5;6.5;5;2025.2;Noite;41;Não;Faltas frequentes
+Francisco Lopes;EJA II 1º/4º Termo;90;6.5;7.5;9.0;8.5;7.0;8.5;8.5;8.0;7.0;0;2025.2;Noite;63;Não;Bom desempenho
+Francisco Marques;EJA II 1º/4º Termo;74;7.5;6.5;5.5;6.5;6.5;6.5;5.0;7.0;5.0;3;2025.2;Noite;38;Não;Trabalha em turno
+Francisco Martins;EJA II 1º/4º Termo;95;9.5;8.0;9.0;7.0;6.5;9.5;6.5;7.5;7.0;1;2025.2;Noite;17;Não;Regular
+Geraldo Costa;EJA II 1º/4º Termo;91;8.5;6.5;7.0;7.0;8.0;9.0;6.5;8.5;7.0;2;2025.2;Noite;20;Não;Regular
+Josefa Mendes;EJA II 1º/4º Termo;95;7.0;8.0;8.0;7.5;7.0;9.0;8.5;9.5;6.5;0;2025.2;Noite;31;Não;Dedicação nas atividades
+José Dias;EJA II 1º/4º Termo;77;8.0;8.0;8.5;6.5;6.0;5.5;6.0;8.0;6.0;2;2025.2;Noite;19;Não;Dedicação nas atividades
+Jéssica Freitas;EJA II 1º/4º Termo;69;7.0;7.0;6.5;7.5;7.0;6.0;4.5;5.0;6.5;5;2025.2;Noite;15;Não;Falta por cuidar dos filhos
+Jéssica Gomes;EJA II 1º/4º Termo;78;6.0;8.5;7.5;5.5;7.5;6.5;6.5;6.5;5.5;0;2025.2;Noite;15;Não;Regular
+Jéssica Oliveira;EJA II 1º/4º Termo;98;7.5;9.0;9.5;7.5;9.0;9.5;8.0;7.5;9.0;0;2025.2;Noite;17;Não;Bom desempenho
+Júlia Soares;EJA II 1º/4º Termo;84;6.5;7.5;7.0;8.0;7.5;9.0;7.5;7.0;7.5;2;2025.2;Noite;15;Não;Participa das aulas
+Kaique Cardoso;EJA II 1º/4º Termo;77;8.0;6.0;5.5;6.5;8.5;5.5;7.5;6.0;6.5;1;2025.2;Noite;29;Não;Participa das aulas
+Kauã Rocha;EJA II 1º/4º Termo;85;6.0;6.5;9.0;7.5;7.5;7.5;6.5;9.0;6.0;0;2025.2;Noite;54;Não;Participa das aulas
+Kauã Vieira;EJA II 1º/4º Termo;95;9.0;9.5;8.5;9.5;7.5;8.0;9.0;7.5;7.5;0;2025.2;Noite;19;Sim;Necessita apoio
+Luiz Cavalcante;EJA II 1º/4º Termo;92;6.5;8.0;7.0;7.0;8.0;6.5;6.5;9.0;7.0;0;2025.2;Noite;15;Não;Regular
+Luiz Teixeira;EJA II 1º/4º Termo;80;6.5;6.0;7.0;6.5;7.5;7.5;6.0;7.5;8.0;0;2025.2;Noite;46;Não;Participa das aulas
+Maria Soares;EJA II 1º/4º Termo;87;7.0;7.0;6.0;8.5;7.5;7.5;8.5;6.0;7.5;2;2025.2;Noite;19;Não;Bom desempenho
+Patrícia Lima;EJA II 1º/4º Termo;40;5.5;5.5;4.5;5.0;5.0;3.0;3.5;4.5;5.0;20;2025.2;Noite;72;Não;Contato com família sem retorno
+Pedro Souza;EJA II 1º/4º Termo;63;5.0;5.0;7.0;5.5;6.5;5.5;5.5;7.5;7.0;3;2025.2;Noite;16;Não;Chega atrasado do trabalho
+Rosana Ramos;EJA II 1º/4º Termo;91;6.0;7.5;6.5;8.5;8.5;6.5;6.0;7.5;9.0;2;2025.2;Noite;69;Não;Bom desempenho
+Sebastião Ramos;EJA II 1º/4º Termo;97;9.0;9.5;6.5;9.5;7.5;9.5;9.5;8.0;8.5;1;2025.2;Noite;16;Não;Bom desempenho
+Sebastião Teixeira;EJA II 1º/4º Termo;61;6.5;7.0;5.0;7.5;4.0;7.0;6.5;6.5;6.5;5;2025.2;Noite;54;Não;Chega atrasado do trabalho
+Vanessa Almeida;EJA II 1º/4º Termo;89;6.0;9.0;8.5;7.0;8.5;6.0;6.0;6.0;8.5;0;2025.2;Noite;20;Não;Regular
+Wesley Gomes;EJA II 1º/4º Termo;94;7.5;7.5;8.5;9.0;9.0;9.0;8.5;8.5;9.0;0;2025.2;Noite;66;Não;Progresso contínuo
+Aline Batista;EJA II 3º/4º Termo;89;7.0;7.5;8.5;9.0;9.0;8.5;8.0;8.5;6.5;2;2025.2;Noite;18;Não;Bom desempenho
+Aline Lima;EJA II 3º/4º Termo;65;6.5;7.0;4.5;7.5;7.5;6.0;4.5;4.5;7.0;3;2025.2;Noite;25;Não;Chega atrasado do trabalho
+Amanda Santos;EJA II 3º/4º Termo;42;5.0;4.0;5.5;3.0;4.5;4.5;5.5;5.5;4.0;12;2025.2;Noite;47;Não;Contato com família sem retorno
+Antônio Mendes;EJA II 3º/4º Termo;79;5.5;7.5;6.5;5.5;8.0;8.5;8.0;5.5;6.5;1;2025.2;Noite;15;Não;Progresso contínuo
+Antônio Oliveira;EJA II 3º/4º Termo;72;6.0;7.0;6.0;7.0;5.5;5.0;7.5;5.0;6.5;4;2025.2;Noite;16;Não;Falta por cuidar dos filhos
+Claudinei Santos;EJA II 3º/4º Termo;97;9.5;7.0;8.0;7.5;9.5;8.5;6.5;8.5;9.5;2;2025.2;Noite;45;Não;Participa das aulas
+Eduardo Alves;EJA II 3º/4º Termo;70;6.0;7.5;6.5;6.0;5.0;7.0;7.0;7.0;5.0;4;2025.2;Noite;72;Não;Trabalha em turno
+Elaine Silva;EJA II 3º/4º Termo;96;8.5;6.5;7.0;8.0;8.5;6.5;7.0;7.0;9.0;1;2025.2;Noite;48;Sim;Necessita apoio
+Emilly Nunes;EJA II 3º/4º Termo;72;5.5;7.0;7.5;5.5;5.5;5.0;6.5;5.5;5.0;5;2025.2;Noite;15;Não;Trabalha em turno
+Francisco Machado;EJA II 3º/4º Termo;35;3.5;5.0;5.0;4.5;4.5;5.0;4.5;2.5;2.5;12;2025.2;Noite;17;Não;Mudou de emprego, parou de vir
+Gabriela Ferreira;EJA II 3º/4º Termo;95;8.0;8.0;8.0;8.0;9.5;8.0;9.0;6.5;7.5;2;2025.2;Noite;36;Não;Progresso contínuo
+Geraldo Silva;EJA II 3º/4º Termo;88;6.0;7.0;9.0;7.0;8.0;6.5;8.0;6.5;7.5;2;2025.2;Noite;35;Não;Progresso contínuo
+Ivone Carvalho;EJA II 3º/4º Termo;93;9.5;9.0;7.0;7.5;8.5;6.5;9.0;7.5;9.5;1;2025.2;Noite;54;Não;Bom desempenho
+José Rocha;EJA II 3º/4º Termo;94;9.5;8.5;6.5;7.0;6.5;8.0;7.5;7.5;6.5;2;2025.2;Noite;16;Não;Bom desempenho
+João Cavalcante;EJA II 3º/4º Termo;88;8.5;7.0;7.5;6.5;7.5;6.0;9.0;9.0;9.0;1;2025.2;Noite;16;Não;Progresso contínuo
+Juliana Martins;EJA II 3º/4º Termo;72;6.0;5.5;5.0;6.5;5.5;7.0;7.0;6.5;7.0;3;2025.2;Noite;50;Não;Faltas frequentes
+Jéssica Rocha;EJA II 3º/4º Termo;75;6.0;6.0;5.5;7.0;5.0;7.0;5.5;6.0;6.5;1;2025.2;Noite;17;Não;Participa das aulas
+Júlia Alves;EJA II 3º/4º Termo;75;6.5;8.0;5.0;8.0;7.0;8.0;7.0;6.0;8.0;2;2025.2;Noite;17;Não;Participa das aulas
+Kaique Costa;EJA II 3º/4º Termo;73;8.0;7.5;5.5;6.5;7.0;8.0;7.5;6.5;6.5;3;2025.2;Noite;41;Não;Faltas frequentes
+Kaique Ribeiro;EJA II 3º/4º Termo;32;2.5;2.0;2.5;3.5;4.5;4.5;2.5;3.5;3.0;18;2025.2;Noite;64;Não;Sem comparecer há semanas
+Ketlyn Barbosa;EJA II 3º/4º Termo;58;6.5;7.0;5.0;6.0;4.5;4.0;4.0;5.5;6.0;4;2025.2;Noite;16;Não;Faltas frequentes
+Lucas Cardoso;EJA II 3º/4º Termo;95;9.0;9.5;7.5;9.0;8.5;8.5;8.0;8.5;9.0;0;2025.2;Noite;15;Sim;Necessita apoio
+Reginaldo Nunes;EJA II 3º/4º Termo;81;6.0;6.0;7.0;7.5;8.5;6.0;8.5;7.5;6.0;1;2025.2;Noite;17;Não;Progresso contínuo
+Reginaldo Rodrigues;EJA II 3º/4º Termo;41;5.0;4.0;2.5;5.0;6.0;5.0;5.5;5.5;4.0;9;2025.2;Noite;38;Não;Mudou de emprego, parou de vir
+Sandra Moura;EJA II 3º/4º Termo;96;7.5;7.5;8.0;8.0;9.5;9.0;9.5;9.0;6.5;1;2025.2;Noite;18;Não;Regular
+Silvana Ribeiro;EJA II 3º/4º Termo;95;9.0;8.0;7.5;8.0;8.5;7.5;7.0;8.5;8.5;1;2025.2;Noite;71;Sim;Necessita apoio
+Valéria Teixeira;EJA II 3º/4º Termo;82;6.5;8.0;6.0;5.5;8.5;6.0;7.5;6.0;5.5;2;2025.2;Noite;17;Não;Progresso contínuo
+Wesley Fernandes;EJA II 3º/4º Termo;91;9.0;7.0;8.5;6.0;9.0;6.5;7.5;7.0;6.0;2;2025.2;Noite;54;Não;Bom desempenho
+Wesley Ramos;EJA II 3º/4º Termo;89;7.5;6.5;6.5;9.0;7.0;8.5;7.0;6.5;7.5;2;2025.2;Noite;61;Não;Bom desempenho
+Adriana Nascimento;EJA II 1º/2º Termo;93;9.5;9.5;8.0;6.5;9.0;6.5;7.5;9.5;8.0;0;2026.1;Noite;51;Não;Participa das aulas
+Amanda Costa;EJA II 1º/2º Termo;98;8.5;8.0;10.0;7.0;7.0;7.5;7.0;8.5;7.5;0;2026.1;Noite;18;Não;Participa das aulas
+Ana Moreira;EJA II 1º/2º Termo;92;8.5;9.0;8.0;8.0;7.0;8.5;6.5;9.5;7.5;1;2026.1;Noite;21;Não;Progresso contínuo
+Bruna Alves;EJA II 1º/2º Termo;85;8.5;8.5;6.5;7.5;7.0;7.0;8.0;8.5;6.0;0;2026.1;Noite;16;Não;Dedicação nas atividades
+Carlos Rocha;EJA II 1º/2º Termo;74;8.0;7.5;5.0;6.5;5.5;5.5;6.5;6.5;6.0;6;2026.1;Noite;18;Não;Faltas frequentes
+Claudinei Almeida;EJA II 1º/2º Termo;78;8.0;8.0;8.0;8.0;6.5;7.5;6.0;5.5;7.5;1;2026.1;Noite;16;Não;Regular
+Cleide Machado;EJA II 1º/2º Termo;98;9.5;8.5;7.0;8.5;8.0;8.5;7.0;8.5;7.5;0;2026.1;Noite;59;Não;Regular
+Felipe Ribeiro;EJA II 1º/2º Termo;97;7.0;7.0;9.5;8.5;10.0;8.5;8.5;8.5;8.5;0;2026.1;Noite;34;Não;Regular
+Gabriel Carvalho;EJA II 1º/2º Termo;96;8.0;7.5;7.0;8.0;9.5;8.0;7.0;8.0;7.5;0;2026.1;Noite;17;Não;Participa das aulas
+Gabriela Almeida;EJA II 1º/2º Termo;75;6.5;8.0;6.5;7.0;7.5;7.0;7.0;7.0;7.0;2;2026.1;Noite;48;Não;Dedicação nas atividades
+Gabriela Moreira;EJA II 1º/2º Termo;85;6.5;7.5;6.5;8.0;7.0;7.0;7.0;6.5;9.0;0;2026.1;Noite;48;Sim;Necessita apoio
+Ivone Batista;EJA II 1º/2º Termo;58;7.0;4.5;5.0;4.0;5.0;5.5;4.0;4.0;6.0;6;2026.1;Noite;25;Não;Trabalha em turno
+Josefa Freitas;EJA II 1º/2º Termo;98;7.5;9.5;9.5;9.0;7.0;8.0;7.0;8.0;9.0;0;2026.1;Noite;70;Sim;Necessita apoio
+Josefa Ribeiro;EJA II 1º/2º Termo;72;8.0;7.5;7.5;6.0;7.5;7.5;5.0;7.5;6.5;3;2026.1;Noite;60;Não;Falta por cuidar dos filhos
+Josefa Santos;EJA II 1º/2º Termo;67;4.5;4.5;5.5;5.5;5.0;5.5;6.0;4.5;5.0;4;2026.1;Noite;65;Não;Falta por cuidar dos filhos
+José Mendes;EJA II 1º/2º Termo;78;8.5;7.0;8.5;8.0;7.5;6.5;8.0;5.5;5.0;2;2026.1;Noite;61;Não;Regular
+Juliana Freitas;EJA II 1º/2º Termo;75;6.0;7.5;7.0;7.5;5.0;6.0;5.5;6.0;6.5;1;2026.1;Noite;42;Não;Regular
+Jéssica Machado;EJA II 1º/2º Termo;70;5.0;7.0;7.0;6.0;5.5;5.5;6.0;5.5;5.5;6;2026.1;Noite;52;Não;Falta por cuidar dos filhos
+Júlia Cardoso;EJA II 1º/2º Termo;84;8.5;7.0;8.0;6.5;6.5;8.5;7.0;7.0;8.0;0;2026.1;Noite;15;Não;Bom desempenho
+Kaique Carvalho;EJA II 1º/2º Termo;88;6.0;8.5;8.5;8.0;8.5;9.0;8.5;8.0;7.5;0;2026.1;Noite;17;Não;Dedicação nas atividades
+Kaique Vieira;EJA II 1º/2º Termo;69;7.0;7.0;5.0;7.5;6.0;7.0;7.5;6.0;6.0;6;2026.1;Noite;15;Não;Falta por cuidar dos filhos
+Kauã Pereira;EJA II 1º/2º Termo;92;7.0;6.5;6.5;7.0;9.0;7.0;6.5;9.5;9.0;0;2026.1;Noite;46;Não;Regular
+Kauã Teixeira;EJA II 1º/2º Termo;91;6.5;6.5;6.5;9.0;9.0;8.0;6.5;7.5;7.0;0;2026.1;Noite;15;Não;Progresso contínuo
+Ketlyn Araújo;EJA II 1º/2º Termo;98;9.0;9.0;9.0;8.0;10.0;7.5;8.0;8.0;9.0;0;2026.1;Noite;35;Não;Dedicação nas atividades
+Paulo Lopes;EJA II 1º/2º Termo;79;8.0;8.0;7.5;5.5;7.0;8.0;6.0;7.0;7.0;1;2026.1;Noite;20;Não;Progresso contínuo
+Paulo Vieira;EJA II 1º/2º Termo;78;6.5;6.0;6.0;7.0;7.5;8.5;8.5;8.0;6.5;0;2026.1;Noite;39;Não;Regular
+Rafael Oliveira;EJA II 1º/2º Termo;88;7.5;7.0;9.0;6.0;7.5;8.0;6.0;7.5;8.5;2;2026.1;Noite;16;Não;Regular
+Sebastião Batista;EJA II 1º/2º Termo;84;7.0;9.0;8.5;7.0;7.5;6.0;8.5;6.0;7.5;2;2026.1;Noite;20;Não;Participa das aulas
+Sebastião Moreira;EJA II 1º/2º Termo;98;7.5;7.5;9.5;7.0;8.5;7.0;7.0;8.5;9.0;0;2026.1;Noite;67;Sim;Necessita apoio
+Sebastião Souza;EJA II 1º/2º Termo;67;5.0;7.5;7.0;7.0;4.5;7.5;5.0;7.0;5.5;4;2026.1;Noite;60;Não;Chega atrasado do trabalho
+Silvana Costa;EJA II 1º/2º Termo;91;6.5;6.5;8.0;8.0;7.5;7.0;8.5;6.5;6.5;0;2026.1;Noite;18;Sim;Necessita apoio
+Vanessa Campos;EJA II 1º/2º Termo;60;4.0;7.0;4.0;6.5;4.0;7.0;4.5;5.5;5.0;6;2026.1;Noite;63;Não;Chega atrasado do trabalho
+Vanessa Soares;EJA II 1º/2º Termo;98;7.5;7.5;7.5;8.0;9.0;8.0;8.5;6.5;9.5;0;2026.1;Noite;24;Não;Bom desempenho
+Amanda Dias;EJA II 1º/4º Termo;84;8.0;5.5;8.5;8.5;6.5;8.0;6.5;6.0;9.0;2;2026.1;Noite;49;Não;Regular
+Bruno Freitas;EJA II 1º/4º Termo;98;9.0;6.5;9.0;8.0;7.0;9.0;7.0;9.5;7.0;0;2026.1;Noite;21;Não;Regular
+Carlos Batista;EJA II 1º/4º Termo;85;7.5;7.0;9.0;7.5;7.0;8.5;5.5;7.0;6.0;1;2026.1;Noite;16;Não;Dedicação nas atividades
+Cícero Teixeira;EJA II 1º/4º Termo;98;7.5;8.5;8.5;9.0;8.5;8.5;8.0;9.5;9.5;0;2026.1;Noite;70;Não;Progresso contínuo
+Daniel Campos;EJA II 1º/4º Termo;78;7.0;6.5;6.0;6.0;8.5;5.5;7.5;8.5;6.0;2;2026.1;Noite;18;Não;Progresso contínuo
+Edivaldo Carvalho;EJA II 1º/4º Termo;30;2.5;3.5;4.0;3.5;3.5;3.0;3.5;4.0;2.5;16;2026.1;Noite;45;Não;Mudou de emprego, parou de vir
+Fernanda Pereira;EJA II 1º/4º Termo;72;7.0;5.5;6.5;5.0;7.0;7.5;7.5;6.5;7.5;4;2026.1;Noite;41;Não;Trabalha em turno
+Francisco Lopes;EJA II 1º/4º Termo;93;8.0;7.5;6.5;7.0;8.0;8.5;6.5;8.5;8.5;0;2026.1;Noite;63;Não;Bom desempenho
+Francisco Marques;EJA II 1º/4º Termo;79;6.5;6.0;7.5;6.0;8.5;7.0;7.5;7.5;5.0;2;2026.1;Noite;38;Não;Dedicação nas atividades
+Josefa Mendes;EJA II 1º/4º Termo;96;7.5;9.5;9.5;9.5;7.5;7.0;8.5;7.0;7.0;1;2026.1;Noite;31;Não;Regular
+Josefa Nunes;EJA II 1º/4º Termo;94;7.0;7.0;6.5;9.5;8.5;7.5;7.5;8.5;7.5;0;2026.1;Noite;66;Não;Dedicação nas atividades
+José Dias;EJA II 1º/4º Termo;90;8.0;9.0;7.5;8.0;7.0;6.0;8.5;6.0;7.0;2;2026.1;Noite;20;Não;Participa das aulas
+João Nunes;EJA II 1º/4º Termo;90;7.5;6.5;7.0;8.5;8.5;7.0;9.0;6.5;8.0;0;2026.1;Noite;40;Sim;Necessita apoio
+Jéssica Freitas;EJA II 1º/4º Termo;69;6.0;6.5;6.0;5.0;7.5;7.5;7.0;5.0;4.5;4;2026.1;Noite;15;Não;Falta por cuidar dos filhos
+Jéssica Gomes;EJA II 1º/4º Termo;98;8.0;7.5;8.0;7.0;8.0;7.0;8.0;7.0;9.5;0;2026.1;Noite;15;Não;Regular
+Jéssica Oliveira;EJA II 1º/4º Termo;97;9.5;8.0;9.0;9.5;8.0;8.5;7.5;9.0;7.5;0;2026.1;Noite;17;Não;Participa das aulas
+Júlia Nunes;EJA II 1º/4º Termo;62;6.0;7.0;5.0;4.0;6.0;6.5;7.0;6.0;5.5;6;2026.1;Noite;18;Não;Faltas frequentes
+Júlia Soares;EJA II 1º/4º Termo;91;7.5;8.5;7.5;7.0;9.5;6.5;7.0;7.0;8.0;0;2026.1;Noite;15;Não;Bom desempenho
+Kaique Cardoso;EJA II 1º/4º Termo;61;5.0;6.5;4.5;6.5;7.0;7.0;4.5;5.0;5.0;6;2026.1;Noite;30;Não;Faltas frequentes
+Kauã Rocha;EJA II 1º/4º Termo;96;8.5;8.5;9.0;7.5;8.5;6.5;7.5;9.5;9.5;0;2026.1;Noite;54;Não;Dedicação nas atividades
+Kauã Vieira;EJA II 1º/4º Termo;98;8.0;9.0;8.5;9.0;10.0;8.0;9.5;7.5;8.5;0;2026.1;Noite;19;Sim;Necessita apoio
+Luiz Cavalcante;EJA II 1º/4º Termo;78;7.5;8.0;6.0;7.5;5.5;5.5;8.0;7.0;7.5;2;2026.1;Noite;16;Não;Bom desempenho
+Maria Soares;EJA II 1º/4º Termo;83;5.5;7.0;8.0;7.0;5.5;7.0;7.5;8.0;6.5;1;2026.1;Noite;19;Não;Progresso contínuo
+Patrícia Lima;EJA II 1º/4º Termo;91;8.0;6.5;6.5;7.0;9.0;9.0;6.0;8.5;9.5;0;2026.1;Noite;72;Não;Participa das aulas
+Pedro Mendes;EJA II 1º/4º Termo;98;7.0;9.0;6.5;8.0;7.0;7.0;6.5;10.0;8.5;0;2026.1;Noite;21;Não;Bom desempenho
+Raimundo Nascimento;EJA II 1º/4º Termo;98;8.5;7.0;9.0;8.5;7.0;9.5;10.0;8.5;10.0;0;2026.1;Noite;67;Não;Dedicação nas atividades
+Rosana Ramos;EJA II 1º/4º Termo;96;8.5;7.5;7.5;7.0;8.0;7.5;9.5;9.5;8.0;2;2026.1;Noite;69;Não;Bom desempenho
+Sebastião Teixeira;EJA II 1º/4º Termo;66;4.5;4.5;4.5;7.5;5.0;7.0;6.5;6.0;5.0;3;2026.1;Noite;54;Não;Trabalha em turno
+Vanessa Almeida;EJA II 1º/4º Termo;91;9.0;7.0;7.5;9.5;7.0;7.5;6.5;8.5;7.5;0;2026.1;Noite;20;Não;Dedicação nas atividades
+Vitória Lima;EJA II 1º/4º Termo;76;7.5;6.5;8.0;7.0;7.0;6.5;7.5;6.0;6.5;0;2026.1;Noite;16;Não;Dedicação nas atividades
+Aline Lima;EJA II 3º/4º Termo;81;6.0;8.0;6.0;6.5;7.5;6.5;8.5;6.0;7.0;2;2026.1;Noite;25;Não;Progresso contínuo
+Amanda Santos;EJA II 3º/4º Termo;43;3.5;4.5;3.5;4.5;5.0;6.0;5.5;5.5;4.5;17;2026.1;Noite;47;Não;Sem comparecer há semanas
+Ana Santos;EJA II 3º/4º Termo;98;7.5;7.0;9.0;7.5;8.5;9.0;9.5;7.0;8.0;0;2026.1;Noite;53;Não;Progresso contínuo
+Antônio Mendes;EJA II 3º/4º Termo;95;8.0;7.5;7.5;7.0;7.0;9.0;9.0;9.0;7.5;1;2026.1;Noite;15;Não;Regular
+Claudinei Santos;EJA II 3º/4º Termo;81;8.0;7.5;7.5;8.5;7.5;8.0;8.0;8.5;8.0;0;2026.1;Noite;46;Não;Participa das aulas
+Eduardo Alves;EJA II 3º/4º Termo;91;7.5;7.5;7.0;7.0;8.5;8.0;8.0;7.0;8.0;2;2026.1;Noite;73;Não;Dedicação nas atividades
+Elaine Silva;EJA II 3º/4º Termo;72;7.5;7.0;5.0;7.0;5.0;7.0;6.5;7.0;7.5;5;2026.1;Noite;49;Sim;Falta por cuidar dos filhos
+Emilly Nunes;EJA II 3º/4º Termo;75;5.5;7.5;6.5;6.0;6.5;5.5;7.0;6.0;5.0;1;2026.1;Noite;15;Não;Regular
+Francisco Machado;EJA II 3º/4º Termo;88;7.5;6.5;8.0;9.0;6.0;7.0;8.0;6.5;6.0;0;2026.1;Noite;18;Não;Progresso contínuo
+Gabriel Santos;EJA II 3º/4º Termo;97;7.0;7.5;6.5;9.5;7.5;7.0;7.5;9.5;9.5;0;2026.1;Noite;17;Não;Dedicação nas atividades
+Gabriela Ferreira;EJA II 3º/4º Termo;97;6.5;8.0;8.5;9.5;9.5;9.0;8.0;9.0;8.5;2;2026.1;Noite;37;Não;Progresso contínuo
+José Cavalcante;EJA II 3º/4º Termo;82;8.5;6.5;8.0;6.5;6.0;7.0;8.0;6.0;8.5;0;2026.1;Noite;21;Não;Progresso contínuo
+José Rocha;EJA II 3º/4º Termo;63;7.0;6.5;6.0;4.5;5.0;6.5;7.0;4.5;7.0;5;2026.1;Noite;17;Não;Faltas frequentes
+José Rodrigues;EJA II 3º/4º Termo;47;6.0;6.0;5.0;5.5;3.5;3.5;5.0;6.0;3.5;9;2026.1;Noite;64;Sim;Sem comparecer há semanas
+João Alves;EJA II 3º/4º Termo;60;5.5;7.0;7.0;4.5;7.0;6.5;6.0;4.0;4.5;4;2026.1;Noite;19;Não;Faltas frequentes
+João Cavalcante;EJA II 3º/4º Termo;47;5.5;6.0;5.0;3.5;3.5;4.0;4.5;3.5;6.5;8;2026.1;Noite;16;Não;Mudou de emprego, parou de vir
+João Machado;EJA II 3º/4º Termo;80;8.0;6.5;6.5;6.5;8.5;6.0;7.5;7.5;7.0;0;2026.1;Noite;39;Não;Regular
+João Ramos;EJA II 3º/4º Termo;98;7.5;7.0;6.5;9.5;7.0;9.5;9.5;7.5;9.0;0;2026.1;Noite;53;Não;Progresso contínuo
+Juliana Martins;EJA II 3º/4º Termo;65;6.5;7.0;6.0;7.5;6.5;7.5;6.5;6.0;6.0;3;2026.1;Noite;50;Não;Trabalha em turno
+Jéssica Rocha;EJA II 3º/4º Termo;98;9.0;8.5;9.0;7.0;7.5;9.5;8.0;8.5;7.0;0;2026.1;Noite;17;Não;Participa das aulas
+Júlia Alves;EJA II 3º/4º Termo;73;6.0;7.5;7.0;7.0;7.5;5.0;5.0;6.5;7.0;3;2026.1;Noite;17;Não;Chega atrasado do trabalho
+Kaique Costa;EJA II 3º/4º Termo;88;6.0;8.5;9.0;7.5;7.5;6.5;7.5;8.5;9.0;1;2026.1;Noite;41;Não;Regular
+Ketlyn Barbosa;EJA II 3º/4º Termo;56;4.0;6.5;4.0;5.0;5.5;6.0;6.0;6.0;4.0;4;2026.1;Noite;16;Não;Chega atrasado do trabalho
+Lucas Cardoso;EJA II 3º/4º Termo;98;9.0;8.5;7.0;9.0;6.5;8.5;7.0;7.5;9.0;0;2026.1;Noite;15;Sim;Necessita apoio
+Luiz Vieira;EJA II 3º/4º Termo;77;5.5;6.5;6.0;8.0;8.0;8.0;7.0;7.0;5.5;0;2026.1;Noite;31;Não;Participa das aulas
+Marcos Rocha;EJA II 3º/4º Termo;98;8.5;9.0;8.0;7.0;9.5;7.5;9.0;8.0;8.5;0;2026.1;Noite;20;Não;Regular
+Maria Pereira;EJA II 3º/4º Termo;93;8.0;8.0;9.0;9.0;7.5;7.0;9.0;8.5;7.5;0;2026.1;Noite;66;Não;Participa das aulas
+Rosângela Andrade;EJA II 3º/4º Termo;92;8.0;6.5;6.5;6.5;8.5;9.0;9.5;7.5;7.5;0;2026.1;Noite;24;Sim;Necessita apoio
+Sandra Moura;EJA II 3º/4º Termo;89;6.0;8.0;6.5;6.0;7.5;8.0;9.0;6.5;8.0;1;2026.1;Noite;18;Não;Progresso contínuo
+Sebastião Vieira;EJA II 3º/4º Termo;69;7.5;6.0;6.0;5.0;6.0;6.5;5.5;6.5;6.5;4;2026.1;Noite;59;Não;Faltas frequentes
+Silvana Ribeiro;EJA II 3º/4º Termo;77;6.5;8.0;7.0;5.5;5.0;6.0;7.5;7.5;8.0;2;2026.1;Noite;72;Sim;Necessita apoio
+Adriana Nascimento;EJA II 1º/2º Termo;87;6.5;8.5;6.5;8.5;7.5;6.5;8.0;7.5;6.0;2;2026.2;Noite;52;Não;Regular
+Amanda Costa;EJA II 1º/2º Termo;98;9.5;8.0;9.0;7.0;8.5;8.5;7.0;9.5;7.5;0;2026.2;Noite;19;Não;Regular
+Amanda Souza;EJA II 1º/2º Termo;95;7.0;8.5;8.0;6.5;9.0;8.5;7.0;9.5;7.5;1;2026.2;Noite;15;Não;Dedicação nas atividades
+Antônio Cardoso;EJA II 1º/2º Termo;76;7.0;8.0;7.0;6.5;7.0;5.5;7.5;7.5;5.5;0;2026.2;Noite;51;Não;Progresso contínuo
+Bruna Alves;EJA II 1º/2º Termo;79;6.5;7.5;8.0;6.5;7.5;6.0;8.0;6.5;6.5;0;2026.2;Noite;17;Não;Regular
+Bruna Barbosa;EJA II 1º/2º Termo;25;2.5;4.5;2.5;1.5;1.5;3.0;4.0;4.0;2.0;13;2026.2;Noite;15;Não;Sem comparecer há semanas
+Bruna Soares;EJA II 1º/2º Termo;91;8.5;7.0;7.0;6.0;8.5;6.5;9.0;9.0;7.0;1;2026.2;Noite;17;Não;Bom desempenho
+Cleide Machado;EJA II 1º/2º Termo;86;7.0;8.0;7.5;6.5;6.0;7.0;6.0;7.0;6.5;2;2026.2;Noite;60;Não;Participa das aulas
+Cícero Gomes;EJA II 1º/2º Termo;98;7.0;9.0;7.5;10.0;8.0;9.5;7.0;9.0;8.5;0;2026.2;Noite;65;Não;Progresso contínuo
+Felipe Oliveira;EJA II 1º/2º Termo;98;7.5;8.0;9.5;9.5;7.5;7.5;8.0;7.5;7.0;1;2026.2;Noite;57;Sim;Necessita apoio
+Felipe Ribeiro;EJA II 1º/2º Termo;85;8.0;6.5;6.0;6.0;6.0;8.0;6.0;6.5;7.5;1;2026.2;Noite;35;Não;Bom desempenho
+Gabriel Carvalho;EJA II 1º/2º Termo;93;9.0;8.5;9.5;8.5;8.5;7.5;6.5;9.0;9.0;1;2026.2;Noite;18;Não;Participa das aulas
+Gabriel Soares;EJA II 1º/2º Termo;77;6.5;5.5;5.5;5.0;7.5;8.0;6.0;5.5;5.5;1;2026.2;Noite;15;Não;Dedicação nas atividades
+Gabriela Almeida;EJA II 1º/2º Termo;81;8.5;6.0;6.5;5.5;7.0;5.5;7.0;8.5;8.0;0;2026.2;Noite;49;Não;Bom desempenho
+Gabriela Moreira;EJA II 1º/2º Termo;84;8.5;8.0;6.5;6.0;8.5;7.0;7.5;8.5;7.0;2;2026.2;Noite;49;Sim;Necessita apoio
+Ivone Batista;EJA II 1º/2º Termo;66;5.5;5.5;6.0;7.0;5.5;7.5;5.0;6.5;6.5;6;2026.2;Noite;26;Não;Faltas frequentes
+Josefa Freitas;EJA II 1º/2º Termo;94;8.5;9.0;6.5;8.5;9.0;7.0;7.0;8.0;6.5;1;2026.2;Noite;71;Sim;Necessita apoio
+Josefa Ribeiro;EJA II 1º/2º Termo;66;6.0;5.0;6.0;7.5;5.5;4.5;4.5;6.0;5.5;6;2026.2;Noite;61;Não;Trabalha em turno
+Josefa Santos;EJA II 1º/2º Termo;64;5.0;4.5;7.0;4.5;4.5;4.5;6.5;5.0;5.0;5;2026.2;Noite;66;Não;Falta por cuidar dos filhos
+Juliana Freitas;EJA II 1º/2º Termo;73;5.5;5.0;7.5;8.0;6.0;6.0;6.5;7.5;5.0;5;2026.2;Noite;43;Não;Trabalha em turno
+Jéssica Alves;EJA II 1º/2º Termo;84;5.5;5.5;7.0;6.0;8.0;8.0;8.0;8.0;8.5;2;2026.2;Noite;19;Não;Participa das aulas
+Jéssica Machado;EJA II 1º/2º Termo;65;4.5;6.5;4.5;7.5;6.5;7.5;4.5;5.5;6.5;6;2026.2;Noite;53;Não;Trabalha em turno
+Júlia Cardoso;EJA II 1º/2º Termo;83;8.5;7.0;8.5;6.5;6.5;8.5;8.0;5.5;6.5;0;2026.2;Noite;16;Não;Participa das aulas
+Kaique Carvalho;EJA II 1º/2º Termo;80;8.5;6.5;6.0;7.5;7.0;5.5;7.0;6.5;6.0;0;2026.2;Noite;18;Não;Bom desempenho
+Kaique Vieira;EJA II 1º/2º Termo;61;5.5;5.5;5.0;5.5;5.0;5.0;6.5;4.5;4.5;5;2026.2;Noite;16;Não;Falta por cuidar dos filhos
+Kauã Pereira;EJA II 1º/2º Termo;82;7.0;8.5;7.0;8.0;7.5;7.5;8.5;7.5;7.0;0;2026.2;Noite;47;Não;Bom desempenho
+Kauã Teixeira;EJA II 1º/2º Termo;97;8.0;8.0;9.5;7.5;7.0;9.0;7.5;9.5;7.5;2;2026.2;Noite;16;Não;Progresso contínuo
+Ketlyn Araújo;EJA II 1º/2º Termo;95;7.5;7.5;8.0;9.0;6.5;8.0;8.0;8.0;9.5;2;2026.2;Noite;36;Não;Regular
+Paulo Vieira;EJA II 1º/2º Termo;70;6.5;5.0;7.5;7.5;4.5;5.5;5.0;7.5;5.5;5;2026.2;Noite;40;Não;Chega atrasado do trabalho
+Rosângela Souza;EJA II 1º/2º Termo;87;6.5;8.0;7.5;6.0;8.5;8.0;6.5;8.0;6.5;1;2026.2;Noite;52;Não;Regular
+Sebastião Moreira;EJA II 1º/2º Termo;84;6.0;8.0;8.5;8.5;5.5;6.5;6.5;8.0;7.5;1;2026.2;Noite;68;Sim;Necessita apoio
+Sebastião Souza;EJA II 1º/2º Termo;67;7.5;7.0;4.5;7.0;7.0;6.5;4.5;7.0;5.0;6;2026.2;Noite;61;Não;Falta por cuidar dos filhos
+Vanessa Soares;EJA II 1º/2º Termo;89;9.0;7.5;8.0;6.0;6.5;7.0;7.0;6.5;7.5;2;2026.2;Noite;25;Não;Participa das aulas
+Vitória Dias;EJA II 1º/2º Termo;93;8.5;7.5;7.0;8.0;8.0;8.5;8.0;8.0;8.5;2;2026.2;Noite;17;Não;Bom desempenho
+Amanda Martins;EJA II 1º/4º Termo;73;6.5;5.0;6.0;6.5;5.5;7.5;5.0;5.5;5.5;3;2026.2;Noite;16;Não;Falta por cuidar dos filhos
+Bruno Freitas;EJA II 1º/4º Termo;94;9.5;9.5;7.5;7.0;9.0;8.0;8.5;8.5;9.5;1;2026.2;Noite;22;Não;Progresso contínuo
+Cleide Freitas;EJA II 1º/4º Termo;85;6.0;6.5;6.5;8.5;6.5;7.0;8.0;6.5;8.0;2;2026.2;Noite;68;Sim;Necessita apoio
+Cícero Teixeira;EJA II 1º/4º Termo;98;8.0;7.5;9.5;8.5;9.5;8.0;9.5;8.5;7.5;0;2026.2;Noite;71;Não;Bom desempenho
+Edivaldo Nunes;EJA II 1º/4º Termo;38;3.0;5.0;4.5;5.5;4.5;5.5;5.5;4.5;5.0;16;2026.2;Noite;58;Não;Mudou de emprego, parou de vir
+Francisco Lopes;EJA II 1º/4º Termo;93;6.5;9.0;7.5;7.5;8.0;7.0;9.0;7.0;9.5;1;2026.2;Noite;64;Não;Participa das aulas
+Francisco Marques;EJA II 1º/4º Termo;81;8.0;8.0;6.0;8.0;7.5;5.5;8.0;8.5;6.5;2;2026.2;Noite;39;Não;Progresso contínuo
+Gabriel Pereira;EJA II 1º/4º Termo;98;7.0;8.5;8.5;9.5;8.0;7.0;8.5;6.5;8.5;1;2026.2;Noite;15;Não;Participa das aulas
+Josefa Nunes;EJA II 1º/4º Termo;89;7.5;7.5;7.0;9.0;6.0;6.5;8.5;6.5;6.5;0;2026.2;Noite;67;Não;Dedicação nas atividades
+João Nunes;EJA II 1º/4º Termo;85;7.5;9.0;6.5;6.5;8.0;6.5;8.5;7.0;8.0;0;2026.2;Noite;41;Sim;Necessita apoio
+Jéssica Cardoso;EJA II 1º/4º Termo;96;8.0;6.5;9.0;8.5;9.0;8.5;7.0;7.5;8.5;2;2026.2;Noite;15;Não;Bom desempenho
+Jéssica Freitas;EJA II 1º/4º Termo;76;5.5;5.0;8.0;5.5;6.5;7.0;6.0;6.0;8.0;2;2026.2;Noite;16;Não;Bom desempenho
+Jéssica Gomes;EJA II 1º/4º Termo;84;8.5;8.5;6.5;8.5;7.0;6.5;6.0;7.0;7.5;2;2026.2;Noite;16;Não;Participa das aulas
+Jéssica Oliveira;EJA II 1º/4º Termo;95;8.5;8.0;8.5;6.5;6.5;8.0;8.5;9.0;7.0;1;2026.2;Noite;18;Não;Participa das aulas
+Júlia Nunes;EJA II 1º/4º Termo;68;7.0;4.5;6.5;7.0;7.5;5.5;6.5;7.0;5.5;4;2026.2;Noite;19;Não;Falta por cuidar dos filhos
+Júlia Soares;EJA II 1º/4º Termo;92;8.5;8.0;7.5;6.0;8.0;8.5;8.0;7.5;8.0;0;2026.2;Noite;16;Não;Participa das aulas
+Kauã Rocha;EJA II 1º/4º Termo;91;6.5;6.5;7.0;8.5;8.5;6.5;6.5;8.5;6.5;1;2026.2;Noite;55;Não;Bom desempenho
+Kauã Vieira;EJA II 1º/4º Termo;96;8.0;8.0;6.5;6.5;7.5;8.5;7.0;9.0;8.5;0;2026.2;Noite;20;Sim;Necessita apoio
+Letícia Gomes;EJA II 1º/4º Termo;36;5.5;5.0;3.5;5.0;5.5;5.5;3.0;2.5;4.0;15;2026.2;Noite;16;Não;Sem comparecer há semanas
+Lucas Araújo;EJA II 1º/4º Termo;83;6.0;7.5;8.5;6.0;5.5;7.5;6.5;8.5;6.5;1;2026.2;Noite;15;Não;Participa das aulas
+Nicolas Santana;EJA II 1º/4º Termo;94;7.0;8.5;6.5;9.5;9.0;6.5;7.5;7.0;9.0;2;2026.2;Noite;19;Não;Regular
+Pedro Mendes;EJA II 1º/4º Termo;97;7.0;6.5;9.0;7.0;8.5;7.0;9.0;8.5;7.5;0;2026.2;Noite;22;Não;Regular
+Raimundo Nascimento;EJA II 1º/4º Termo;90;6.5;7.5;6.5;8.0;8.5;7.5;6.5;6.5;9.0;0;2026.2;Noite;68;Não;Progresso contínuo
+Rosângela Teixeira;EJA II 1º/4º Termo;91;8.0;9.5;7.5;6.5;6.5;8.0;7.0;9.0;7.0;2;2026.2;Noite;72;Não;Dedicação nas atividades
+Sebastião Teixeira;EJA II 1º/4º Termo;69;7.5;6.0;7.0;6.5;5.5;6.0;7.0;5.5;7.5;4;2026.2;Noite;55;Não;Faltas frequentes
+Thainá Rodrigues;EJA II 1º/4º Termo;39;3.0;4.0;2.5;2.5;4.0;4.5;5.5;4.0;3.5;13;2026.2;Noite;15;Não;Contato com família sem retorno
+Thainá Santana;EJA II 1º/4º Termo;80;7.5;7.5;7.5;6.0;7.5;8.5;8.5;8.0;6.0;1;2026.2;Noite;24;Não;Participa das aulas
+Vanessa Almeida;EJA II 1º/4º Termo;96;7.0;9.5;7.0;9.0;9.5;7.0;7.5;7.0;8.0;1;2026.2;Noite;21;Não;Bom desempenho
+Vanessa Ramos;EJA II 1º/4º Termo;79;8.0;7.0;5.5;6.0;6.0;5.5;6.5;8.0;7.5;0;2026.2;Noite;58;Não;Progresso contínuo
+Vitória Lima;EJA II 1º/4º Termo;76;5.5;6.0;8.0;6.0;7.0;8.0;7.0;6.5;7.5;0;2026.2;Noite;17;Não;Bom desempenho
+Amanda Santos;EJA II 3º/4º Termo;48;4.5;5.0;6.0;4.0;3.0;4.0;6.0;6.0;4.5;12;2026.2;Noite;48;Não;Sem comparecer há semanas
+Ana Santos;EJA II 3º/4º Termo;92;9.0;6.0;6.5;8.0;7.0;6.0;9.0;7.0;7.5;2;2026.2;Noite;54;Não;Bom desempenho
+Cícero Cardoso;EJA II 3º/4º Termo;79;7.0;6.5;5.5;5.5;6.5;5.5;5.5;8.5;7.0;2;2026.2;Noite;67;Não;Bom desempenho
+Daniel Marques;EJA II 3º/4º Termo;47;5.5;5.0;5.0;6.5;5.5;4.5;5.0;4.0;5.0;10;2026.2;Noite;44;Não;Mudou de emprego, parou de vir
+Emilly Nunes;EJA II 3º/4º Termo;73;6.5;6.0;5.5;6.5;6.0;6.5;7.0;7.5;7.5;6;2026.2;Noite;16;Não;Faltas frequentes
+Gabriel Santos;EJA II 3º/4º Termo;89;6.0;8.0;7.0;7.0;7.5;7.5;8.0;7.5;6.5;2;2026.2;Noite;18;Não;Participa das aulas
+Ivone Marques;EJA II 3º/4º Termo;62;6.5;6.5;5.0;6.5;7.0;5.5;7.0;6.5;7.0;4;2026.2;Noite;60;Não;Faltas frequentes
+José Rodrigues;EJA II 3º/4º Termo;41;3.5;3.0;3.0;4.5;3.0;2.5;5.0;5.0;3.0;15;2026.2;Noite;65;Sim;Mudou de emprego, parou de vir
+João Alves;EJA II 3º/4º Termo;68;4.5;6.0;5.0;7.5;6.0;5.0;6.5;5.0;6.0;5;2026.2;Noite;20;Não;Falta por cuidar dos filhos
+João Machado;EJA II 3º/4º Termo;74;8.0;6.5;6.5;5.0;5.0;5.5;7.5;5.0;7.5;5;2026.2;Noite;40;Não;Faltas frequentes
+João Ramos;EJA II 3º/4º Termo;98;9.5;8.0;9.0;6.5;8.0;7.5;7.5;7.0;8.5;1;2026.2;Noite;54;Não;Bom desempenho
+Juliana Martins;EJA II 3º/4º Termo;64;5.5;6.0;6.0;6.0;4.5;4.5;5.0;6.5;7.5;6;2026.2;Noite;51;Não;Trabalha em turno
+Jéssica Marques;EJA II 3º/4º Termo;60;6.5;4.0;4.5;5.5;6.5;4.0;6.5;5.0;5.0;6;2026.2;Noite;26;Não;Falta por cuidar dos filhos
+Jéssica Rocha;EJA II 3º/4º Termo;78;5.5;8.0;7.0;6.5;7.0;7.5;7.5;8.0;7.0;2;2026.2;Noite;18;Não;Regular
+Júlia Alves;EJA II 3º/4º Termo;79;7.5;6.0;7.5;6.5;6.5;8.0;7.5;5.5;8.5;1;2026.2;Noite;18;Não;Dedicação nas atividades
+Ketlyn Barbosa;EJA II 3º/4º Termo;64;5.5;6.5;4.5;4.5;6.0;6.0;7.0;5.5;4.5;4;2026.2;Noite;17;Não;Falta por cuidar dos filhos
+Lucas Cardoso;EJA II 3º/4º Termo;90;8.0;7.5;8.0;7.5;7.0;6.5;8.0;6.5;7.0;1;2026.2;Noite;16;Sim;Necessita apoio
+Lucas Costa;EJA II 3º/4º Termo;82;8.0;7.0;8.5;6.5;6.5;7.0;8.5;8.0;6.5;0;2026.2;Noite;15;Não;Dedicação nas atividades
+Luiz Vieira;EJA II 3º/4º Termo;77;7.5;6.5;8.0;7.5;6.5;5.5;6.5;6.5;6.0;2;2026.2;Noite;32;Não;Participa das aulas
+Marcos Rocha;EJA II 3º/4º Termo;77;7.0;6.0;8.0;5.0;7.0;8.5;7.0;6.5;7.0;2;2026.2;Noite;21;Não;Dedicação nas atividades
+Maria Pereira;EJA II 3º/4º Termo;89;8.5;7.0;9.0;9.0;9.0;6.5;7.5;6.5;7.0;1;2026.2;Noite;67;Não;Participa das aulas
+Paulo Silva;EJA II 3º/4º Termo;90;7.0;8.5;9.0;7.0;8.0;7.0;9.0;9.0;9.0;1;2026.2;Noite;25;Não;Bom desempenho
+Rayssa Pereira;EJA II 3º/4º Termo;88;6.5;6.5;8.0;6.0;7.5;7.5;7.5;8.0;8.5;0;2026.2;Noite;36;Não;Progresso contínuo
+Rosângela Andrade;EJA II 3º/4º Termo;77;6.5;6.5;5.5;8.0;8.0;8.0;7.0;7.5;7.0;1;2026.2;Noite;25;Sim;Necessita apoio
+Sebastião Vieira;EJA II 3º/4º Termo;67;5.5;6.5;5.5;5.5;7.0;6.5;6.0;5.5;5.5;4;2026.2;Noite;60;Não;Falta por cuidar dos filhos
+Valdecir Marques;EJA II 3º/4º Termo;85;8.0;8.0;6.0;6.0;7.5;6.5;6.0;8.0;7.5;1;2026.2;Noite;68;Não;Participa das aulas
+Vitória Alves;EJA II 3º/4º Termo;73;7.5;6.0;5.0;7.5;6.0;6.0;8.0;5.5;7.0;5;2026.2;Noite;17;Não;Chega atrasado do trabalho
+Wesley Machado;EJA II 3º/4º Termo;69;5.5;5.0;7.0;6.5;7.0;5.0;6.5;6.0;6.0;3;2026.2;Noite;51;Não;Trabalha em turno

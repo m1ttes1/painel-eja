@@ -7,7 +7,7 @@ const MENSAGEM_VAZIO = '<p class="vazio">Carregue um arquivo para ver os indicad
 
 const CASCA = `<header class="cabecalho">
   <div class="cabecalho__logo">
-    <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+    <svg viewBox="0 0 48 48" width="32" height="32">
       <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="2.5"/>
       <circle cx="24" cy="24" r="18" fill="none" stroke="currentColor" stroke-width="1.5"/>
       <path d="M16 24c0-4.4 3.6-8 8-8s8 3.6 8 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>

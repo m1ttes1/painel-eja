@@ -24,3 +24,14 @@ dados/reais/
 **/*.real.txt
 **/*.real.xlsx
 evidencias/brutas/
+
+# Arquivos locais de entrega e trabalho (não vão para o repositório)
+ENTREGA FINAL - AVA/
+para-email/
+_to_delete/
+.claude/
+entrega/ROTEIRO-VIDEO-VALDIR.md
+README_ACESSO.md
+*.zip
+*.bak.txt
+*.pdf

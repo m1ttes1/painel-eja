@@ -34,7 +34,7 @@ describe('quedaFrequenciaJanelaMovel', () => {
     expect(r.disponivel).toBe(true);
     if (r.disponivel) {
       expect(r.quedas).toEqual([
-        { nome: 'Ana', turma: 'A', periodoAnterior: '1', periodoAtual: '2', variacaoPp: -20 },
+        { nome: 'Ana', turma: 'A', periodoAnterior: '1', periodoAtual: '2', frequenciaAnterior: 90, frequenciaAtual: 70, variacaoPp: -20 },
       ]);
     }
   });

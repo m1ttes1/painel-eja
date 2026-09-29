@@ -31,8 +31,8 @@ describe('renderPainel', () => {
   });
 
   it('lista os alunos em alerta com os motivos', () => {
-    expect(html).toContain('Alunos em alerta');
-    expect(html).toContain('freq. baixa');
+    expect(html).toContain('Alunos que precisam de atenção');
+    expect(html).toContain('frequência baixa');
   });
 
   it('nao mostra painel de erro quando nao ha erro', () => {

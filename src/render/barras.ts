@@ -17,11 +17,13 @@ export interface OpcoesBarras {
 const LARGURA = 640;
 const ALTURA_BARRA = 28;
 const ESPACO = 14;
-const MARGEM_ESQUERDA = 150;
+const MARGEM_MINIMA = 150;
 const MARGEM_TOPO = 16;
 const MARGEM_DIREITA = 90;
 
 export function graficoBarras({ titulo, itens, maximo, limiar, sufixo = '' }: OpcoesBarras): string {
+  // ponytail: largura estimada por caractere (~7px na fonte do rótulo); troque por medição real se aparecer corte.
+  const MARGEM_ESQUERDA = Math.max(MARGEM_MINIMA, ...itens.map((i) => i.rotulo.length * 7 + 16));
   const larguraUtil = LARGURA - MARGEM_ESQUERDA - MARGEM_DIREITA;
   const altura = MARGEM_TOPO * 2 + itens.length * (ALTURA_BARRA + ESPACO) + (limiar === undefined ? 0 : 18);
 

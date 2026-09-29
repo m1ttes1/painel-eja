@@ -17,41 +17,45 @@ export function renderCards(ind: Indicadores): string {
 
   const cardJanela = ind.quedaFrequencia.disponivel
     ? card(
-        'Queda de frequência',
+        'Frequência caindo',
         String(ind.quedaFrequencia.quedas.length),
         ind.quedaFrequencia.quedas.length === 0
           ? 'Nenhuma queda entre os dois períodos mais recentes.'
-          : `Maior queda: ${numero(Math.abs(ind.quedaFrequencia.quedas[0]!.variacaoPp))} pontos percentuais.`,
+          : `Alunos que passaram a faltar mais. Maior caso: de ${percentual(ind.quedaFrequencia.quedas[0]!.frequenciaAnterior, 0)} para ${percentual(ind.quedaFrequencia.quedas[0]!.frequenciaAtual, 0)}.`,
+        'card--info',
+        'Alunos cuja frequência caiu entre os dois períodos mais recentes do arquivo',
       )
-    : card('Queda de frequência', '—', ind.quedaFrequencia.motivo, 'card--indisponivel');
+    : card('Frequência caindo', '—', ind.quedaFrequencia.motivo, 'card--indisponivel', 'Precisa de pelo menos dois períodos no arquivo');
 
   const quadrantes = (Object.keys(ind.distribuicaoDefasagem) as Quadrante[])
-    .map((q) => `<li><strong>${ind.distribuicaoDefasagem[q]}</strong> — ${escapar(ROTULO_QUADRANTE[q])}</li>`)
+    .map((q) => `<li><strong>${ind.distribuicaoDefasagem[q]}</strong>${escapar(ROTULO_QUADRANTE[q])}</li>`)
     .join('');
 
   const classRisco = ind.taxaRiscoEvasao > 20 ? 'card--critico' : ind.taxaRiscoEvasao > 10 ? 'card--aviso' : 'card--sucesso';
   const classAEE = ind.coberturaAee.comDeficienciaEmAlerta > 0 ? 'card--aviso' : 'card--info';
 
   return `<section class="cards">
-${card('Alunos no arquivo', String(ind.totalAlunos), 'Total de registros válidos lidos.', 'card--info', 'Quantidade total de alunos carregados do arquivo')}
-${card('Risco de evasão', percentual(ind.taxaRiscoEvasao), `${ind.alunosEmAlerta.length} aluno(s) em alerta.`, classRisco, 'Percentual de alunos em risco de evasão (baixa frequência + baixas notas)')}
+${ind.periodoAtual
+    ? card('Alunos no período', String(ind.totalAlunos), `Período ${ind.periodoAtual}. Histórico com ${ind.totalRegistros} registros.`, 'card--info', 'Alunos do período mais recente do arquivo')
+    : card('Alunos no arquivo', String(ind.totalAlunos), 'Total de registros válidos lidos.', 'card--info', 'Quantidade total de alunos carregados do arquivo')}
+${card('Risco de evasão', percentual(ind.taxaRiscoEvasao), `${ind.alunosEmAlerta.length} de ${ind.totalAlunos} alunos precisam de atenção.`, classRisco, 'Alunos com frequência baixa, faltas seguidas ou notas abaixo da média mínima')}
 ${card(
-    'Cobertura de apoio (AEE)',
+    'Alunos com deficiência (AEE)',
     String(ind.coberturaAee.totalComDeficiencia),
-    `${ind.coberturaAee.comDeficienciaEmAlerta} também em alerta pedagógico ou de frequência.`,
+    ind.coberturaAee.comDeficienciaEmAlerta === 1 ? "1 deles também está em alerta." : `${ind.coberturaAee.comDeficienciaEmAlerta} deles também estão em alerta.`,
     classAEE,
     'Alunos com deficiência identificados no arquivo'
   )}
 ${
     critico
       ? card(
-          'Componente mais crítico',
+          'Disciplina com menor média',
           critico.componente,
           `Turma ${critico.turma}, média ${numero(critico.media)}.`,
           'card--aviso',
           'Disciplina com menor desempenho médio entre as turmas'
         )
-      : card('Componente mais crítico', '—', 'Sem dados suficientes.', 'card--indisponivel', 'Necessário histórico de mais de um período')
+      : card('Disciplina com menor média', '—', 'Sem dados suficientes.', 'card--indisponivel', 'Necessário histórico de mais de um período')
   }
 ${cardJanela}
 </section>

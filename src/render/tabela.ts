@@ -1,9 +1,35 @@
 import type { Indicadores } from '../kpi';
 import { escapar, numero, percentual } from './formato';
 
+const ETIQUETA: Record<string, { texto: string; cor: string }> = {
+  'freq. baixa': { texto: 'frequência baixa', cor: '#b02a2a' },
+  'faltas seguidas': { texto: 'faltas seguidas', cor: '#b45309' },
+  'notas baixas': { texto: 'notas baixas', cor: '#6d28d9' },
+};
+
 function corMotivo(motivo: string): string {
-  const cor = motivo.includes('freq') ? '#b02a2a' : motivo.includes('faltas') ? '#d97706' : motivo.includes('notas') ? '#b02a2a' : '#0369a1';
-  return `<span style="background:${cor};color:#fff;padding:2px 6px;border-radius:3px;font-size:0.8rem;margin-right:4px">${escapar(motivo)}</span>`;
+  const e = ETIQUETA[motivo] ?? { texto: motivo, cor: '#0369a1' };
+  return `<span style="background:${e.cor};color:#fff;padding:2px 8px;border-radius:999px;font-size:0.8rem;margin:0 4px 2px 0;display:inline-block">${escapar(e.texto)}</span>`;
+}
+
+export function renderQuedas(ind: Indicadores): string {
+  if (!ind.quedaFrequencia.disponivel || ind.quedaFrequencia.quedas.length === 0) return '';
+  const { quedas } = ind.quedaFrequencia;
+  const linhas = quedas
+    .slice(0, 10)
+    .map((q) => `    <tr><td>${escapar(q.nome)}</td><td>${escapar(q.turma)}</td><td>${percentual(q.frequenciaAnterior, 0)} → ${percentual(q.frequenciaAtual, 0)}</td><td>${numero(q.variacaoPp, 0)} pontos</td></tr>`)
+    .join('\n');
+  return `<section class="alerta">
+  <h2>Quem está começando a faltar mais</h2>
+  <p>De ${escapar(quedas[0]!.periodoAnterior)} para ${escapar(quedas[0]!.periodoAtual)}. Ainda frequentam, mas a presença caiu. Vale conversar antes que parem de vir.</p>
+  <table>
+    <caption>As 10 maiores quedas de frequência entre os dois últimos períodos</caption>
+    <thead><tr><th scope="col">Aluno</th><th scope="col">Turma</th><th scope="col">Frequência</th><th scope="col">Diferença</th></tr></thead>
+    <tbody>
+${linhas}
+    </tbody>
+  </table>
+</section>`;
 }
 
 export function renderTabelaAlerta(ind: Indicadores): string {
@@ -28,8 +54,8 @@ export function renderTabelaAlerta(ind: Indicadores): string {
     .join('\n');
 
   return `<section class="alerta">
-  <h2>Alunos em alerta</h2>
-  <p>${ind.alunosEmAlerta.length} aluno(s), ordenados por criticidade.</p>
+  <h2>Alunos que precisam de atenção</h2>
+  <p>${ind.alunosEmAlerta.length} alunos. Os casos mais graves aparecem primeiro.</p>
   <table>
     <caption>Alunos em situação de alerta, do mais crítico ao menos crítico</caption>
     <thead>

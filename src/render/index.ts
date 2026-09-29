@@ -4,7 +4,7 @@ import type { ErroLinha } from '../types';
 import { graficoBarras } from './barras';
 import { renderCards } from './cards';
 import { renderErros } from './erros';
-import { renderTabelaAlerta } from './tabela';
+import { renderQuedas, renderTabelaAlerta } from './tabela';
 
 export function renderPainel(
   ind: Indicadores,
@@ -30,7 +30,7 @@ export function renderPainel(
 
   const graficoComponente = graficoBarras({
     titulo: 'Desempenho médio por componente curricular',
-    itens: ind.desempenhoPorComponente.map((c) => ({ rotulo: `${c.turma} — ${c.componente}`, valor: c.media })),
+    itens: ind.desempenhoPorComponente.map((c) => ({ rotulo: `${c.turma.replace(/^EJA\s+(II\s+)?/, '')} · ${c.componente}`, valor: c.media })),
     maximo: 10,
     limiar: limiarNota,
   });
@@ -42,7 +42,8 @@ ${graficoFrequencia}
 ${graficoDesempenho}
 ${graficoComponente}
 </section>
-${renderTabelaAlerta(ind)}`;
+${renderTabelaAlerta(ind)}
+${renderQuedas(ind)}`;
 }
 
 export { renderCards } from './cards';

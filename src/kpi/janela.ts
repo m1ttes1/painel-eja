@@ -5,6 +5,8 @@ export interface QuedaFrequencia {
   turma: string;
   periodoAnterior: string;
   periodoAtual: string;
+  frequenciaAnterior: number;
+  frequenciaAtual: number;
   /** Negativo. Diferença em pontos percentuais. */
   variacaoPp: number;
 }
@@ -41,7 +43,15 @@ export function quedaFrequenciaJanelaMovel(alunos: Aluno[]): ResultadoJanela {
 
     const variacaoPp = atual.frequenciaPct - antes.frequenciaPct;
     if (variacaoPp < 0) {
-      quedas.push({ nome: atual.nome, turma: atual.turma, periodoAnterior, periodoAtual, variacaoPp });
+      quedas.push({
+        nome: atual.nome,
+        turma: atual.turma,
+        periodoAnterior,
+        periodoAtual,
+        frequenciaAnterior: antes.frequenciaPct,
+        frequenciaAtual: atual.frequenciaPct,
+        variacaoPp,
+      });
     }
   }
 
