@@ -1,252 +1,62 @@
-# 📊 Painel EJA — Acompanhamento Pedagógico
+# Painel EJA
 
-![Badge Status](https://img.shields.io/badge/status-production%20ready-brightgreen?style=flat-square)
-![Badge Tests](https://img.shields.io/badge/tests-118%2F118%20passing-blue?style=flat-square)
-![Badge Size](https://img.shields.io/badge/size-22%20KB%20%28single%20file%29-brightgreen?style=flat-square)
-![Badge License](https://img.shields.io/badge/license-MIT-gray?style=flat-square)
+Painel de acompanhamento pedagógico para turmas da Educação de Jovens e Adultos (EJA).
 
-**Sistema web de análise automática para turmas de Educação de Jovens e Adultos (EJA)**
+Projeto da Atividade Extensionista II do curso de Análise e Desenvolvimento de Sistemas (Centro Universitário Internacional UNINTER), aplicado na EMEF/EJA Profa. Maria de Fátima Faria Área, em Campinas/SP.
 
-Desenvolvido como **Atividade Extensionista II** (Centro Universitário Internacional UNINTER)
+## O problema
 
----
+Antes de cada conselho de classe, os professores da EJA noturna juntam frequência, notas e faltas de cada aluno na mão. Isso toma tempo e dificulta ver quem está começando a se afastar da escola, que é justamente o aluno que ainda dá para recuperar.
 
-## 🎯 O Que É?
+## O que o painel faz
 
-Painel pedagógico que analisa **frequência**, **notas** e **risco de evasão** de alunos EJA em tempo real. Basta arrastar um arquivo CSV com dados da turma — o resto é automático.
+O professor abre o arquivo `painel-eja.html` no navegador e arrasta a planilha da turma. Na hora aparecem:
 
-**Ideal para:**
-- Gestores EJA que precisam acompanhar 30+ alunos
-- Escolas sem infraestrutura complexa
-- Análises rápidas e offline (sem internet necessária)
+- frequência média e desempenho por turma;
+- desempenho por disciplina;
+- alunos que precisam de atenção, dos casos mais graves para os mais leves;
+- alunos cuja frequência caiu entre um período e outro;
+- alunos com deficiência e quantos deles estão em alerta;
+- a relação entre frequência e desempenho de cada aluno.
 
----
+Os limites de frequência mínima, faltas seguidas e média mínima podem ser ajustados na tela, conforme o critério da escola. A página tem versão para impressão (Ctrl+P) para levar ao conselho.
 
-## ✨ Destaques
+## Privacidade
 
-### 🚀 **Simples de Usar**
-Drag-and-drop um arquivo → análise instantânea
+O arquivo é lido dentro do próprio navegador. Nada é enviado pela internet e nada fica gravado em servidor. Dá para conferir desligando a internet e usando o painel normalmente. Os dados deste repositório são fictícios.
+
+## Como usar
+
+1. Baixe `dist/painel-eja.html` e abra no navegador (não precisa instalar nada).
+2. Arraste o arquivo da turma para a área indicada. Para testar, use `dataset/turmas-eja-completo.txt`.
+
+O arquivo precisa ser `.txt` ou `.csv` separado por ponto e vírgula, com as colunas `nome`, `turma`, `frequencia_pct`, `nota_portugues`, `nota_matematica`, `nota_ciencias` e `faltas_consecutivas`. Colunas opcionais: `periodo`, `turno`, `idade`, `possui_deficiencia`, `observacao`. Com a coluna `periodo` (uma linha por aluno em cada período), o painel mostra também a queda de frequência.
+
+Mais detalhes para a escola em `entrega/GUIA-DE-USO.md`.
+
+## Para desenvolver
+
 ```
-Nenhuma instalação • Sem internet • Sem login • Funciona offline
-```
-
-### 📈 **Indicadores Automáticos**
-- **Frequência média** por turma (com alertas se abaixo do limiar)
-- **Desempenho** por disciplina (9 componentes BNCC)
-- **Risco de evasão** — identifica alunos críticos
-- **Cobertura AEE** — alunos com deficiência em apoio especializado
-- **Queda de frequência** — tendências entre períodos
-
-### 🎨 **Interface Profissional**
-Cores semânticas (verde=bom, âmbar=atenção, vermelho=crítico)
-Tabelas com ordenação automática, gráficos em SVG, responsivo
-
-### 🔒 **Privacidade Garantida**
-- Dados processam **apenas no navegador do usuário**
-- Nada sai da máquina
-- Arquivo nunca trafega para servidor
-
----
-
-## 🚀 Como Começar
-
-### ⚡ Opção 1: Download Rápido (Recomendado)
-
-1. **Baixar** `painel-eja.html`  
-   👉 https://github.com/m1ttes1/painel-eja/releases
-
-2. **Extrair** → dois arquivos:
-   - `painel-eja.html` (22 KB — app completo)
-   - `turmas-eja-completo.txt` (dataset exemplo)
-
-3. **Abrir** `painel-eja.html` no navegador
-   (Funciona offline, em qualquer PC)
-
-4. **Arrastar** `turmas-eja-completo.txt` para o painel
-   ✅ Análise renderiza em < 1 segundo
-
-### 🔧 Opção 2: Desenvolvimento (GitHub)
-
-```bash
-git clone https://github.com/m1ttes1/painel-eja.git
-cd painel-eja
 npm install
-npm run build    # Gera dist/painel-eja.html
-npm test         # Roda 120 testes
-npm run dev      # Dev server (http://localhost:5173)
+npm test         # testes automatizados (Vitest)
+npm run build    # gera dist/painel-eja.html
+npm run dev      # servidor local para desenvolvimento
 ```
 
----
+Feito em TypeScript com Vite. Os cálculos são conferidos contra o protótipo em Python da Atividade Extensionista I (pasta `oraculo/`), e há testes que conferem regras da interface em vários cenários (arquivo vazio, um período, vários períodos, nomes longos).
 
-## 📊 Exemplo de Análise
-
-**Entrada:** CSV com 36 alunos, 5 turmas, 9 disciplinas
-
-**Saída automática:**
-```
-✓ 5 KPI cards (alunos, risco, AEE, componente crítico, queda freq)
-✓ 3 gráficos em SVG (frequência/turma, desempenho/disciplina, matriz 2x2)
-✓ Tabela com alunos em alerta (20 linhas ordenadas por criticidade)
-✓ Limiares ajustáveis (frequência mín, faltas consecutivas, nota mín)
-```
-
----
-
-## 📋 Formato do Arquivo
-
-Arquivo CSV semicolonado (`;`) com essas colunas:
-
-| Campo | Exemplo | Obrigatório |
-|-------|---------|-------------|
-| `nome` | Maria Silva | ✅ |
-| `turma` | EJA 1º A | ✅ |
-| `frequencia_pct` | 85 | ✅ |
-| `nota_portugues` | 7.5 | ✅ |
-| `nota_matematica` | 6.5 | ✅ |
-| `nota_ciencias` | 7.0 | ✅ |
-| `faltas_consecutivas` | 1 | ✅ |
-| `periodo` | 2026.2 | ⭕ |
-| `turno` | Noite | ⭕ |
-| `idade` | 34 | ⭕ |
-| `possui_deficiencia` | Não | ⭕ |
-| `observacao` | Participativa | ⭕ |
-
-**Nota:** Colunas obrigatórias = `✅`. Opcionais = `⭕`.
-
----
-
-## 🏛️ Contexto Educacional
-
-### Por que EJA?
-Educação de Jovens e Adultos enfrenta desafios únicos:
-- Alunos com múltiplas responsabilidades (trabalho, família)
-- Taxas de evasão mais altas
-- Necessidade de acompanhamento próximo
-
-### Conformidade BNCC
-Painel segue a Base Nacional Comum Curricular:
-- ✅ 9 componentes curriculares (Português, Matemática, Ciências, Arte, Ed.Física, Inglês, História, Geografia, Religioso)
-- ✅ 2 etapas (não 9 séries como ensino regular)
-- ✅ Suporta múltiplos turnos
-
----
-
-## 🧪 Testes & Qualidade
+## Estrutura
 
 ```
-Test Files  20 / 20 passing
-Tests      118 / 118 passing
-Coverage   Cobertura: parser, KPIs, render, config
+src/parser/   leitura e validação do arquivo
+src/kpi/      cálculo dos indicadores
+src/render/   montagem da tela (cartões, gráficos, tabelas)
+tests/        testes automatizados
+oraculo/      protótipo da AE I usado como referência
+dataset/      dados fictícios de demonstração
+docs/projeto/ especificação e plano do projeto
 ```
 
-Cobertura:
-- **Parser:** validação CSV, UTF-8, colunas obrigatórias
-- **KPI:** frequência, desempenho, risco, AEE, defasagem
-- **Render:** cards, tabelas, gráficos, config UI
-- **Build:** bundle offline, sem deps externas, sem chamadas de rede
+## Autor
 
----
-
-## 🔒 Privacidade & Segurança
-
-- ✅ Zero dependências runtime (sem npm packages)
-- ✅ Processamento 100% local (navegador)
-- ✅ Nenhum dado sai da máquina
-- ✅ HTTPS namespace SVG obrigatório (offline-safe)
-- ✅ `.gitignore` bloqueia dados reais
-
----
-
-## 📁 Estrutura do Projeto
-
-```
-src/
-├── parser/        CSV parsing + validação
-├── kpi/           Indicadores pedagógicos
-├── render/        Geração HTML + gráficos SVG
-├── config/        Persistência localStorage
-├── app.ts         Entry point + event handlers
-└── estilo.css     Design tokens + componentes
-
-tests/
-├── parser/        Testes de parsing
-├── kpi/           Testes de KPIs
-├── render/        Testes de renderização
-└── sem-rede.test.ts  Testes offline + bundle
-
-dist/
-└── painel-eja.html  App compilado (22 KB, single-file)
-```
-
----
-
-## 🛠️ Tech Stack
-
-| Camada | Tecnologia |
-|--------|-----------|
-| **Linguagem** | TypeScript 5+ |
-| **Build** | Vite + vite-plugin-singlefile |
-| **Testes** | Vitest (120 testes) |
-| **Estilo** | CSS Grid + Flexbox + SVG |
-| **Runtime** | Zero deps (vanilla JS) |
-
----
-
-## 📞 Contato & Suporte
-
-**Desenvolvedor:**  
-Victor Mittestainer  
-📧 vmittestainer.dev@gmail.com  
-🔗 GitHub: [@m1ttes1](https://github.com/m1ttes1)
-
-**Projeto:**  
-Atividade Extensionista II — UNINTER  
-Disciplina: Desenvolvimento Web Aplicado  
-Período: 2026.2
-
----
-
-## 📄 Licença
-
-MIT License — Veja LICENSE para detalhes
-
----
-
-## 🎓 Sobre Este Projeto
-
-Este painel foi desenvolvido **especificamente para a Atividade Extensionista II (UNINTER)** como solução de acompanhamento pedagógico para turmas EJA.
-
-### É pra outro relatório/contexto?
-
-Se você precisa adaptar o painel para:
-- Outro formato de arquivo (Excel, JSON, etc.)
-- Outros indicadores pedagógicos
-- Diferentes campos/disciplinas
-- Integração com sistema próprio
-
-**Entre em contato** — podemos customizar! 
-
-📧 **vmittestainer.dev@gmail.com** ou abra uma issue no GitHub
-
-Suportamos:
-- ✅ Novos formatos de entrada
-- ✅ KPIs adicionais
-- ✅ Temas/cores customizadas
-- ✅ Exportação de relatórios (PDF/Excel)
-- ✅ Integração com APIs
-
----
-
-## 🙏 Agradecimentos
-
-Desenvolvido com suporte acadêmico UNINTER e orientação em boas práticas de software.
-
-Inspirado em necessidades reais de gestores EJA que lidam com relatórios manuais diariamente.
-
----
-
-**Versão:** 1.0  
-**Status:** Pronto para produção  
-**Última atualização:** Setembro de 2026
-
-🚀 **Pronto para usar. Basta baixar, arrastar e analisar.**
+Victor Mittestainer
