@@ -4,6 +4,8 @@ Painel de acompanhamento pedagógico para turmas da Educação de Jovens e Adult
 
 Projeto da Atividade Extensionista II do curso de Análise e Desenvolvimento de Sistemas (Centro Universitário Internacional UNINTER), aplicado na EMEF/EJA Profa. Maria de Fátima Faria Área, em Campinas/SP.
 
+Vídeo de apresentação e aplicação na escola: https://youtu.be/FLipkAuUThc
+
 ## O problema
 
 Antes de cada conselho de classe, os professores da EJA noturna juntam frequência, notas e faltas de cada aluno na mão. Isso toma tempo e dificulta ver quem está começando a se afastar da escola, que é justamente o aluno que ainda dá para recuperar.
